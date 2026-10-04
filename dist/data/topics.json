@@ -1,0 +1,1520 @@
+[
+  {
+    "id": "mesoamerica",
+    "title": "Culturas mesoamericanas",
+    "era": "México · antes del siglo XVI",
+    "duration": 45,
+    "level": "5.º–6.º de primaria y secundaria",
+    "scope": "mexico",
+    "question": "¿Cómo sabemos que Mesoamérica reunió sociedades diferentes?",
+    "objective": "Comparar ciudades y fuentes para reconocer la diversidad histórica y la continuidad de los pueblos originarios.",
+    "summary": "Mesoamérica es una región cultural: sus sociedades compartieron prácticas, pero tuvieron lenguas, gobiernos e historias diferentes. Teotihuacan, los señoríos mayas y los mexicas no fueron una sola civilización ni alcanzaron su mayor desarrollo al mismo tiempo.",
+    "classroom": [
+      "Ubica Teotihuacan, Monte Albán y el área maya. Compara sus entornos y pregunta cómo podían intercambiar productos y conocimientos. El mapa actual sirve para orientarnos; sus fronteras no existían entonces.",
+      "Una ciudad deja huellas: edificios, cerámica, herramientas e inscripciones. Los investigadores comparan esas evidencias. Una pirámide, por sí sola, no permite identificar todos los aspectos de la vida cotidiana.",
+      "Los pueblos indígenas continúan formando parte del México actual. Hablar de sus ciudades antiguas no significa que sus descendientes hayan desaparecido."
+    ],
+    "deep": [
+      "El concepto Mesoamérica permite estudiar semejanzas culturales sin borrar diferencias regionales. Es una herramienta de investigación, no el nombre de un país antiguo. Las periodizaciones agrupan procesos largos y sus límites varían entre regiones.",
+      "Teotihuacan mantuvo intercambios de gran alcance. Su nombre conocido es de origen náhuatl y lo emplearon los mexicas siglos después del apogeo de la ciudad. No conocemos con certeza cómo la llamaban sus habitantes. Esta diferencia ayuda a separar un dato documentado de una pregunta abierta."
+    ],
+    "people": [
+      [
+        "Comunidades y especialistas",
+        "Agricultores, comerciantes, artesanos y constructores sostuvieron las ciudades."
+      ],
+      [
+        "Pueblos mayas",
+        "Desarrollaron ciudades y tradiciones propias en un territorio que rebasa el México actual."
+      ],
+      [
+        "Mexicas",
+        "Dieron a Teotihuacan el nombre por el que hoy la conocemos; no fueron sus constructores originales."
+      ]
+    ],
+    "dates": [
+      [
+        "c. 2500 a. C.",
+        "Inicio convencional del Preclásico mesoamericano"
+      ],
+      [
+        "c. 500 a. C.",
+        "Fundación de Monte Albán"
+      ],
+      [
+        "c. 200 a. C.–750 d. C.",
+        "Amplio desarrollo de Teotihuacan"
+      ],
+      [
+        "Actualidad",
+        "Continuidad de pueblos y lenguas indígenas"
+      ]
+    ],
+    "places": [
+      {
+        "name": "Teotihuacan",
+        "state": "México",
+        "municipality": "Teotihuacán",
+        "lat": 19.6925,
+        "lon": -98.8438,
+        "note": "Ciudad del Altiplano con vínculos de larga distancia."
+      },
+      {
+        "name": "Monte Albán",
+        "state": "Oaxaca",
+        "municipality": "Santa Cruz Xoxocotlán",
+        "lat": 17.0439,
+        "lon": -96.7675,
+        "note": "Ciudad antigua de los Valles Centrales de Oaxaca."
+      },
+      {
+        "name": "Palenque",
+        "state": "Chiapas",
+        "municipality": "Palenque",
+        "lat": 17.4849,
+        "lon": -92.0468,
+        "note": "Ciudad maya: una historia regional dentro de Mesoamérica."
+      }
+    ],
+    "evidence": [
+      [
+        "Hecho documentado",
+        "El nombre Teotihuacan fue usado por los mexicas después del apogeo de la ciudad."
+      ],
+      [
+        "Interpretación",
+        "El alcance y las formas de su influencia se reconstruyen comparando evidencias arqueológicas."
+      ],
+      [
+        "Tradición o mito",
+        "Los relatos sobre el origen de los dioses expresan creencias. Su valor cultural no los convierte en una crónica literal de construcción."
+      ]
+    ],
+    "curiosity": "El nombre actual de una ciudad antigua puede ser posterior a quienes la construyeron. Teotihuacan ofrece un ejemplo para preguntar quién nombra el pasado.",
+    "activity": [
+      "Inicio · 5 min: anota qué imagina el grupo cuando escucha Mesoamérica.",
+      "Exploración · 10 min: localiza los tres lugares en el mapa y observa diferencias de entorno.",
+      "Trabajo en equipos · 20 min: elige dos ciudades y elabora una comparación con lugar, evidencia y una pregunta todavía abierta.",
+      "Cierre · 10 min: cada equipo explica por qué compartir rasgos no significa ser una misma sociedad."
+    ],
+    "assessment": "El alumno localiza dos sitios, explica una diferencia y menciona una evidencia concreta. Evita evaluar solo la memorización de nombres.",
+    "adaptation": "Primaria: dictado al docente o comparación dibujada. Secundaria: añadir una hipótesis y explicar qué evidencia haría falta para comprobarla.",
+    "quiz": [
+      [
+        "¿Quiénes dieron a Teotihuacan su nombre conocido?",
+        [
+          "Los mexicas",
+          "Los romanos",
+          "Se conoce la firma de su fundador"
+        ],
+        0,
+        "El INAH señala el origen náhuatl del nombre usado por los mexicas."
+      ],
+      [
+        "¿Qué expresa mejor la idea de Mesoamérica?",
+        [
+          "Un país con una sola lengua",
+          "Una región cultural diversa",
+          "Una ciudad maya"
+        ],
+        1,
+        "El concepto reúne semejanzas culturales sin eliminar diferencias."
+      ],
+      [
+        "¿Qué puede servir como evidencia arqueológica?",
+        [
+          "Una herramienta hallada en contexto",
+          "Una suposición sin fuentes",
+          "Una escena inventada"
+        ],
+        0,
+        "Los objetos deben estudiarse junto con su contexto de hallazgo."
+      ],
+      [
+        "¿Qué significa «c.» delante de una fecha?",
+        [
+          "Aproximadamente",
+          "Exactamente",
+          "Después de Cristo"
+        ],
+        0,
+        "Las fechas aproximadas reconocen límites y convenciones de la cronología."
+      ],
+      [
+        "¿Qué lugar de esta ruta está en los Valles Centrales de Oaxaca?",
+        [
+          "Monte Albán",
+          "Palenque",
+          "Teotihuacan"
+        ],
+        0,
+        "Monte Albán permite estudiar una trayectoria regional zapoteca."
+      ],
+      [
+        "¿Qué ayudan a investigar las inscripciones de Palenque?",
+        [
+          "Gobernantes y vida ritual",
+          "El pensamiento de cada habitante por igual",
+          "La historia completa de todas las ciudades mayas"
+        ],
+        0,
+        "Una inscripción aporta información, pero tiene una perspectiva y un contexto."
+      ],
+      [
+        "¿Qué muestra Tlailotlacan en Teotihuacan?",
+        [
+          "Vínculos con población de origen zapoteco",
+          "Que todos los habitantes eran mexicas",
+          "Que no hubo movilidad entre regiones"
+        ],
+        0,
+        "La arqueología del barrio ayuda a estudiar contactos y diversidad urbana."
+      ],
+      [
+        "¿Qué ocurrió en Palenque en 1952?",
+        [
+          "Se localizó la tumba de Pakal",
+          "Se fundó la ciudad",
+          "Se construyó el Templo de las Inscripciones"
+        ],
+        0,
+        "Alberto Ruz L’Huillier realizó el hallazgo; descubrimiento y construcción no son la misma fecha."
+      ]
+    ],
+    "sources": [
+      [
+        "INAH · Historia breve de Teotihuacan",
+        "https://www.inah.gob.mx/boletines/historia-breve-de-teotihuacan",
+        "Síntesis institucional"
+      ],
+      [
+        "INAH · Museo Nacional de Antropología",
+        "https://lugares.inah.gob.mx/es/node/4237",
+        "Culturas y periodización"
+      ],
+      [
+        "INAH · México, grandeza y diversidad, capítulo 19",
+        "https://mexicograndezaydiversidad.inah.gob.mx/publicacion/capitulo-19.html",
+        "Continuidad y diversidad cultural"
+      ],
+      [
+        "INAH · Monte Albán",
+        "https://www.inah.gob.mx/zonas/94-zona-arqueologica-de-monte-alban",
+        "Contexto y lectura por episodios"
+      ],
+      [
+        "INAH · Palenque",
+        "https://lugares.inah.gob.mx/es/node/4529",
+        "Contexto y lectura por episodios"
+      ]
+    ],
+    "chapters": [
+      "mesoamerica-1",
+      "mesoamerica-2",
+      "mesoamerica-3",
+      "mesoamerica-4",
+      "mesoamerica-5",
+      "mesoamerica-6",
+      "mesoamerica-7",
+      "mesoamerica-8"
+    ]
+  },
+  {
+    "id": "independencia",
+    "title": "Independencia de México",
+    "era": "México · 1808–1821",
+    "duration": 45,
+    "level": "5.º–6.º de primaria y secundaria",
+    "scope": "mexico",
+    "question": "¿Por qué comenzar una lucha no equivale a terminarla?",
+    "objective": "Distinguir el inicio de la insurgencia, sus proyectos políticos y la consumación de la independencia.",
+    "summary": "La independencia fue un proceso prolongado. La insurgencia comenzó en 1810; Morelos formuló un proyecto político en 1813 y la consumación ocurrió en 1821. Los participantes no defendieron siempre los mismos intereses ni las mismas formas de gobierno.",
+    "classroom": [
+      "En 1810 comenzó una insurrección contra el orden virreinal. El 16 de septiembre recuerda su inicio, no el nacimiento inmediato de un Estado ya organizado.",
+      "Morelos presentó los Sentimientos de la Nación en Chilpancingo en 1813. Planteó independencia y soberanía del pueblo, junto con medidas contra la esclavitud y las distinciones de castas.",
+      "En 1821 el Plan de Iguala impulsó otra alianza política y militar. La consumación abrió nuevas preguntas sobre cómo gobernar el país."
+    ],
+    "deep": [
+      "La investigación coordinada por Virginia Guedea estudia la independencia junto al autonomismo de 1808–1824. Permite observar proyectos de representación política, ayuntamientos y provincias, además de las campañas militares. La guerra y la creación de instituciones fueron procesos relacionados.",
+      "Los programas políticos deben leerse en su tiempo. Los Sentimientos de la Nación defendían la independencia y también una religión oficial. Analizar esas propuestas evita atribuirles, sin matices, todas las ideas de ciudadanía del presente."
+    ],
+    "people": [
+      [
+        "Miguel Hidalgo",
+        "Encabezó el inicio insurgente de 1810."
+      ],
+      [
+        "José María Morelos",
+        "Articuló un proyecto político y convocó al Congreso de Chilpancingo."
+      ],
+      [
+        "Vicente Guerrero y Agustín de Iturbide",
+        "Actores centrales de la alianza que condujo a la consumación de 1821."
+      ]
+    ],
+    "dates": [
+      [
+        "1810",
+        "Comienza la insurgencia"
+      ],
+      [
+        "14 de septiembre de 1813",
+        "Presentación de los Sentimientos de la Nación"
+      ],
+      [
+        "22 de octubre de 1814",
+        "Constitución de Apatzingán"
+      ],
+      [
+        "24 de febrero de 1821",
+        "Plan de Iguala"
+      ],
+      [
+        "27 de septiembre de 1821",
+        "Entrada del Ejército Trigarante en la capital"
+      ]
+    ],
+    "places": [
+      {
+        "name": "Dolores Hidalgo",
+        "state": "Guanajuato",
+        "municipality": "Dolores Hidalgo Cuna de la Independencia Nacional",
+        "lat": 21.157,
+        "lon": -100.933,
+        "note": "Inicio insurgente de 1810."
+      },
+      {
+        "name": "Chilpancingo",
+        "state": "Guerrero",
+        "municipality": "Chilpancingo de los Bravo",
+        "lat": 17.551,
+        "lon": -99.501,
+        "note": "Congreso y Sentimientos de la Nación, 1813."
+      },
+      {
+        "name": "Iguala",
+        "state": "Guerrero",
+        "municipality": "Iguala de la Independencia",
+        "lat": 18.345,
+        "lon": -99.54,
+        "note": "Plan de Iguala, 1821."
+      }
+    ],
+    "evidence": [
+      [
+        "Hecho documentado",
+        "Los Sentimientos de la Nación se leyeron el 14 de septiembre de 1813."
+      ],
+      [
+        "Interpretación",
+        "La importancia relativa de las causas sociales, políticas y regionales se discute a partir de fuentes."
+      ],
+      [
+        "Tradición o mito",
+        "Las representaciones conmemorativas del Grito no son grabaciones de lo ocurrido en 1810."
+      ]
+    ],
+    "curiosity": "Un documento permite estudiar tanto lo que un movimiento quería cambiar como lo que buscaba conservar. En 1813, independencia y religión oficial aparecieron en el mismo programa.",
+    "activity": [
+      "Inicio · 5 min: pregunta si 1810 y 1821 representan lo mismo.",
+      "Lectura · 10 min: identifica tres propuestas de los Sentimientos de la Nación en la fuente enlazada.",
+      "Equipos · 20 min: construye una línea de cinco acontecimientos y distingue lucha militar de propuesta política.",
+      "Cierre · 10 min: explica por qué celebrar el inicio no borra los años posteriores."
+    ],
+    "assessment": "Ordena 1810, 1813 y 1821; identifica una propuesta política y justifica la diferencia entre inicio y consumación.",
+    "adaptation": "Primaria: tarjetas con fecha y acontecimiento. Secundaria: comparar soberanía, religión y gobierno en 1813 y 1821.",
+    "quiz": [
+      [
+        "¿Qué se conmemora el 16 de septiembre de 1810?",
+        [
+          "La Constitución de 1917",
+          "El inicio de la insurgencia",
+          "La consumación"
+        ],
+        1,
+        "La consumación ocurrió en 1821."
+      ],
+      [
+        "¿Qué documento presentó Morelos en 1813?",
+        [
+          "Sentimientos de la Nación",
+          "Plan de Ayala",
+          "Constitución de 1917"
+        ],
+        0,
+        "Se presentó en Chilpancingo."
+      ],
+      [
+        "¿Qué ocurrió en 1821?",
+        [
+          "Comenzó la Revolución",
+          "Se consumó la independencia",
+          "Se fundó Teotihuacan"
+        ],
+        1,
+        "El proceso independentista abrió entonces otra etapa política."
+      ],
+      [
+        "¿Qué relación tiene 1808 con la Independencia?",
+        [
+          "Abrió una crisis de autoridad y representación",
+          "Fue el año de la Constitución de Apatzingán",
+          "Fue la entrada trigarante en la capital"
+        ],
+        0,
+        "La crisis de la monarquía española abrió debates en Nueva España."
+      ],
+      [
+        "¿Dónde emitió Hidalgo el bando del 6 de diciembre de 1810?",
+        [
+          "Guadalajara",
+          "Chilpancingo",
+          "Iguala"
+        ],
+        0,
+        "El bando de Guadalajara permite estudiar la demanda de abolición de la esclavitud."
+      ],
+      [
+        "¿Qué lugar conecta la trayectoria de Hidalgo con el norte?",
+        [
+          "Chihuahua",
+          "Querétaro",
+          "Cuautla"
+        ],
+        0,
+        "Fue llevado preso a Chihuahua y ejecutado allí en 1811."
+      ],
+      [
+        "¿Cuál de estos documentos corresponde a 1814?",
+        [
+          "Constitución de Apatzingán",
+          "Plan de Iguala",
+          "Plan de Ayala"
+        ],
+        0,
+        "El Congreso insurgente promulgó el Decreto Constitucional el 22 de octubre de 1814."
+      ],
+      [
+        "¿Qué forma de gobierno proponía el Plan de Iguala?",
+        [
+          "Monarquía",
+          "República federal de 1824",
+          "Gobierno municipal sin autoridad nacional"
+        ],
+        0,
+        "No debe confundirse el programa de 1821 con la organización republicana posterior."
+      ]
+    ],
+    "sources": [
+      [
+        "UNAM · Virginia Guedea, coordinación, La independencia y el proceso autonomista",
+        "https://historicas.unam.mx/publicaciones/publicadigital/libros/385/independencia_autonomista.html",
+        "Investigación histórica"
+      ],
+      [
+        "AGN · Los Sentimientos de la Nación en Apatzingán",
+        "https://www.gob.mx/agn/articulos/rumboalcentenario-los-sentimientos-de-la-nacion-en-apatzingan?idiom=es",
+        "Documentos y contexto"
+      ],
+      [
+        "UNAM · La trigarancia",
+        "https://historicas.unam.mx/publicaciones/publicadigital/libros/trigarancia/fuerzas_armadas.html",
+        "Consumación e historia militar"
+      ],
+      [
+        "Secretaría de la Defensa Nacional · Sentimientos de la Nación",
+        "https://www.gob.mx/defensa/documentos/14-de-septiembre-de-1813-jose-maria-morelos-redacta-los-sentimientos-de-la-nacion",
+        "Fecha y propuestas"
+      ],
+      [
+        "INEHRM · Independencia",
+        "https://www.inehrm.gob.mx/es/inehrm/Independencia",
+        "Contexto y lectura por episodios"
+      ],
+      [
+        "INEHRM · Documentos de la Independencia",
+        "https://www.inehrm.gob.mx/es/Constitucion1917/Independencia",
+        "Contexto y lectura por episodios"
+      ],
+      [
+        "INEHRM · Sentimientos de la Nación",
+        "https://inehrm.gob.mx/es/Constitucion1917/Sentimientos_de_la_Nacion",
+        "Contexto y lectura por episodios"
+      ]
+    ],
+    "chapters": [
+      "independencia-1",
+      "independencia-2",
+      "independencia-3",
+      "independencia-4",
+      "independencia-5",
+      "independencia-6",
+      "independencia-7",
+      "independencia-8"
+    ]
+  },
+  {
+    "id": "revolucion",
+    "title": "Revolución Mexicana",
+    "era": "México · desde 1910",
+    "duration": 50,
+    "level": "5.º–6.º de primaria y secundaria",
+    "scope": "mexico",
+    "question": "¿Por qué una revolución puede reunir proyectos diferentes?",
+    "objective": "Relacionar demandas políticas y sociales con distintos movimientos revolucionarios.",
+    "summary": "La Revolución comenzó en 1910 en un contexto de concentración del poder y desigualdad. Incluyó movimientos con demandas diferentes: democracia, tierra y derechos laborales. La Constitución de 1917 fue un resultado decisivo, pero no eliminó de inmediato los conflictos.",
+    "classroom": [
+      "Madero impulsó la lucha contra la reelección. Otros grupos reclamaban cambios en la propiedad de la tierra y en las condiciones de trabajo. Coincidir contra un gobierno no significaba compartir un único programa.",
+      "El zapatismo y el villismo tuvieron bases regionales distintas. Para entenderlos conviene preguntar dónde actuaron, quiénes los apoyaron y qué exigían.",
+      "La Constitución de 1917 incorporó disposiciones sociales. Comparar una demanda con una norma permite discutir la diferencia entre reconocer un derecho y hacerlo efectivo."
+    ],
+    "deep": [
+      "Las lecturas reunidas por el INEHRM muestran explicaciones políticas, económicas y sociales de la Revolución. En clase puede distinguirse una condición de largo plazo de un detonante. La desigualdad no explica por sí sola por qué un conflicto estalla en un momento concreto.",
+      "La periodización depende del problema estudiado. El año 1917 es un hito constitucional; estudiar las luchas armadas o la transformación agraria puede requerir otros límites. Presentar una fecha final única como consenso absoluto empobrece el análisis."
+    ],
+    "people": [
+      [
+        "Francisco I. Madero",
+        "Representó el impulso antirreeleccionista."
+      ],
+      [
+        "Emiliano Zapata",
+        "Encabezó el movimiento agrario del sur."
+      ],
+      [
+        "Francisco Villa",
+        "Dirigió una fuerza revolucionaria decisiva en el norte."
+      ],
+      [
+        "Venustiano Carranza",
+        "Encabezó el constitucionalismo."
+      ]
+    ],
+    "dates": [
+      [
+        "1910",
+        "Inicio del movimiento revolucionario"
+      ],
+      [
+        "1911",
+        "Plan de Ayala"
+      ],
+      [
+        "1913",
+        "Golpe contra Madero y nueva fase de lucha"
+      ],
+      [
+        "1914",
+        "Convención revolucionaria y disputas entre fuerzas"
+      ],
+      [
+        "5 de febrero de 1917",
+        "Promulgación de la Constitución"
+      ]
+    ],
+    "places": [
+      {
+        "name": "Ciudad Juárez",
+        "state": "Chihuahua",
+        "municipality": "Juárez",
+        "lat": 31.739,
+        "lon": -106.485,
+        "note": "Escenario clave de la fase maderista de 1911."
+      },
+      {
+        "name": "Cuautla",
+        "state": "Morelos",
+        "municipality": "Cuautla",
+        "lat": 18.81,
+        "lon": -98.95,
+        "note": "Región vinculada al movimiento zapatista."
+      },
+      {
+        "name": "Querétaro",
+        "state": "Querétaro",
+        "municipality": "Querétaro",
+        "lat": 20.593,
+        "lon": -100.392,
+        "note": "Congreso Constituyente de 1916–1917."
+      }
+    ],
+    "evidence": [
+      [
+        "Hecho documentado",
+        "La Constitución se promulgó el 5 de febrero de 1917."
+      ],
+      [
+        "Interpretación",
+        "El cierre de la Revolución varía según se estudien sus dimensiones militares, políticas o sociales."
+      ],
+      [
+        "Tradición o mito",
+        "Los corridos conservan memoria y puntos de vista. Sus versos deben contrastarse con otras fuentes."
+      ]
+    ],
+    "curiosity": "Una misma revolución puede producir acuerdos, rupturas y enfrentamientos entre quienes antes combatieron a un adversario común.",
+    "activity": [
+      "Inicio · 5 min: distingue votar, poseer tierra y tener derechos laborales.",
+      "Lectura · 10 min: identifica una demanda política y otra social.",
+      "Equipos · 25 min: prepara una mesa de diálogo con posturas basadas en las fuentes; evita caricaturizar a los personajes.",
+      "Cierre · 10 min: redacta una demanda y explica qué cambio institucional podría atenderla."
+    ],
+    "assessment": "Distingue al menos dos demandas y explica por qué los movimientos no formaron un bloque uniforme.",
+    "adaptation": "Primaria: tarjetas de demandas con explicación oral. Secundaria: contrastar un programa revolucionario con la Constitución de 1917.",
+    "quiz": [
+      [
+        "¿Qué buscó el antirreeleccionismo?",
+        [
+          "La permanencia indefinida del gobernante",
+          "Un cambio en la competencia política",
+          "Fundar ciudades mayas"
+        ],
+        1,
+        "La cuestión de la reelección fue central para el maderismo."
+      ],
+      [
+        "¿Qué demanda se asocia al zapatismo?",
+        [
+          "La cuestión agraria",
+          "La conquista de Egipto",
+          "La restauración virreinal"
+        ],
+        0,
+        "La tierra fue central en el programa zapatista."
+      ],
+      [
+        "¿Qué representa 1917?",
+        [
+          "El fin inmediato de toda desigualdad",
+          "Un hito constitucional",
+          "El comienzo de la independencia"
+        ],
+        1,
+        "Promulgar una norma no equivale a resolver inmediatamente todos los conflictos."
+      ],
+      [
+        "¿Qué ciudad fue decisiva en la fase maderista de mayo de 1911?",
+        [
+          "Ciudad Juárez",
+          "Aguascalientes",
+          "Querétaro"
+        ],
+        0,
+        "Su toma y los acuerdos de mayo ayudaron a abrir la transición política."
+      ],
+      [
+        "¿Qué documento expresó demandas agrarias zapatistas?",
+        [
+          "Plan de Ayala",
+          "Plan de Iguala",
+          "Constitución de Apatzingán"
+        ],
+        0,
+        "Se proclamó el 28 de noviembre de 1911."
+      ],
+      [
+        "¿Qué acontecimiento corresponde a 1913?",
+        [
+          "Golpe contra Madero",
+          "Congreso de Chilpancingo",
+          "Promulgación de la Constitución de 1917"
+        ],
+        0,
+        "La ruptura abrió una nueva fase de lucha contra Huerta."
+      ],
+      [
+        "¿Para qué se reunió la Convención revolucionaria?",
+        [
+          "Buscar acuerdos entre fuerzas",
+          "Promulgar el Plan de Iguala",
+          "Restaurar el gobierno virreinal"
+        ],
+        0,
+        "La Convención de 1914 intentó resolver diferencias sobre el futuro gobierno."
+      ],
+      [
+        "¿Dónde sesionó el Constituyente de 1916–1917?",
+        [
+          "Querétaro",
+          "Dolores",
+          "Apatzingán"
+        ],
+        0,
+        "La elaboración constitucional ocurrió en Querétaro."
+      ]
+    ],
+    "sources": [
+      [
+        "INEHRM · Revolución social",
+        "https://inehrm.gob.mx/es/Constitucion1917/Revolucion_Social",
+        "Demandas de los movimientos"
+      ],
+      [
+        "INEHRM · Antología de lecturas, tomo II",
+        "https://inehrm.gob.mx/recursos/Libros/Antologia_de_lecturas_200_t2.pdf",
+        "Lectura de Felipe Ávila y Pedro Salmerón"
+      ],
+      [
+        "INEHRM · Corrientes revolucionarias, 1913–1917",
+        "https://inehrm.gob.mx/es/inehrm/ExpDigCorrietRev13-17",
+        "Diversidad de corrientes"
+      ],
+      [
+        "UNAM · Constituciones históricas",
+        "https://museodelasconstituciones.unam.mx/constituciones-historicas/",
+        "Consulta de textos constitucionales"
+      ]
+    ],
+    "chapters": [
+      "revolucion-1",
+      "revolucion-2",
+      "revolucion-3",
+      "revolucion-4",
+      "revolucion-5",
+      "revolucion-6",
+      "revolucion-7",
+      "revolucion-8",
+      "revolucion-9",
+      "revolucion-10"
+    ]
+  },
+  {
+    "id": "antigua",
+    "title": "Historia universal antigua",
+    "era": "Mundo · ciudades y escrituras",
+    "duration": 50,
+    "level": "6.º de primaria y secundaria",
+    "scope": "mundo",
+    "question": "¿Qué cambia cuando una comunidad se convierte en ciudad?",
+    "objective": "Comparar organización urbana, escritura y formas de poder sin presentar una civilización como medida de todas las demás.",
+    "summary": "Las primeras ciudades reunieron poblaciones, trabajos e intercambios complejos. Mesopotamia y Egipto desarrollaron escrituras y formas de gobierno propias. Más tarde, las ciudades griegas tuvieron diversas organizaciones políticas. Sus historias se relacionan, pero no forman una marcha uniforme hacia el presente.",
+    "classroom": [
+      "Uruk, en el sur de Mesopotamia, creció como centro urbano hacia finales del cuarto milenio a. C. La escritura temprana se relacionó con necesidades de registro y administración.",
+      "En Egipto, el papiro tuvo usos materiales y significados culturales. El río Nilo formó parte del entorno en que las comunidades organizaron su vida.",
+      "La democracia ateniense amplió la participación de una parte de la población masculina. No equivalía a la ciudadanía y los derechos políticos que hoy discutimos."
+    ],
+    "deep": [
+      "La escritura es una fuente histórica y también un objeto de estudio: importa quién podía escribir, qué se registraba y qué voces quedaron fuera. Los objetos cotidianos permiten investigar aspectos que no aparecen en los textos oficiales.",
+      "Los mitos griegos, como los relatos de Teseo, ayudaron a construir identidades y argumentos políticos. Se pueden estudiar como testimonios culturales sin convertir automáticamente sus personajes y episodios en acontecimientos comprobados."
+    ],
+    "people": [
+      [
+        "Escribas y administradores",
+        "Produjeron registros cuya interpretación exige conocer su contexto."
+      ],
+      [
+        "Artesanos y comerciantes",
+        "Participaron en redes que conectaron centros urbanos."
+      ],
+      [
+        "Ciudadanos atenienses",
+        "Una parte de la población intervenía en la vida política; la participación no era universal."
+      ]
+    ],
+    "dates": [
+      [
+        "c. 3500–3000 a. C.",
+        "Crecimiento urbano de Uruk y primeras formas de escritura"
+      ],
+      [
+        "Tercer milenio a. C.",
+        "Ciudades y redes de intercambio en Mesopotamia"
+      ],
+      [
+        "Siglo V a. C.",
+        "Atenas clásica y desarrollo de su vida política"
+      ],
+      [
+        "Actualidad",
+        "Arqueología y lectura crítica de fuentes antiguas"
+      ]
+    ],
+    "places": [
+      {
+        "name": "Uruk",
+        "state": "Irak actual",
+        "municipality": "Al Muthanna",
+        "lat": 31.323,
+        "lon": 45.638,
+        "note": "Antigua ciudad de la llanura mesopotámica."
+      },
+      {
+        "name": "Valle del Nilo",
+        "state": "Egipto actual",
+        "municipality": "Región del Nilo",
+        "lat": 26.82,
+        "lon": 30.8,
+        "note": "Referencia regional, no frontera del Egipto antiguo."
+      },
+      {
+        "name": "Atenas",
+        "state": "Grecia actual",
+        "municipality": "Atenas",
+        "lat": 37.984,
+        "lon": 23.728,
+        "note": "Ciudad del mundo griego antiguo."
+      }
+    ],
+    "evidence": [
+      [
+        "Hecho documentado",
+        "Se conservan registros y objetos que permiten estudiar las primeras ciudades."
+      ],
+      [
+        "Interpretación",
+        "Las funciones sociales de un objeto se proponen al relacionarlo con su contexto."
+      ],
+      [
+        "Tradición o mito",
+        "Teseo pertenece a la tradición mítica griega; el relato no es una biografía verificada."
+      ]
+    ],
+    "curiosity": "Un registro de bienes puede ser tan importante como un monumento: ayuda a investigar cómo se administraba una ciudad.",
+    "activity": [
+      "Inicio · 5 min: enumera qué necesita organizar una ciudad.",
+      "Observación · 10 min: consulta una pieza o registro de las fuentes del museo.",
+      "Equipos · 25 min: diseña un registro de bienes ficticio y explica qué información revelaría y cuál ocultaría a un investigador futuro.",
+      "Cierre · 10 min: distingue lo observado en una fuente de lo que se infiere."
+    ],
+    "assessment": "Identifica una fuente, formula una inferencia y reconoce un límite de lo que puede saber.",
+    "adaptation": "Primaria: usar pictogramas y explicación oral. Secundaria: discutir quién produce una fuente y qué intereses representa.",
+    "quiz": [
+      [
+        "¿Qué caracteriza a Uruk en esta ruta?",
+        [
+          "Su desarrollo urbano temprano",
+          "Ser una ciudad mexica",
+          "Una fundación en 1910"
+        ],
+        0,
+        "Uruk fue un centro urbano de la antigua Mesopotamia."
+      ],
+      [
+        "¿La democracia ateniense equivale a la participación universal?",
+        [
+          "Sí, participaba toda la población",
+          "No, tenía exclusiones",
+          "No existía vida política"
+        ],
+        1,
+        "El concepto debe entenderse en su contexto histórico."
+      ],
+      [
+        "¿Cómo estudiar un mito?",
+        [
+          "Como una grabación literal",
+          "Como testimonio cultural que debe contextualizarse",
+          "Como algo sin valor histórico"
+        ],
+        1,
+        "Los mitos aportan información sobre creencias e identidades."
+      ],
+      [
+        "¿En qué material se hicieron registros tempranos de Uruk?",
+        [
+          "Arcilla",
+          "Papel industrial",
+          "Pergamino impreso"
+        ],
+        0,
+        "Las tablillas permiten investigar actividades administrativas."
+      ],
+      [
+        "¿Qué río se relaciona con el papiro de Egipto?",
+        [
+          "Nilo",
+          "Tigris",
+          "Éufrates"
+        ],
+        0,
+        "El papiro permite relacionar entorno, materiales y trabajo."
+      ],
+      [
+        "¿Qué revela mejor un inventario de bienes?",
+        [
+          "Qué se registró y administró",
+          "Lo que pensaban todos los habitantes",
+          "Todos los conflictos de una ciudad"
+        ],
+        0,
+        "Una fuente responde algunas preguntas y deja otras abiertas."
+      ],
+      [
+        "¿Qué relación tiene Teseo con Atenas?",
+        [
+          "Es un personaje de su tradición mítica",
+          "Fue un escriba documentado de Uruk",
+          "Construyó las primeras pirámides de Egipto"
+        ],
+        0,
+        "El mito puede investigarse como expresión cultural y política."
+      ],
+      [
+        "¿Qué permite afirmar un objeto de procedencia distante?",
+        [
+          "Que hubo circulación; su mecanismo requiere estudio",
+          "Que ocurrió necesariamente una conquista",
+          "Que ambos lugares tenían la misma lengua"
+        ],
+        0,
+        "El comercio, el regalo y otros mecanismos pueden producir circulación de objetos."
+      ]
+    ],
+    "sources": [
+      [
+        "The Met · Uruk: The First City",
+        "https://www.metmuseum.org/ja/essays/uruk-the-first-city",
+        "Ensayo del departamento de arte del antiguo Cercano Oriente"
+      ],
+      [
+        "The Met · Art of the First Cities",
+        "https://www.metmuseum.org/exhibitions/listings/2003/art-of-the-first-cities",
+        "Ciudades e intercambio"
+      ],
+      [
+        "The Met · Papyrus in Ancient Egypt",
+        "https://www.metmuseum.org/es/essays/papyrus-in-ancient-egypt",
+        "Objeto, ambiente y cultura"
+      ],
+      [
+        "The Met · Theseus, Hero of Athens",
+        "https://www.metmuseum.org/ja/essays/theseus-hero-of-athens",
+        "Mito e identidad política"
+      ],
+      [
+        "The Met · Uruk",
+        "https://www.metmuseum.org/es/essays/uruk-the-first-city",
+        "Contexto y lectura por episodios"
+      ],
+      [
+        "The Met · Orígenes de la escritura",
+        "https://www.metmuseum.org/ru/essays/the-origins-of-writing",
+        "Contexto y lectura por episodios"
+      ],
+      [
+        "British Museum · Atenas en el siglo V a. C.",
+        "https://www.britishmuseum.org/blog/historical-city-travel-guide-athens-5th-century-bc",
+        "Contexto de ciudadanía, trabajo y vida urbana"
+      ]
+    ],
+    "chapters": [
+      "antigua-1",
+      "antigua-2",
+      "antigua-3",
+      "antigua-4",
+      "antigua-5",
+      "antigua-6",
+      "antigua-7",
+      "antigua-8"
+    ]
+  },
+  {
+    "id": "nacion",
+    "title": "México se organiza como nación",
+    "era": "México · siglo XIX",
+    "duration": 45,
+    "level": "5.º–6.º de primaria y secundaria",
+    "scope": "mexico",
+    "question": "¿Qué decisiones necesita tomar un país después de independizarse?",
+    "objective": "Reconocer la construcción del Estado mexicano como un proceso de debates y cambios constitucionales.",
+    "summary": "Después de la independencia se discutió cómo organizar el gobierno y distribuir el poder. La Constitución de 1824 estableció una república federal. En el siglo XIX hubo cambios entre proyectos federales y centralistas, y nuevas disputas sobre derechos e instituciones.",
+    "classroom": [
+      "Independizarse no resolvió automáticamente la organización del país. Había que decidir qué facultades tendría el gobierno nacional y cuáles conservarían los estados.",
+      "La Constitución de 1824 estableció un sistema federal y la división de poderes. Las constituciones posteriores muestran que la forma de gobierno se debatió y cambió.",
+      "La Constitución de 1857 es otro hito para estudiar derechos. Comparar textos ayuda a reconocer continuidades y cambios, sin suponer que una ley describe exactamente la vida cotidiana."
+    ],
+    "deep": [
+      "La colección del Museo de las Constituciones permite consultar documentos de distintos proyectos políticos. Leerlos en secuencia muestra que la organización nacional fue objeto de conflicto, no una solución aceptada de una vez por todos.",
+      "Conviene distinguir entre norma y práctica. Para investigar cómo se aplicó un derecho hacen falta también expedientes, prensa y testimonios. La Constitución responde qué se estableció legalmente; otras fuentes ayudan a saber cómo se vivió."
+    ],
+    "people": [
+      [
+        "Congresos constituyentes",
+        "Debatieron y redactaron los textos de organización política."
+      ],
+      [
+        "Representantes de los estados",
+        "Participaron en discusiones sobre autonomía y poder nacional."
+      ],
+      [
+        "Habitantes y comunidades",
+        "Vivieron los efectos de las normas, con posibilidades desiguales de participación."
+      ]
+    ],
+    "dates": [
+      [
+        "1821",
+        "Consumación de la independencia"
+      ],
+      [
+        "1824",
+        "Constitución federal"
+      ],
+      [
+        "1836",
+        "Leyes constitucionales de orientación centralista"
+      ],
+      [
+        "1857",
+        "Nueva Constitución"
+      ],
+      [
+        "1917",
+        "Constitución con disposiciones sociales"
+      ]
+    ],
+    "places": [
+      {
+        "name": "Ciudad de México",
+        "state": "Ciudad de México",
+        "municipality": "Cuauhtémoc",
+        "lat": 19.433,
+        "lon": -99.133,
+        "note": "Centro de debates e instituciones nacionales."
+      },
+      {
+        "name": "Querétaro",
+        "state": "Querétaro",
+        "municipality": "Querétaro",
+        "lat": 20.593,
+        "lon": -100.392,
+        "note": "Sede del Constituyente de 1916–1917 para comparar con el siglo XIX."
+      }
+    ],
+    "evidence": [
+      [
+        "Hecho documentado",
+        "La Constitución de 1824 estableció una república federal."
+      ],
+      [
+        "Interpretación",
+        "Los efectos de cada organización política deben investigarse en regiones y momentos concretos."
+      ],
+      [
+        "Tradición o mito",
+        "La idea de que el país nació con instituciones definitivas simplifica una historia de cambios."
+      ]
+    ],
+    "curiosity": "Consultar varias constituciones permite observar que las reglas de gobierno tienen historia: pueden cambiar y ser discutidas.",
+    "activity": [
+      "Inicio · 5 min: plantea qué asuntos debe decidir una escuela y cuáles cada grupo.",
+      "Lectura · 10 min: identifica división de poderes y federalismo en la ficha.",
+      "Equipos · 20 min: compara 1824 y 1857 con dos columnas: organización política y derechos.",
+      "Cierre · 10 min: explica la diferencia entre aprobar una regla y cumplirla."
+    ],
+    "assessment": "Explica el federalismo con sus palabras y reconoce al menos un cambio constitucional.",
+    "adaptation": "Primaria: analogía escolar aclarando sus límites. Secundaria: consulta directa de artículos y comparación de su lenguaje.",
+    "quiz": [
+      [
+        "¿Qué organización estableció la Constitución de 1824?",
+        [
+          "República federal",
+          "Virreinato",
+          "Ciudad-Estado griega"
+        ],
+        0,
+        "El federalismo distribuyó facultades entre el ámbito nacional y los estados."
+      ],
+      [
+        "¿Una Constitución prueba que sus reglas siempre se cumplieron?",
+        [
+          "Sí, automáticamente",
+          "No; hacen falta otras fuentes",
+          "No contiene información histórica"
+        ],
+        1,
+        "Las normas y su aplicación son problemas distintos."
+      ],
+      [
+        "¿Qué enseña comparar constituciones?",
+        [
+          "Que nunca hubo cambios",
+          "Que las instituciones tienen historia",
+          "Que todas dicen exactamente lo mismo"
+        ],
+        1,
+        "Permite reconocer cambios y continuidades."
+      ],
+      [
+        "¿Qué forma de gobierno existió antes de la república federal?",
+        [
+          "Primer Imperio",
+          "Virreinato independiente",
+          "Segundo Imperio"
+        ],
+        0,
+        "La experiencia imperial de Iturbide antecedió a la Constitución federal de 1824."
+      ],
+      [
+        "¿Qué distingue a una federación?",
+        [
+          "Distribuye facultades dentro de un orden común",
+          "Cada entidad se convierte en país independiente",
+          "Todas las decisiones corresponden al municipio"
+        ],
+        0,
+        "Federalismo implica distribución de competencias, no desaparición de la autoridad nacional."
+      ],
+      [
+        "¿Qué orientación tuvieron las Siete Leyes de 1836?",
+        [
+          "Centralista",
+          "Federal como la de 1824",
+          "Ausencia de organización nacional"
+        ],
+        0,
+        "Reorganizaron el país en departamentos."
+      ],
+      [
+        "¿Con qué proceso se relaciona el movimiento de Ayutla?",
+        [
+          "Oposición a Santa Anna y apertura de reformas",
+          "Inicio de la insurgencia de Hidalgo",
+          "Redacción del Plan de Ayala"
+        ],
+        0,
+        "El movimiento de 1854–1855 abrió una nueva etapa política."
+      ],
+      [
+        "¿Qué recinto de Chihuahua alojó al gobierno republicano?",
+        [
+          "Casa de Juárez",
+          "Paquimé",
+          "Teatro de la República"
+        ],
+        0,
+        "Alojaba al Ejecutivo durante parte de su desplazamiento por la intervención francesa."
+      ]
+    ],
+    "sources": [
+      [
+        "UNAM · Constitución de 1824",
+        "https://constitucion-1824.juridicas.unam.mx/",
+        "Proyecto académico"
+      ],
+      [
+        "UNAM · Constituciones históricas",
+        "https://museodelasconstituciones.unam.mx/constituciones-historicas/",
+        "Textos para comparar"
+      ],
+      [
+        "AGN · Resguardo de la Constitución de 1857",
+        "https://www.gob.mx/agn/articulos/conoce-la-historia-de-como-agnmex-resguardo-la-antigua-constitucion-de-1857?idiom=es",
+        "Patrimonio documental"
+      ],
+      [
+        "UNAM · Historia constitucional",
+        "https://museodelasconstituciones.unam.mx/tema-historia-constitucional/",
+        "Contexto y lectura por episodios"
+      ],
+      [
+        "UNAM · Construcción del Estado mexicano",
+        "https://e1.portalacademico.cch.unam.mx/alumno/historiademexico1/unidad4/estadoNacionMexicano/estadoMexicano",
+        "Contexto y lectura por episodios"
+      ],
+      [
+        "Chihuahua · Casa de Juárez",
+        "https://www.chihuahua.gob.mx/prensa/reabre-sus-puertas-el-museo-de-la-lealtad-republicana-casa-de-juarez",
+        "Contexto y lectura por episodios"
+      ]
+    ],
+    "chapters": [
+      "nacion-1",
+      "nacion-2",
+      "nacion-3",
+      "nacion-4",
+      "nacion-5",
+      "nacion-6",
+      "nacion-7",
+      "nacion-8"
+    ]
+  },
+  {
+    "id": "segunda-guerra-mundial",
+    "title": "Segunda Guerra Mundial",
+    "era": "1937–1945 · Antecedentes y posguerra",
+    "duration": 60,
+    "level": "Primaria (5.º y 6.º) y secundaria",
+    "scope": "mundo",
+    "question": "¿Cómo se convirtió una serie de conflictos en una guerra mundial y qué cambió para las personas?",
+    "objective": "Conectar causas, frentes, vida civil y participación mexicana; distinguir hechos documentados de interpretaciones y reconocer la dignidad de las víctimas.",
+    "summary": "Una ruta por Europa, Asia, el Pacífico y México. Quince episodios conectan decisiones políticas, experiencias civiles, genocidio, cooperación y reconstrucción.",
+    "classroom": [
+      "La guerra no tuvo una sola causa ni comenzó al mismo tiempo en todos los lugares. La expansión japonesa en Asia y la agresión nazi en Europa conectaron conflictos anteriores con una guerra de alcance mundial.",
+      "Las principales potencias del Eje fueron Alemania, Italia y Japón. La coalición aliada incluyó, entre otros países, Reino Unido, China, la Unión Soviética y Estados Unidos, cuya participación y relaciones cambiaron durante el conflicto.",
+      "La población civil vivió ocupaciones, bombardeos, desplazamientos y escasez. También hubo trabajos de cuidado, ayuda y resistencia. No todas las experiencias fueron iguales.",
+      "El Holocausto fue un genocidio documentado, perpetrado por la Alemania nazi y sus colaboradores contra la población judía europea. Se estudia mediante fuentes y testimonios, con respeto por las personas y sin dramatizar la persecución.",
+      "México entró en guerra en 1942; el Escuadrón 201 participó en Filipinas en 1945. La guerra terminó en Europa en mayo y con la rendición formal de Japón en septiembre. La paz exigía mucho más que detener los combates."
+    ],
+    "deep": [
+      "Antecedentes no significa inevitabilidad. El orden surgido de la Primera Guerra Mundial, la crisis económica y el debilitamiento de instituciones ayudan a contextualizar; las decisiones expansionistas de gobiernos concretos explican responsabilidades.",
+      "Una mirada mundial incluye China, el sudeste asiático, el Pacífico, Europa, el norte de África y las redes atlánticas. Un mapa de campañas simplifica experiencias locales y no representa por sí solo a todas las personas.",
+      "El Eje y los Aliados no fueron conjuntos invariables ni equivalentes a sociedades homogéneas. Conviene fechar las alianzas y distinguir gobiernos, fuerzas armadas, movimientos de resistencia y población civil.",
+      "El genocidio no fue una consecuencia accidental de cualquier batalla. La ideología antisemita, las políticas estatales y la colaboración hicieron posible una persecución sistemática. La evidencia histórica no se somete a votación como si la existencia del Holocausto fuera una opinión.",
+      "La rendición japonesa tiene una fecha documentada; el peso relativo de los bombardeos atómicos, la entrada soviética y otros factores se discute mediante evidencias. Distinguir ambos niveles enseña qué es una interpretación histórica.",
+      "La posguerra combinó reconstrucción y cooperación con tensiones entre potencias, desplazamientos y nuevas luchas políticas. La fundación de la ONU debe estudiarse como un proyecto con mecanismos y límites."
+    ],
+    "people": [
+      [
+        "Adolf Hitler",
+        "Dictador de la Alemania nazi, responsable central de la expansión y las políticas genocidas."
+      ],
+      [
+        "Winston Churchill",
+        "Primer ministro británico durante gran parte de la guerra."
+      ],
+      [
+        "Franklin D. Roosevelt",
+        "Presidente estadounidense durante la entrada de su país y gran parte del esfuerzo aliado."
+      ],
+      [
+        "Iósif Stalin",
+        "Dirigente soviético; la URSS combatió a Alemania desde la invasión de 1941."
+      ],
+      [
+        "Manuel Ávila Camacho",
+        "Presidente de México durante la incorporación del país a la guerra."
+      ],
+      [
+        "Personal del Escuadrón 201",
+        "Pilotos y equipos de apoyo mexicanos que participaron en el Pacífico."
+      ]
+    ],
+    "dates": [
+      [
+        "1919–1939",
+        "Una guerra que no era inevitable"
+      ],
+      [
+        "1937",
+        "Asia también forma parte del comienzo"
+      ],
+      [
+        "Septiembre de 1939",
+        "Polonia y el comienzo europeo"
+      ],
+      [
+        "1940",
+        "La guerra llega a ciudades y hogares"
+      ],
+      [
+        "22 de junio de 1941",
+        "La invasión de la Unión Soviética"
+      ],
+      [
+        "1941–1945",
+        "El Holocausto: personas, pruebas y memoria"
+      ],
+      [
+        "Diciembre de 1941",
+        "Pearl Harbor y un conflicto conectado"
+      ],
+      [
+        "Mayo de 1942",
+        "México se incorpora a la guerra"
+      ],
+      [
+        "4–7 de junio de 1942",
+        "Midway y las distancias del Pacífico"
+      ],
+      [
+        "2 de febrero de 1943",
+        "Stalingrado cambia el frente oriental"
+      ],
+      [
+        "6 de junio de 1944",
+        "Normandía y el avance aliado"
+      ],
+      [
+        "Mayo de 1945",
+        "Termina la guerra en Europa"
+      ],
+      [
+        "1945",
+        "El Escuadrón 201 en Filipinas"
+      ],
+      [
+        "Agosto–septiembre de 1945",
+        "El final en Asia y el costo humano"
+      ],
+      [
+        "24 de octubre de 1945",
+        "Reconstruir y buscar una paz duradera"
+      ]
+    ],
+    "places": [
+      {
+        "name": "Varsovia",
+        "state": "Polonia",
+        "municipality": "Varsovia",
+        "lat": 52.2297,
+        "lon": 21.0122,
+        "note": "Capital polaca: ocupación, resistencia y destrucción durante la guerra."
+      },
+      {
+        "name": "Londres",
+        "state": "Reino Unido",
+        "municipality": "Londres",
+        "lat": 51.5074,
+        "lon": -0.1278,
+        "note": "Ciudad afectada por bombardeos; permite estudiar defensa civil y vida cotidiana."
+      },
+      {
+        "name": "Volgogrado (Stalingrado)",
+        "state": "Rusia",
+        "municipality": "Volgogrado (Stalingrado)",
+        "lat": 48.708,
+        "lon": 44.513,
+        "note": "Nombre actual de la ciudad de la batalla de 1942–1943."
+      },
+      {
+        "name": "Caen, Normandía",
+        "state": "Francia",
+        "municipality": "Caen, Normandía",
+        "lat": 49.1829,
+        "lon": -0.3707,
+        "note": "Referencia actual para situar la campaña de Normandía; no marca todas las playas del desembarco."
+      },
+      {
+        "name": "Manila",
+        "state": "Filipinas",
+        "municipality": "Manila",
+        "lat": 14.5995,
+        "lon": 120.9842,
+        "note": "Referencia para ubicar Filipinas y la participación mexicana en el Pacífico."
+      },
+      {
+        "name": "Hiroshima",
+        "state": "Japón",
+        "municipality": "Hiroshima",
+        "lat": 34.3853,
+        "lon": 132.4553,
+        "note": "Ciudad bombardeada con un arma atómica en agosto de 1945; lugar de memoria."
+      }
+    ],
+    "evidence": [
+      [
+        "Hecho comprobado",
+        "La rendición formal de Japón se firmó el 2 de septiembre de 1945; se conserva el documento."
+      ],
+      [
+        "Interpretación",
+        "El peso relativo de distintos factores en la rendición japonesa se analiza comparando evidencias."
+      ],
+      [
+        "Mito",
+        "Afirmar que un solo país o una sola batalla ganó toda la guerra borra múltiples frentes y contribuciones."
+      ]
+    ],
+    "curiosity": "La firma de un documento permite fechar un acto diplomático con precisión; comprender por qué ocurrió exige consultar más fuentes.",
+    "activity": [
+      "10 minutos: ubicar continentes y distinguir 1937 en Asia de 1939 en Europa.",
+      "20 minutos: leer cuatro episodios seleccionados y registrar una causa y una consecuencia por episodio.",
+      "20 minutos: comparar el caso de México con un frente y examinar una fuente institucional.",
+      "10 minutos: responder la pregunta guía con dos evidencias y una pregunta pendiente."
+    ],
+    "assessment": "Valora ubicación temporal, conexión causal, uso de fuentes y respeto al hablar de personas afectadas. No puntúes cifras de víctimas ni simules papeles de víctimas o perpetradores.",
+    "adaptation": "Primaria (5.º y 6.º): lectura acompañada, mapas sencillos y experiencias de cuidado; el docente selecciona los episodios. Secundaria: comparar documentos, causalidad y límites de las interpretaciones. Revisar previamente enlaces externos, que pueden contener material sensible. Usar los quince episodios en varias sesiones, no exigir su lectura completa en una sola clase.",
+    "quiz": [
+      [
+        "¿Por qué debemos mirar 1937 además de 1939?",
+        [
+          "Porque la guerra entre Japón y China ya se desarrollaba antes de la invasión de Polonia.",
+          "Porque la guerra terminó en Asia en 1937.",
+          "Porque Polonia se encuentra en Asia."
+        ],
+        0,
+        "El imperialismo japonés buscaba ampliar su dominio continental. La resistencia china y la ocupación prolongaron una guerra que después se conectó con el Pacífico."
+      ],
+      [
+        "¿Por qué no basta memorizar una sola fecha de septiembre?",
+        [
+          "Porque todos los países participaron desde el primer día.",
+          "Porque las tres acciones fueron realizadas por un solo gobierno.",
+          "Porque la invasión alemana, las declaraciones de guerra y la invasión soviética fueron acciones diferentes."
+        ],
+        2,
+        "La expansión nazi y el pacto germano-soviético facilitaron el ataque y el reparto de territorios. Comenzó la guerra europea y Polonia perdió su independencia bajo ocupación."
+      ],
+      [
+        "¿Qué puede mostrar una carta familiar que no muestra un mapa militar?",
+        [
+          "Una experiencia idéntica para toda la población.",
+          "Experiencias cotidianas, preocupaciones y vínculos de una persona concreta.",
+          "El movimiento exacto de todos los ejércitos."
+        ],
+        1,
+        "El avance alemán por Europa occidental extendió el conflicto hasta el canal de la Mancha. La defensa aérea y la organización civil se volvieron esenciales para sostener la vida cotidiana."
+      ],
+      [
+        "¿Por qué Pearl Harbor ayuda a explicar la conexión entre frentes?",
+        [
+          "Porque la entrada de Estados Unidos y nuevas declaraciones de guerra vincularon las coaliciones.",
+          "Porque con ese ataque terminó toda la guerra.",
+          "Porque eliminó la guerra que ya existía en China."
+        ],
+        0,
+        "La expansión japonesa y las tensiones con Estados Unidos habían aumentado. Estados Unidos movilizó recursos para combatir en el Pacífico y en Europa."
+      ],
+      [
+        "¿Por qué México aparece en una historia de alcance mundial?",
+        [
+          "Porque la guerra ocurrió solamente en territorio mexicano.",
+          "Porque México entró en guerra por primera vez en 1945.",
+          "Porque los ataques marítimos y su participación aliada lo conectaron directamente con el conflicto."
+        ],
+        2,
+        "Los ataques afectaron barcos, tripulaciones y soberanía de México. El país se integró al esfuerzo aliado; en 1945 el Escuadrón 201 participó en el Pacífico."
+      ],
+      [
+        "¿Por qué ganar una batalla no equivale a terminar una guerra?",
+        [
+          "Porque Midway ocurrió después de la rendición japonesa.",
+          "Porque continúan otros frentes, fuerzas y decisiones políticas.",
+          "Porque las batallas no tienen consecuencias."
+        ],
+        1,
+        "La expansión japonesa buscaba asegurar posiciones y debilitar a la flota estadounidense. Japón perdió importantes portaaviones y encontró mayores dificultades para mantener la iniciativa."
+      ],
+      [
+        "¿Qué diferencia hay entre un punto de inflexión y el final del conflicto?",
+        [
+          "Un punto de inflexión cambia la tendencia; el conflicto puede continuar.",
+          "Son dos nombres para la misma fecha de rendición.",
+          "Un punto de inflexión significa que nadie vuelve a combatir."
+        ],
+        0,
+        "La ofensiva alemana de 1942 buscaba posiciones estratégicas en el sur soviético. La derrota limitó la capacidad alemana y favoreció posteriores avances soviéticos."
+      ],
+      [
+        "¿Por qué sería incompleto explicar la victoria solamente con el Día D?",
+        [
+          "Porque Normandía está en el océano Pacífico.",
+          "Porque la guerra terminó exactamente el 6 de junio.",
+          "Porque también hubo campañas en otros frentes y esfuerzos militares y civiles prolongados."
+        ],
+        2,
+        "Los aliados prepararon una operación conjunta para recuperar territorios ocupados desde el oeste. La campaña de Normandía contribuyó a la liberación de Francia y al avance hacia Alemania."
+      ],
+      [
+        "¿Por qué el final europeo no es el final mundial?",
+        [
+          "Porque todos los países firmaron una única rendición en mayo.",
+          "Porque los combates contra Japón continuaron después de mayo de 1945.",
+          "Porque Alemania volvió a iniciar la guerra en junio."
+        ],
+        1,
+        "Los avances aliados desde varios frentes provocaron el colapso militar del régimen nazi. Comenzaron ocupación, reconstrucción y búsqueda de justicia, junto con grandes desplazamientos."
+      ],
+      [
+        "¿Por qué conviene estudiar al personal de apoyo además de los pilotos?",
+        [
+          "Porque una operación dependía de trabajos coordinados y no solamente de quien pilotaba.",
+          "Porque el personal de apoyo actuaba en una guerra diferente.",
+          "Porque las aeronaves no necesitaban mantenimiento."
+        ],
+        0,
+        "La incorporación mexicana al esfuerzo aliado llevó a preparar y enviar una unidad expedicionaria. La experiencia dejó una memoria militar y vínculos históricos entre México y Filipinas."
+      ],
+      [
+        "¿Cómo distinguir la fecha documentada de rendición de la interpretación de sus causas?",
+        [
+          "La fecha depende únicamente de la opinión de cada lector.",
+          "Un documento de rendición explica por sí solo todas las causas.",
+          "La firma se verifica en el documento; el peso de cada causa requiere comparar evidencias y explicaciones."
+        ],
+        2,
+        "La guerra prolongada, el bloqueo, los bombardeos y nuevas ofensivas presionaban al gobierno japonés. Terminó la guerra mundial, pero continuaron pérdidas, desplazamientos y efectos de la radiación."
+      ],
+      [
+        "¿Por qué fundar una organización no garantiza automáticamente la paz?",
+        [
+          "Porque una declaración elimina todos los desacuerdos de forma inmediata.",
+          "Porque sus resultados dependen de acuerdos, decisiones y cumplimiento por parte de los Estados.",
+          "Porque la ONU se fundó antes de la Primera Guerra Mundial."
+        ],
+        1,
+        "La destrucción de la guerra impulsó acuerdos para organizar la cooperación internacional. La ONU ofreció un espacio de negociación, con posibilidades y límites que siguen siendo objeto de estudio."
+      ]
+    ],
+    "sources": [
+      [
+        "USHMM · La guerra en Europa",
+        "https://encyclopedia.ushmm.org/content/es/article/world-war-ii-in-europe",
+        "Fuente institucional"
+      ],
+      [
+        "National WWII Museum · La guerra en China",
+        "https://www.nationalww2museum.org/war/articles/road-to-pearl-harbor-the-long-fuse",
+        "Fuente institucional"
+      ],
+      [
+        "USHMM · Invasión de la Unión Soviética",
+        "https://encyclopedia.ushmm.org/content/es/article/invasion-of-the-soviet-union-june-1941",
+        "Fuente institucional"
+      ],
+      [
+        "USHMM · Introducción al Holocausto",
+        "https://encyclopedia.ushmm.org/content/es/article/introduction-to-the-holocaust",
+        "Fuente institucional"
+      ],
+      [
+        "USHMM · Guerra en el Pacífico (inglés)",
+        "https://encyclopedia.ushmm.org/content/en/article/world-war-ii-in-the-pacific",
+        "Fuente institucional"
+      ],
+      [
+        "Secretaría de Educación de Veracruz / SEDENA · México en la guerra",
+        "https://www.sev.gob.mx/difusion/ejercito_mexicano/escuadron201.pdf",
+        "Fuente institucional"
+      ],
+      [
+        "National WWII Museum · Normandía",
+        "https://www.nationalww2museum.org/war/topics/d-day-and-normandy-campaign",
+        "Fuente institucional"
+      ],
+      [
+        "National WWII Museum · El final de la guerra",
+        "https://www.nationalww2museum.org/war/topics/end-world-war-ii-1945",
+        "Fuente institucional"
+      ],
+      [
+        "Archivos Nacionales de Estados Unidos · Rendición de Japón",
+        "https://www.archives.gov/milestone-documents/surrender-of-japan",
+        "Fuente institucional"
+      ],
+      [
+        "ONU · Historia y propósitos",
+        "https://www.un.org/es/about-us",
+        "Fuente institucional"
+      ],
+      [
+        "USHMM · El camino hacia el genocidio nazi",
+        "https://www.ushmm.org/es/learn/holocaust/the-path-to-nazi-genocide",
+        "Fuente institucional"
+      ],
+      [
+        "Imperial War Museums · Guía de la Segunda Guerra Mundial (inglés)",
+        "https://www.iwm.org.uk/sites/default/files/files/2023-10/second_world_war_galleries_large_print.pdf",
+        "Fuente institucional"
+      ]
+    ],
+    "chapters": [
+      "segunda-guerra-mundial-1",
+      "segunda-guerra-mundial-2",
+      "segunda-guerra-mundial-3",
+      "segunda-guerra-mundial-4",
+      "segunda-guerra-mundial-5",
+      "segunda-guerra-mundial-6",
+      "segunda-guerra-mundial-7",
+      "segunda-guerra-mundial-8",
+      "segunda-guerra-mundial-9",
+      "segunda-guerra-mundial-10",
+      "segunda-guerra-mundial-11",
+      "segunda-guerra-mundial-12",
+      "segunda-guerra-mundial-13",
+      "segunda-guerra-mundial-14",
+      "segunda-guerra-mundial-15"
+    ]
+  }
+]

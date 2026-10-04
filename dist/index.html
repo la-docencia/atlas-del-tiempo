@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Atlas del Tiempo: historia de México y del mundo para aprender, enseñar y proyectar en clase.">
+  <title>Atlas del Tiempo · Historia para el aula</title>
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Libre+Baskerville:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/styles.css">
+  <link rel="stylesheet" href="/sidebar.css">
+  <link rel="stylesheet" href="/polish-fixes.css">
+  <link rel="stylesheet" href="/classroom.css">
+  <link rel="stylesheet" href="/refinement.css">
+  <link rel="stylesheet" href="/explorations.css">
+  <link rel="stylesheet" href="/projection.css">
+  <link rel="stylesheet" href="/learning.css">
+</head>
+<body>
+  <a class="skip-link" href="#mainContent">Saltar al contenido</a>
+  <header class="topbar">
+    <a class="brand" href="#inicio" aria-label="Atlas del Tiempo, inicio">
+      <span class="brand-mark">A</span>
+      <span><strong>Atlas del Tiempo</strong><small>Historia para el aula</small></span>
+    </a>
+    <nav class="main-nav" aria-label="Secciones principales"><span>Aplicación para docentes</span></nav>
+    <button id="sidebarToggle" aria-controls="sidebar" aria-expanded="false" class="sidebar-toggle" type="button" aria-label="Abrir menú">☰</button>
+    <button id="projectorBtn" class="projector-toggle" type="button" title="Activar modo proyector">▣ <span>Proyector</span></button>
+  </header>
+
+  <aside class="sidebar" id="sidebar" aria-label="Navegación de Atlas del Tiempo">
+    <div class="sidebar-heading"><span>ATLAS DEL TIEMPO</span><button id="sidebarClose" type="button" aria-label="Cerrar menú">×</button></div>
+    <nav class="side-nav">
+      <a class="side-link active" href="#explorar"><span class="side-icon">⌂</span><span>Inicio</span></a>
+      <a class="side-link" href="#temas"><span class="side-icon">✦</span><span>Rutas históricas</span></a>
+      <a class="side-link" href="#historietas"><span class="side-icon">▧</span><span>Historia en viñetas</span></a>
+      <a class="side-link" href="#patrimonio"><span class="side-icon">⌖</span><span>Guía del patrimonio</span></a>
+      <a class="side-link" href="#linea"><span class="side-icon">◷</span><span>Línea del tiempo</span></a>
+      <a class="side-link" href="#mapa"><span class="side-icon">⌖</span><span>Mapa histórico</span></a>
+      <a class="side-link" href="#juegos"><span class="side-icon">?</span><span>Juegos para clase</span></a>
+      <a class="side-link" href="#recursos"><span class="side-icon">▤</span><span>Recursos docentes</span></a>
+    </nav>
+    <div class="sidebar-note"><span>✧</span><strong>Modo proyector</strong><p>Presenta una sección con letras grandes y sin distracciones.</p><button id="sidebarProjector" type="button">Activar ahora →</button></div>
+    <div class="sidebar-footer">Atlas del Tiempo<br><small>Historia para el aula</small></div>
+  </aside>
+  <div class="sidebar-scrim" id="sidebarScrim"></div>
+
+  <main id="mainContent" tabindex="-1">
+    <section class="hero" id="explorar">
+      <div class="hero-copy">
+        <p class="eyebrow">EDICIÓN DOCENTE · MÉXICO Y EL MUNDO</p>
+        <h1>La historia se entiende mejor cuando <em>se puede explorar.</em></h1>
+        <p class="hero-lede">Un espacio visual para preparar clases, proyectar acontecimientos y descubrir las huellas que siguen presentes en nuestro territorio.</p>
+        <div class="search-wrap">
+          <span aria-hidden="true">⌕</span>
+          <input id="searchInput" type="search" placeholder="Busca un tema, personaje o lugar" aria-label="Buscar historia">
+          <button id="searchBtn" type="button">Buscar</button>
+        </div>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#temas">Comenzar exploración <span>→</span></a>
+          <a class="text-link" href="#linea">Ver la línea del tiempo</a>
+        </div>
+        <div class="hero-context" aria-label="Información de la aplicación">
+          <div><span>DIRIGIDO A</span><strong>Primaria y secundaria</strong></div>
+          <div><span>FORMATO</span><strong>Celular · aula · proyector</strong></div>
+          <div><span>ENFOQUE</span><strong>Historia con fuentes</strong></div>
+        </div>
+      </div>
+      <div class="hero-art" aria-label="Ilustración estilo códice de una pirámide y mapa de México">
+        <img src="/assets/atlas-hero.png" alt="Ilustración histórica de una pirámide mesoamericana y un mapa de México">
+        <div class="art-caption"><span class="caption-dot"></span> Mesoamérica · una primera huella</div>
+      </div>
+      <div class="journey-home"><p class="eyebrow">PARA TU PRÓXIMA CLASE</p><h2>Una pregunta conecta la imagen, el lugar y la fuente.</h2><p>Explora la diversidad de Mesoamérica, sigue los cambios de la Independencia, compara proyectos revolucionarios y explora la Segunda Guerra Mundial desde Europa, Asia y México.</p><div class="actions"><a class="btn btn-primary" href="#historietas">Leer los 57 episodios</a><a class="ghost-btn" href="#juegos">Preparar un reto por equipos</a><a class="text-link" href="#ruta/segunda-guerra-mundial">Nueva ruta: Segunda Guerra Mundial</a><a class="text-link" href="#patrimonio">Investigar un lugar</a></div></div>
+    </section>
+
+    <section class="section" id="temas" hidden>
+      <div class="section-heading"><div><p class="eyebrow">RUTAS DE EXPLORACIÓN</p><h2>Empieza por una historia</h2></div><button class="ghost-btn" id="clearFilter" type="button">Ver todos <span>↗</span></button></div>
+      <div class="filter-bar" aria-label="Filtrar rutas históricas"><span>Filtrar por</span><button class="filter-chip active" data-filter="todos" type="button">Todos</button><button class="filter-chip" data-filter="mexico" type="button">México</button><button class="filter-chip" data-filter="mundo" type="button">Mundo</button><button class="filter-chip" data-filter="primaria" type="button">Primaria</button><button class="filter-chip" data-filter="secundaria" type="button">Secundaria</button></div>
+      <div class="topic-grid" id="topicGrid"><p>Cargando rutas históricas…</p></div>
+      <p class="no-results" id="noResults" hidden>No encontramos una ruta con esa búsqueda. Prueba con “México”, “Roma” o “Revolución”.</p>
+    </section>
+
+    <section class="section" id="linea" hidden><p class="eyebrow">ACONTECIMIENTOS Y PROCESOS</p><h1>Líneas del tiempo de México</h1><p>Recorridos por tema. Las fechas aproximadas llevan “c.”; las etapas no comenzaron al mismo tiempo en todas las regiones.</p><div class="callout"><strong>Cómo leer esta línea del tiempo</strong><p>No es una lista de fechas aisladas: cada acontecimiento forma parte de un proceso, con causas, cambios regionales y consecuencias. Abre una tarjeta para continuar en la ruta y comparar evidencias.</p></div><div id="timelineEvents" class="detail-grid"></div></section>
+
+    <section class="section" id="mapa" hidden><p class="eyebrow">HISTORIA Y TERRITORIO</p><h1>Explora México</h1><p>Selecciona un estado o busca un municipio. Los puntos terracota abren las rutas históricas.</p><div class="map-controls"><label>Estado<select id="stateSelect"><option>Cargando…</option></select></label><label>Municipio<input id="localSearch" type="search" placeholder="Ej. Dolores Hidalgo"></label></div><div class="geography-layout"><div><svg id="geoMap" viewBox="0 0 750 500" role="img" aria-label="Mapa de México"></svg><p class="muted">Límites contemporáneos de referencia, no fronteras históricas. Cartografía simplificada de 32 entidades y 2,436 municipios; catálogo antiguo, no vigente. <a href="https://github.com/strotgen/mexico-leaflet" target="_blank" rel="noopener">Fuente cartográfica</a>. Usa los selectores para navegar con teclado.</p><div id="localDetail" class="paper"><h3>El pasado también está cerca</h3><p>Selecciona un municipio para encontrar rutas relacionadas o preparar una investigación local.</p></div></div><div id="mapResults" aria-live="polite">Cargando mapa…</div></div></section>
+
+    <section class="section" id="juegos" hidden><p class="eyebrow">APRENDER CON EVIDENCIAS</p><h1>Retos para investigar y conversar</h1><label class="game-select">Elige una ruta<select id="gameTopic"></select></label><details class="game-legacy"><summary>Práctica libre: preguntas, ordenamiento y fuentes</summary><div class="paper"><h2>1. Pregunta y explica</h2><div id="globalQuiz"></div></div><div class="paper"><h2>2. Antes y después</h2><div id="ordering"></div></div><div class="paper"><h2>3. Detectives de fuentes</h2><p>Distingue un hecho documentado, una interpretación y una tradición o mito.</p><div id="evidenceQuiz"></div></div></details></section>
+
+    <section class="section resources-section" id="recursos" hidden>
+      <div class="section-heading"><div><p class="eyebrow">PARA LLEVAR AL AULA</p><h2>Recursos listos para enseñar</h2></div></div>
+      <div class="resource-grid"><p>Cargando guías docentes…</p></div>
+      <div class="sources-note"><span>⌁</span><p>Fichas y guías con referencias de <a href="https://www.inah.gob.mx/" target="_blank" rel="noopener">INAH</a>, <a href="https://memoricamexico.gob.mx/" target="_blank" rel="noopener">Memórica</a>, UNAM, Archivo General de la Nación y bibliografía especializada. Cada ruta incluye sus referencias específicas y criterios de lectura.</p></div>
+    </section>
+  <section class="section" id="historietas" hidden><p class="eyebrow">MIRA · LEE · PREGUNTA</p><h1>Historia en viñetas</h1><p>Seis procesos, 57 episodios y preguntas para investigar. Elige una historia y recórrela a tu ritmo.</p><div id="comicPlayer" aria-busy="true">Preparando la historieta…</div></section>
+    <section class="section" id="patrimonio" hidden><p class="eyebrow">HISTORIA LOCAL · PATRIMONIO VIVO</p><h1>Viaja por nuestra historia</h1><p>Lugares de las 32 entidades: monumentos, museos, sitios arqueológicos y edificios históricos. Una guía para explorar en clase y preparar una visita.</p><div id="heritageApp" aria-busy="true">Cargando la guía…</div></section>
+    <section class="section" id="ruta" hidden></section>
+  </main>
+
+  <footer><span>Atlas del Tiempo</span><span>Una aplicación hermana de <a href="https://ladocencia.lat" target="_blank" rel="noopener">La Docencia</a></span><span>Edición docente · 2026</span></footer>
+  <noscript>Activa JavaScript para explorar las rutas. <a href="/downloads/mesoamerica.pdf">Descargar guía de Mesoamérica</a>.</noscript>
+  <script src="/explorations.js" defer></script>
+  <script src="/mesoamerica.js" defer></script>
+  <script src="/projection.js" defer></script>
+  <script src="/learning.js" defer></script>
+  <script src="/app.js" defer></script>
+</body>
+</html>

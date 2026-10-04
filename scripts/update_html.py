@@ -1,0 +1,14 @@
+from pathlib import Path
+import re
+p=Path('dist/index.html');s=p.read_text()
+s=s.replace('<link rel="stylesheet" href="/polish-fixes.css">','<link rel="stylesheet" href="/polish-fixes.css">\n  <link rel="stylesheet" href="/classroom.css">')
+def section(id,body):
+ global s
+ s=re.sub(r'<section\b[^>]*id="'+id+r'"[^>]*>[\s\S]*?</section>',f'<section class="section" id="{id}" hidden>{body}</section>',s)
+section('linea','<p class="eyebrow">ACONTECIMIENTOS Y PROCESOS</p><h1>Líneas del tiempo de México</h1><p>Recorridos por tema. Las fechas aproximadas llevan “c.”; las etapas no comenzaron al mismo tiempo en todas las regiones.</p><div id="timelineEvents" class="detail-grid"></div>')
+section('mapa','''<p class="eyebrow">HISTORIA Y TERRITORIO</p><h1>Explora México</h1><p>Selecciona un estado o busca un municipio. Los puntos terracota abren las rutas históricas.</p><div class="map-controls"><label>Estado<select id="stateSelect"><option>Cargando…</option></select></label><label>Municipio<input id="localSearch" type="search" placeholder="Ej. Dolores Hidalgo"></label></div><div class="geography-layout"><div><svg id="geoMap" viewBox="0 0 750 500" role="img" aria-label="Mapa de México"></svg><p class="muted">Límites contemporáneos de referencia, no fronteras históricas. Cartografía simplificada de 32 entidades y 2,436 municipios; catálogo antiguo, no vigente. <a href="https://github.com/strotgen/mexico-leaflet" target="_blank" rel="noopener">Fuente cartográfica</a>. Usa los selectores para navegar con teclado.</p><div id="localDetail" class="paper"><h3>El pasado también está cerca</h3><p>Selecciona un municipio para encontrar rutas relacionadas o preparar una investigación local.</p></div></div><div id="mapResults" aria-live="polite">Cargando mapa…</div></div>''')
+section('juegos','''<p class="eyebrow">APRENDER CON EVIDENCIAS</p><h1>Tres formas de jugar</h1><label class="game-select">Elige una ruta<select id="gameTopic"></select></label><div class="paper"><h2>1. Pregunta y explica</h2><div id="globalQuiz"></div></div><div class="paper"><h2>2. Antes y después</h2><div id="ordering"></div></div><div class="paper"><h2>3. Detectives de fuentes</h2><p>Distingue un hecho documentado, una interpretación y una tradición o mito.</p><div id="evidenceQuiz"></div></div>''')
+s=s.replace('Contenido en construcción con fuentes de','Fichas y guías con referencias de').replace('Cada tema mostrará sus referencias.','Cada ruta incluye sus referencias específicas y criterios de lectura.')
+s=s.replace('</main>','<section class="section" id="ruta" hidden></section>\n  </main>')
+s=s.replace('<script src="/app.js"></script>','<noscript>Activa JavaScript para explorar las rutas. <a href="/downloads/mesoamerica.pdf">Descargar guía de Mesoamérica</a>.</noscript>\n  <script src="/app.js" defer></script>')
+p.write_text(s)

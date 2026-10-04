@@ -1,0 +1,1427 @@
+[
+  {
+    "id": "mesoamerica-1",
+    "route": "mesoamerica",
+    "year": -2500,
+    "date": "c. 2500 a. C.",
+    "title": "Una región, muchas trayectorias",
+    "region": "Mesoamérica",
+    "theme": "Sociedad",
+    "text": "El inicio convencional del Preclásico ayuda a organizar un proceso largo. Las comunidades agrícolas y las aldeas se transformaron a ritmos distintos. Mesoamérica es un concepto cultural de los investigadores, no el nombre de un Estado antiguo.",
+    "cause": "La vida agrícola y las relaciones entre comunidades cambiaron gradualmente.",
+    "effect": "Se desarrollaron sociedades con historias regionales diferentes.",
+    "question": "¿Una fecha de periodo significa que todo cambió ese día?",
+    "answer": "No. Es una herramienta para ordenar procesos, con límites aproximados.",
+    "activity": "Distingue un acontecimiento puntual de un proceso que dura siglos.",
+    "source": [
+      "INAH · Museo Nacional de Antropología",
+      "https://lugares.inah.gob.mx/es/node/4237"
+    ],
+    "image": "/assets/mesoamerica-classroom.webp",
+    "timeline": true,
+    "distractors": [
+      "Sí: los periodos comienzan en un día exacto para todas las regiones.",
+      "Sí: todas las aldeas se convirtieron en ciudades al mismo tiempo."
+    ]
+  },
+  {
+    "id": "mesoamerica-2",
+    "route": "mesoamerica",
+    "year": -500,
+    "date": "c. 500 a. C.",
+    "title": "Una ciudad sobre los valles",
+    "region": "Oaxaca",
+    "theme": "Territorio",
+    "text": "Monte Albán se desarrolló en los Valles Centrales de Oaxaca. Sus plazas y edificios permiten investigar organización política y vida ritual. La ciudad tuvo una larga historia: no todas sus construcciones corresponden a un mismo momento.",
+    "cause": "La concentración de población y poder transformó el paisaje regional.",
+    "effect": "Monte Albán articuló relaciones con otros asentamientos.",
+    "question": "¿Un sitio arqueológico es una fotografía de un solo año?",
+    "answer": "No. Sus restos corresponden a construcciones, usos y modificaciones sucesivas.",
+    "activity": "Observa un plano de Monte Albán y formula una pregunta sobre el uso de una plaza.",
+    "source": [
+      "INAH · Monte Albán",
+      "https://www.inah.gob.mx/zonas/94-zona-arqueologica-de-monte-alban"
+    ],
+    "image": "/assets/mesoamerica-classroom.webp",
+    "timeline": true,
+    "distractors": [
+      "Sí: todas sus construcciones pertenecen al momento de fundación.",
+      "Sí: los edificios siempre conservaron el mismo uso."
+    ]
+  },
+  {
+    "id": "mesoamerica-3",
+    "route": "mesoamerica",
+    "year": 200,
+    "date": "c. 200–650 d. C.",
+    "title": "Teotihuacan conecta regiones",
+    "region": "Altiplano",
+    "theme": "Intercambio",
+    "text": "Teotihuacan fue una gran ciudad con conexiones de larga distancia. En el barrio de Tlailotlacan, la arqueología permite estudiar vínculos con población de origen zapoteco. Las ciudades antiguas podían reunir comunidades de procedencias distintas.",
+    "cause": "Las redes de intercambio favorecieron contactos y movilidad.",
+    "effect": "Se produjeron encuentros entre tradiciones y grupos.",
+    "question": "¿Una ciudad implica una sola lengua o procedencia?",
+    "answer": "No. Hay evidencias de diversidad dentro de centros urbanos como Teotihuacan.",
+    "activity": "Compara un objeto de intercambio con una prueba de residencia: ¿dicen exactamente lo mismo?",
+    "source": [
+      "INAH · Historia breve de Teotihuacan",
+      "https://www.inah.gob.mx/boletines/historia-breve-de-teotihuacan"
+    ],
+    "image": "/assets/mesoamerica-classroom.webp",
+    "timeline": true,
+    "distractors": [
+      "Sí: compartir ciudad implica compartir origen y lengua.",
+      "No: por eso no había relaciones entre sus barrios."
+    ]
+  },
+  {
+    "id": "mesoamerica-4",
+    "route": "mesoamerica",
+    "year": 600,
+    "date": "Siglos VI–VIII d. C.",
+    "title": "Escrituras que hablan del poder",
+    "region": "Área maya",
+    "theme": "Fuentes",
+    "text": "En Palenque, las inscripciones y los edificios aportan información sobre gobernantes y vida ritual. Los textos monumentales expresan perspectivas del poder. No cuentan de la misma manera la experiencia de todos los habitantes.",
+    "cause": "Las élites usaron monumentos e inscripciones para comunicar autoridad.",
+    "effect": "Se conservaron registros que los investigadores interpretan y contrastan.",
+    "question": "¿Quién podría quedar fuera de una inscripción real?",
+    "answer": "Personas y trabajos que el gobernante no eligió representar.",
+    "activity": "Escribe una pregunta que una inscripción pueda responder y otra que requiera herramientas o viviendas.",
+    "source": [
+      "INAH · Palenque",
+      "https://lugares.inah.gob.mx/es/node/4529"
+    ],
+    "image": "/assets/mesoamerica-classroom.webp",
+    "timeline": true,
+    "distractors": [
+      "Nadie: el texto representa por igual a todos los habitantes.",
+      "Solo los gobernantes, porque nunca aparecían en monumentos."
+    ]
+  },
+  {
+    "id": "mesoamerica-5",
+    "route": "mesoamerica",
+    "year": 750,
+    "date": "c. 650–900 d. C.",
+    "title": "Las ciudades también se transforman",
+    "region": "Mesoamérica",
+    "theme": "Sociedad",
+    "text": "Los cambios de los centros urbanos no ocurrieron simultáneamente. Una ciudad puede perder población o poder mientras otras crecen. Abandonar edificios no significa que desaparezcan todos sus habitantes o su cultura.",
+    "cause": "Las transformaciones deben estudiarse con evidencias de cada región.",
+    "effect": "Cambian las redes y los centros de poder.",
+    "question": "¿Es correcto decir que una cultura desaparece porque una ciudad declina?",
+    "answer": "No: hay que investigar movilidad, continuidad y transformaciones de las comunidades.",
+    "activity": "Busca qué evidencia distinguiría abandono de un edificio y despoblamiento regional.",
+    "source": [
+      "INAH · Museo Nacional de Antropología",
+      "https://lugares.inah.gob.mx/es/node/4237"
+    ],
+    "image": "/assets/mesoamerica-classroom.webp",
+    "timeline": true,
+    "distractors": [
+      "Sí: los edificios abandonados prueban la desaparición de todo un pueblo.",
+      "Sí: perder poder político equivale a perder toda continuidad cultural."
+    ]
+  },
+  {
+    "id": "mesoamerica-6",
+    "route": "mesoamerica",
+    "year": 1400,
+    "date": "Siglos XIV–XVI",
+    "title": "Nombrar el pasado desde otra época",
+    "region": "Altiplano",
+    "theme": "Fuentes",
+    "text": "Los mexicas conocieron Teotihuacan mucho después de su apogeo y usaron el nombre por el que la conocemos. Sus relatos sobre el lugar expresan una relación cultural con el pasado; no prueban que ellos construyeran la ciudad.",
+    "cause": "Sociedades posteriores interpretaron ruinas y lugares anteriores a ellas.",
+    "effect": "Se produjeron nombres y relatos que siguen influyendo en nuestra mirada.",
+    "question": "¿El nombre actual identifica a los constructores?",
+    "answer": "No necesariamente. Un nombre puede ser posterior a la fundación del lugar.",
+    "activity": "Separa nombre conocido, constructores e interpretación posterior en tres tarjetas.",
+    "source": [
+      "INAH · Historia breve de Teotihuacan",
+      "https://www.inah.gob.mx/boletines/historia-breve-de-teotihuacan"
+    ],
+    "image": "/assets/mesoamerica-classroom.webp",
+    "timeline": true,
+    "distractors": [
+      "Sí: quienes dieron el nombre actual siempre construyeron el lugar.",
+      "Sí: los nombres se conservaron sin cambios desde la fundación."
+    ]
+  },
+  {
+    "id": "mesoamerica-7",
+    "route": "mesoamerica",
+    "year": 1952,
+    "date": "1952",
+    "title": "Un hallazgo abre nuevas preguntas",
+    "region": "Chiapas",
+    "theme": "Fuentes",
+    "text": "Alberto Ruz L’Huillier localizó la tumba de Pakal en el Templo de las Inscripciones de Palenque. El hallazgo cambió las preguntas de investigación. Los objetos se entienden mejor al conservar la información de su contexto.",
+    "cause": "La investigación arqueológica exploró estructuras del templo.",
+    "effect": "Se amplió el conocimiento de prácticas funerarias y del poder dinástico.",
+    "question": "¿Qué pierde un objeto si se extrae sin registrar su contexto?",
+    "answer": "Información sobre su ubicación y su relación con otras evidencias.",
+    "activity": "Diseña una ficha de registro: lugar, material, asociación y pregunta, sin tocar ni retirar piezas.",
+    "source": [
+      "INAH · Palenque",
+      "https://lugares.inah.gob.mx/es/node/4529"
+    ],
+    "image": "/assets/mesoamerica-classroom.webp",
+    "timeline": true,
+    "distractors": [
+      "Nada, porque solo importa el valor estético del objeto.",
+      "Únicamente su precio; la ubicación no aporta información."
+    ]
+  },
+  {
+    "id": "mesoamerica-8",
+    "route": "mesoamerica",
+    "year": 2026,
+    "date": "Actualidad",
+    "title": "Los pueblos no son solo pasado",
+    "region": "México y Centroamérica",
+    "theme": "Sociedad",
+    "text": "Los pueblos originarios forman parte del presente. Sus lenguas, conocimientos y reivindicaciones han cambiado históricamente. Estudiarlos exige reconocer diversidad y voces propias, sin tratarlos como copias inmóviles de sociedades antiguas.",
+    "cause": "Las comunidades han vivido continuidades, cambios y relaciones de poder.",
+    "effect": "El patrimonio se vincula con derechos y experiencias actuales.",
+    "question": "¿Por qué un museo no sustituye escuchar a una comunidad viva?",
+    "answer": "Porque el presente incluye voces y decisiones que no caben en una colección de objetos antiguos.",
+    "activity": "Consulta una fuente producida por una comunidad y registra autoría, lengua y propósito.",
+    "source": [
+      "INAH · Grandeza y diversidad",
+      "https://mexicograndezaydiversidad.inah.gob.mx/publicacion/capitulo-19.html"
+    ],
+    "image": "/assets/mesoamerica-classroom.webp",
+    "timeline": true,
+    "distractors": [
+      "Porque las comunidades permanecen sin cambios desde la antigüedad.",
+      "Porque los objetos antiguos explican por completo la vida actual."
+    ]
+  },
+  {
+    "id": "independencia-1",
+    "route": "independencia",
+    "year": 1808,
+    "date": "1808",
+    "title": "¿Quién gobierna cuando falta el rey?",
+    "region": "Nueva España",
+    "theme": "Gobierno",
+    "text": "La crisis de la monarquía española abrió una disputa sobre quién podía ejercer la autoridad. En Nueva España surgieron propuestas de representación y autonomía, sin que todas exigieran todavía separarse de España.",
+    "cause": "La crisis dinástica debilitó la autoridad reconocida.",
+    "effect": "Se abrió una discusión sobre soberanía y representación.",
+    "question": "¿Autonomía e independencia significan lo mismo?",
+    "answer": "No. Se podía pedir gobierno propio manteniendo un vínculo con la monarquía.",
+    "activity": "Dibuja dos escenarios: gobierno propio dentro de una monarquía y separación política.",
+    "source": [
+      "UNAM · Independencia y autonomismo",
+      "https://historicas.unam.mx/publicaciones/publicadigital/libros/385/independencia_autonomista.html"
+    ],
+    "image": "/assets/independencia.webp",
+    "timeline": true,
+    "distractors": [
+      "Sí: ambas propuestas exigían una separación total.",
+      "Autonomía era únicamente cambiar impuestos, sin discutir gobierno."
+    ]
+  },
+  {
+    "id": "independencia-2",
+    "route": "independencia",
+    "year": 1810,
+    "date": "16 de septiembre de 1810",
+    "title": "La insurgencia se pone en marcha",
+    "region": "Bajío",
+    "theme": "Conflicto",
+    "text": "El levantamiento encabezado por Hidalgo comenzó en Dolores. Se sumaron personas con demandas diversas. La movilización se extendió, pero no tenía un programa compartido por todos ni aseguraba una victoria inmediata.",
+    "cause": "Conspiraciones políticas y tensiones sociales confluyeron en el levantamiento.",
+    "effect": "La disputa política se convirtió en una guerra.",
+    "question": "¿Por qué no podemos atribuir una sola intención a todos los insurgentes?",
+    "answer": "Las personas tenían posiciones y necesidades distintas; participar en un movimiento no borraba esas diferencias.",
+    "activity": "Escribe dos preguntas que harías a participantes de distintos oficios. No inventes sus respuestas como testimonios.",
+    "source": [
+      "INEHRM · Independencia",
+      "https://www.inehrm.gob.mx/es/inehrm/Independencia"
+    ],
+    "image": "/assets/independencia.webp",
+    "timeline": true,
+    "distractors": [
+      "Todos seguían un programa idéntico desde 1810.",
+      "Solo importaban las decisiones del dirigente principal."
+    ]
+  },
+  {
+    "id": "independencia-3",
+    "route": "independencia",
+    "year": 1810.9,
+    "date": "6 de diciembre de 1810",
+    "title": "Un decreto contra la esclavitud",
+    "region": "Occidente",
+    "theme": "Derechos",
+    "text": "En Guadalajara, Hidalgo emitió un bando de abolición de la esclavitud. Los documentos insurgentes permiten reconocer demandas sociales, además de la disputa por el gobierno. Un decreto expresa una decisión, pero su aplicación depende del control y las condiciones del territorio.",
+    "cause": "La insurgencia también cuestionó desigualdades del orden colonial.",
+    "effect": "La libertad se formuló como una demanda política y social.",
+    "question": "¿Cómo comprobarías si el decreto se aplicó?",
+    "answer": "Buscaría expedientes y testimonios locales, además del propio bando.",
+    "activity": "Distingue en dos columnas: lo que ordena la norma y las pruebas de su aplicación.",
+    "source": [
+      "INEHRM · Documentos de la Independencia",
+      "https://www.inehrm.gob.mx/es/Constitucion1917/Independencia"
+    ],
+    "image": "/assets/independencia.webp",
+    "timeline": true,
+    "distractors": [
+      "El bando basta para probar su cumplimiento en todo el territorio.",
+      "Solo una conmemoración actual permitiría comprobarlo."
+    ]
+  },
+  {
+    "id": "independencia-4",
+    "route": "independencia",
+    "year": 1811,
+    "date": "1811",
+    "title": "Cambian los dirigentes, sigue el movimiento",
+    "region": "Norte",
+    "theme": "Conflicto",
+    "text": "Hidalgo fue capturado y ejecutado en Chihuahua en 1811. La guerra no terminó con su muerte: continuaron otros liderazgos y formas de organización. Mirar el norte ayuda a conectar la historia nacional con lugares de memoria cercanos.",
+    "cause": "La campaña inicial sufrió derrotas y la captura de sus dirigentes.",
+    "effect": "La insurgencia se reorganizó en otros territorios.",
+    "question": "¿Un movimiento depende de una sola persona?",
+    "answer": "Los dirigentes importan, pero las redes, las demandas y otros participantes pueden sostenerlo.",
+    "activity": "Ubica Dolores y Chihuahua en un mapa; distingue inicio del movimiento y lugar de cautiverio.",
+    "source": [
+      "INEHRM · Independencia",
+      "https://www.inehrm.gob.mx/es/inehrm/Independencia"
+    ],
+    "image": "/assets/independencia.webp",
+    "timeline": true,
+    "distractors": [
+      "Siempre termina cuando muere su primer dirigente.",
+      "Las demandas sociales no influyen en su continuidad."
+    ]
+  },
+  {
+    "id": "independencia-5",
+    "route": "independencia",
+    "year": 1813,
+    "date": "14 de septiembre de 1813",
+    "title": "La lucha también necesita un proyecto",
+    "region": "Sur",
+    "theme": "Derechos",
+    "text": "En Chilpancingo, Morelos presentó los Sentimientos de la Nación ante el Congreso. El texto defendía independencia, soberanía popular y cambios sociales; también sostenía la religión católica como única. Hay que leer juntas sus propuestas, sin convertirlo en un programa del presente.",
+    "cause": "La insurgencia buscaba organizar una autoridad y un orden político propios.",
+    "effect": "El Congreso articuló un proyecto de nación.",
+    "question": "¿Por qué leer también las ideas que hoy nos resultan distintas?",
+    "answer": "Porque ayudan a comprender el documento en su época y evitan seleccionar solo lo que coincide con nuestras ideas.",
+    "activity": "Localiza una propuesta de gobierno y una social; cita el número de punto.",
+    "source": [
+      "INEHRM · Sentimientos de la Nación",
+      "https://inehrm.gob.mx/es/Constitucion1917/Sentimientos_de_la_Nacion"
+    ],
+    "image": "/assets/independencia.webp",
+    "timeline": true,
+    "distractors": [
+      "Porque todas sus propuestas coinciden con los derechos actuales.",
+      "Porque los puntos que hoy resultan extraños deben eliminarse."
+    ]
+  },
+  {
+    "id": "independencia-6",
+    "route": "independencia",
+    "year": 1814,
+    "date": "22 de octubre de 1814",
+    "title": "Una Constitución en medio de la guerra",
+    "region": "Occidente",
+    "theme": "Gobierno",
+    "text": "El Congreso insurgente promulgó en Apatzingán el Decreto Constitucional para la Libertad de la América Mexicana. La guerra limitó su aplicación. Su importancia está también en el proyecto político que formuló, no solo en cuánto territorio pudo gobernarse con él.",
+    "cause": "Los insurgentes necesitaban reglas para su gobierno.",
+    "effect": "Quedó un antecedente de organización constitucional.",
+    "question": "¿Un texto puede ser importante aunque tenga aplicación limitada?",
+    "answer": "Sí: documenta propuestas e instituciones que deben estudiarse junto con las condiciones que limitaron su alcance.",
+    "activity": "Relaciona 1813 y 1814: propuesta política y texto constitucional.",
+    "source": [
+      "INEHRM · Documentos de la Independencia",
+      "https://www.inehrm.gob.mx/es/Constitucion1917/Independencia"
+    ],
+    "image": "/assets/independencia.webp",
+    "timeline": true,
+    "distractors": [
+      "No: solo cuentan las leyes que se aplicaron sin obstáculos.",
+      "Sí: su importancia prueba que se aplicó en todas partes."
+    ]
+  },
+  {
+    "id": "independencia-7",
+    "route": "independencia",
+    "year": 1821.1,
+    "date": "24 de febrero de 1821",
+    "title": "Nuevas alianzas y nuevas garantías",
+    "region": "Sur",
+    "theme": "Gobierno",
+    "text": "El Plan de Iguala propuso la independencia bajo una monarquía y articuló las garantías de religión, independencia y unión. La convergencia entre fuerzas antes enfrentadas cambió la dirección del proceso. Su programa no era idéntico al de Morelos.",
+    "cause": "El equilibrio político y militar había cambiado.",
+    "effect": "Se organizó una alianza que impulsó la consumación.",
+    "question": "¿Una alianza demuestra que todos piensan igual?",
+    "answer": "No. Puede reunir intereses distintos alrededor de un acuerdo temporal.",
+    "activity": "Compara el Plan de Iguala con los Sentimientos: forma de gobierno, religión y soberanía.",
+    "source": [
+      "UNAM · La trigarancia",
+      "https://historicas.unam.mx/publicaciones/publicadigital/libros/trigarancia/fuerzas_armadas.html"
+    ],
+    "image": "/assets/independencia.webp",
+    "timeline": true,
+    "distractors": [
+      "Sí: un acuerdo demuestra que sus proyectos son idénticos.",
+      "No: por eso ningún acuerdo puede tener efectos políticos."
+    ]
+  },
+  {
+    "id": "independencia-8",
+    "route": "independencia",
+    "year": 1821.8,
+    "date": "27 de septiembre de 1821",
+    "title": "La independencia abre otra historia",
+    "region": "Centro",
+    "theme": "Gobierno",
+    "text": "La entrada del Ejército Trigarante en la capital marcó la consumación. Terminaba una etapa de guerra, pero quedaban problemas de hacienda, territorio y representación. El nuevo país tendría que decidir cómo organizarse.",
+    "cause": "La alianza trigarante consolidó el cambio político.",
+    "effect": "Comenzaron nuevos debates sobre la construcción del Estado.",
+    "question": "¿Consumación significa que se resolvieron todas las desigualdades?",
+    "answer": "No. La independencia política y las transformaciones sociales no avanzan automáticamente al mismo ritmo.",
+    "activity": "Une esta escena con la ruta México como nación y escribe una pregunta pendiente para 1821.",
+    "source": [
+      "UNAM · La trigarancia",
+      "https://historicas.unam.mx/publicaciones/publicadigital/libros/trigarancia/fuerzas_armadas.html"
+    ],
+    "image": "/assets/independencia.webp",
+    "timeline": true,
+    "distractors": [
+      "Sí: independencia y fin de la desigualdad suceden juntos.",
+      "Sí: la entrada en la capital resolvió todos los conflictos."
+    ]
+  },
+  {
+    "id": "revolucion-1",
+    "route": "revolucion",
+    "year": 1910,
+    "date": "1910",
+    "title": "Un país quiere cambios",
+    "region": "Nacional",
+    "theme": "Gobierno",
+    "text": "El antirreeleccionismo de Madero cuestionó la permanencia de Díaz en el poder. A la oposición política se sumaron demandas sociales distintas. La movilización de 1910 abrió una revolución plural, no un programa uniforme.",
+    "cause": "La concentración del poder convivía con conflictos sociales y políticos.",
+    "effect": "El levantamiento abrió una lucha por el gobierno y por reformas.",
+    "question": "¿Votar y repartir tierra son la misma demanda?",
+    "answer": "No. Son problemas diferentes que podían coincidir en la oposición al régimen.",
+    "activity": "Clasifica demandas políticas, laborales y agrarias.",
+    "source": [
+      "INEHRM · Revolución social",
+      "https://inehrm.gob.mx/es/Constitucion1917/Revolucion_Social"
+    ],
+    "image": "/assets/revolucion-1910.webp",
+    "timeline": true,
+    "distractors": [
+      "Sí: ambas demandas pedían exactamente la misma reforma.",
+      "No: por eso no podían coexistir dentro del movimiento."
+    ]
+  },
+  {
+    "id": "revolucion-2",
+    "route": "revolucion",
+    "year": 1911.1,
+    "date": "Mayo de 1911",
+    "title": "Ciudad Juárez cambia el rumbo",
+    "region": "Chihuahua",
+    "theme": "Conflicto",
+    "text": "La toma de Ciudad Juárez fue decisiva en la etapa maderista. Los acuerdos de mayo contribuyeron a la renuncia de Díaz. El norte fue un espacio de movilización y negociación conectado con el resto del país.",
+    "cause": "El avance rebelde debilitó al gobierno porfirista.",
+    "effect": "Se abrió una transición política, sin resolver todas las demandas.",
+    "question": "¿Por qué una ciudad fronteriza puede ser importante en una guerra?",
+    "answer": "Por sus conexiones, recursos y valor político; el peso concreto debe investigarse con fuentes.",
+    "activity": "Localiza Juárez y pregunta qué conexiones territoriales favorecían su importancia.",
+    "source": [
+      "INEHRM · Lecturas de historia, tomo II",
+      "https://inehrm.gob.mx/recursos/Libros/Antologia_de_lecturas_200_t2.pdf"
+    ],
+    "image": "/assets/revolucion-1910.webp",
+    "timeline": true,
+    "distractors": [
+      "Solo por su tamaño; sus conexiones no importan.",
+      "Porque todas las ciudades fronterizas deciden cualquier guerra."
+    ]
+  },
+  {
+    "id": "revolucion-3",
+    "route": "revolucion",
+    "year": 1911.9,
+    "date": "28 de noviembre de 1911",
+    "title": "La tierra, una demanda central",
+    "region": "Morelos",
+    "theme": "Derechos",
+    "text": "El Plan de Ayala expresó demandas de restitución y reparto de tierras. El zapatismo cuestionó la respuesta del gobierno de Madero al problema agrario. La salida de Díaz no había terminado los conflictos de los pueblos.",
+    "cause": "Las comunidades reclamaban respuestas a despojos y problemas de propiedad.",
+    "effect": "Se profundizó la ruptura entre zapatismo y maderismo.",
+    "question": "¿Cambiar de presidente resuelve por sí solo un conflicto agrario?",
+    "answer": "No: también hacen falta decisiones sobre propiedad y derechos de los pueblos.",
+    "activity": "Relaciona una demanda del Plan con el problema que intentaba atender.",
+    "source": [
+      "INEHRM · Revolución social",
+      "https://inehrm.gob.mx/es/Constitucion1917/Revolucion_Social"
+    ],
+    "image": "/assets/revolucion-1911.webp",
+    "timeline": true,
+    "distractors": [
+      "Sí: cualquier cambio presidencial modifica toda la propiedad.",
+      "Sí: una demanda desaparece con la renuncia de un gobernante."
+    ]
+  },
+  {
+    "id": "revolucion-4",
+    "route": "revolucion",
+    "year": 1913,
+    "date": "Febrero de 1913",
+    "title": "Una ruptura y nuevas alianzas",
+    "region": "Centro",
+    "theme": "Conflicto",
+    "text": "El golpe contra Madero y su asesinato abrieron una nueva fase. Victoriano Huerta tomó el poder y distintas fuerzas se organizaron en su contra. Compartir adversario no eliminó las diferencias entre los movimientos.",
+    "cause": "El golpe rompió el orden del gobierno maderista.",
+    "effect": "Se formó una nueva oposición armada.",
+    "question": "¿Por qué una alianza puede romperse después de vencer?",
+    "answer": "Porque sus integrantes pueden mantener objetivos incompatibles sobre el futuro.",
+    "activity": "Distingue objetivo inmediato y proyecto de largo plazo.",
+    "source": [
+      "INEHRM · Corrientes revolucionarias",
+      "https://inehrm.gob.mx/es/inehrm/ExpDigCorrietRev13-17"
+    ],
+    "image": "/assets/revolucion-1910.webp",
+    "timeline": true,
+    "distractors": [
+      "Porque haber compartido enemigo exige pensar igual para siempre.",
+      "Porque los proyectos políticos no influyen después de una victoria."
+    ]
+  },
+  {
+    "id": "revolucion-5",
+    "route": "revolucion",
+    "year": 1914.4,
+    "date": "1914",
+    "title": "El norte y el sur no son un solo bloque",
+    "region": "Norte y sur",
+    "theme": "Territorio",
+    "text": "Villismo, zapatismo y constitucionalismo reunieron fuerzas con bases regionales y proyectos diferentes. Sus relaciones cambiaron con la guerra. Los mapas de movimientos deben leerse con fecha: no son fronteras fijas.",
+    "cause": "Las demandas y condiciones variaban entre territorios.",
+    "effect": "La lucha contra Huerta reunió fuerzas que después se enfrentarían.",
+    "question": "¿Un mapa de un año sirve sin cambios para toda la Revolución?",
+    "answer": "No. Las zonas de acción y las alianzas cambiaron.",
+    "activity": "Elige dos movimientos y compara región, demanda y fuente.",
+    "source": [
+      "INEHRM · Corrientes revolucionarias",
+      "https://inehrm.gob.mx/es/inehrm/ExpDigCorrietRev13-17"
+    ],
+    "image": "/assets/revolucion-1911.webp",
+    "timeline": true,
+    "distractors": [
+      "Sí: los territorios controlados nunca cambiaron.",
+      "Sí: las fronteras estatales actuales muestran exactamente los frentes."
+    ]
+  },
+  {
+    "id": "revolucion-6",
+    "route": "revolucion",
+    "year": 1914.8,
+    "date": "Octubre–noviembre de 1914",
+    "title": "La Convención busca un acuerdo",
+    "region": "Aguascalientes",
+    "theme": "Gobierno",
+    "text": "La Convención intentó resolver diferencias entre fuerzas revolucionarias. Sus debates mostraron la dificultad de construir una autoridad común. Los acuerdos políticos fueron tan importantes para el proceso como las campañas militares.",
+    "cause": "La derrota de Huerta dejó abierta la cuestión de quién gobernaría.",
+    "effect": "Las diferencias desembocaron en nuevos enfrentamientos.",
+    "question": "¿Qué dificulta llegar a acuerdos después de una guerra?",
+    "answer": "Los proyectos distintos, las desconfianzas y los intereses regionales.",
+    "activity": "Redacta dos condiciones necesarias para una negociación y justifícalas.",
+    "source": [
+      "INEHRM · Corrientes revolucionarias",
+      "https://inehrm.gob.mx/es/inehrm/ExpDigCorrietRev13-17"
+    ],
+    "image": "/assets/revolucion-1910.webp",
+    "timeline": true,
+    "distractors": [
+      "Solo elegir una fecha; los proyectos distintos no importan.",
+      "Nada: vencer a un enemigo común produce acuerdo permanente."
+    ]
+  },
+  {
+    "id": "revolucion-7",
+    "route": "revolucion",
+    "year": 1915,
+    "date": "1915",
+    "title": "La lucha también se vive en el campo",
+    "region": "Regiones de México",
+    "theme": "Sociedad",
+    "text": "La guerra alteró trabajo, abastecimiento y vida familiar. Las comunidades vivieron experiencias distintas según el territorio y los ejércitos presentes. Un relato centrado en generales no explica por sí solo estas transformaciones.",
+    "cause": "La movilización y los combates afectaron la vida cotidiana.",
+    "effect": "Se produjeron desplazamientos y dificultades de abastecimiento.",
+    "question": "¿Qué fuente buscarías para conocer la experiencia de una familia?",
+    "answer": "Cartas, testimonios o registros locales, contrastados con otras evidencias.",
+    "activity": "Elabora preguntas de investigación; no inventes un testimonio y lo presentes como documento.",
+    "source": [
+      "INEHRM · Lecturas de historia, tomo II",
+      "https://inehrm.gob.mx/recursos/Libros/Antologia_de_lecturas_200_t2.pdf"
+    ],
+    "image": "/assets/revolucion-1911.webp",
+    "timeline": true,
+    "distractors": [
+      "Solo una pintura actual, sin conocer su autoría.",
+      "Solo el nombre de un general, sin otras evidencias."
+    ]
+  },
+  {
+    "id": "revolucion-8",
+    "route": "revolucion",
+    "year": 1916,
+    "date": "1916–1917",
+    "title": "Debatir el país que se quiere",
+    "region": "Querétaro",
+    "theme": "Gobierno",
+    "text": "El Congreso Constituyente sesionó en Querétaro. Los debates dieron forma a disposiciones sobre educación, propiedad y trabajo. El texto resultante se comprende mejor al relacionarlo con las demandas y conflictos anteriores.",
+    "cause": "La lucha abrió una discusión sobre el nuevo orden institucional.",
+    "effect": "El Constituyente redactó una nueva Constitución.",
+    "question": "¿Una constitución es solo obra de una persona?",
+    "answer": "No. Su elaboración incluye propuestas, debates y decisiones de una asamblea.",
+    "activity": "Busca un derecho en el texto original y relaciónalo con una demanda de la ruta.",
+    "source": [
+      "UNAM · Constituciones históricas",
+      "https://museodelasconstituciones.unam.mx/constituciones-historicas/"
+    ],
+    "image": "/assets/revolucion-1917.webp",
+    "timeline": true,
+    "distractors": [
+      "Sí: el Congreso solo copia la voluntad de una persona.",
+      "Sí: las demandas sociales no influyen en su redacción."
+    ]
+  },
+  {
+    "id": "revolucion-9",
+    "route": "revolucion",
+    "year": 1917,
+    "date": "5 de febrero de 1917",
+    "title": "Los derechos llegan a la Constitución",
+    "region": "Nacional",
+    "theme": "Derechos",
+    "text": "La Constitución promulgada en 1917 incluyó disposiciones sociales: educación, tierra y trabajo. Reconocer un derecho en una norma fue un cambio importante; su cumplimiento exigió procesos posteriores. La violencia tampoco concluyó de inmediato.",
+    "cause": "Los debates constitucionales respondieron a conflictos políticos y sociales.",
+    "effect": "Se estableció un nuevo marco jurídico.",
+    "question": "¿Cómo distinguir un derecho escrito de su cumplimiento?",
+    "answer": "La norma muestra lo reconocido; otras fuentes permiten estudiar la práctica.",
+    "activity": "Formula un indicador para investigar el cumplimiento de un derecho, sin confundirlo con su sola existencia.",
+    "source": [
+      "UNAM · Constituciones históricas",
+      "https://museodelasconstituciones.unam.mx/constituciones-historicas/"
+    ],
+    "image": "/assets/revolucion-1917.webp",
+    "timeline": true,
+    "distractors": [
+      "No hay diferencia: toda ley se cumple desde su publicación.",
+      "Solo es necesario leer una conmemoración actual."
+    ]
+  },
+  {
+    "id": "revolucion-10",
+    "route": "revolucion",
+    "year": 1917.1,
+    "date": "Después de 1917",
+    "title": "¿Cuándo termina una revolución?",
+    "region": "Nacional",
+    "theme": "Fuentes",
+    "text": "La respuesta depende de qué se investiga: lucha armada, reorganización política o cambios sociales. Elegir un corte cronológico exige explicarlo. El estudio de las consecuencias continúa más allá de la promulgación constitucional.",
+    "cause": "Los cambios revolucionarios avanzaron con ritmos distintos.",
+    "effect": "Existen periodizaciones diferentes, sustentadas en preguntas distintas.",
+    "question": "¿Dos fechas finales diferentes prueban que una historia es falsa?",
+    "answer": "No necesariamente: pueden responder a dimensiones diferentes, si explican sus criterios y evidencias.",
+    "activity": "Propón un criterio para cerrar la ruta y defiéndelo con un acontecimiento y una fuente.",
+    "source": [
+      "INEHRM · Lecturas de historia, tomo II",
+      "https://inehrm.gob.mx/recursos/Libros/Antologia_de_lecturas_200_t2.pdf"
+    ],
+    "image": "/assets/revolucion-1917.webp",
+    "timeline": true,
+    "distractors": [
+      "Sí: existe una sola fecha válida para cualquier pregunta.",
+      "Sí: las consecuencias de una revolución ocurren todas juntas."
+    ]
+  },
+  {
+    "id": "antigua-1",
+    "route": "antigua",
+    "year": -3500,
+    "date": "c. 3500–3000 a. C.",
+    "title": "Uruk: organizar una ciudad",
+    "region": "Mesopotamia",
+    "theme": "Sociedad",
+    "text": "Uruk creció en la llanura del sur de Mesopotamia. La concentración de población exigía coordinar producción, almacenamiento e intercambios. Una ciudad se estudia también a través del trabajo cotidiano, no únicamente de grandes monumentos.",
+    "cause": "La concentración de actividades aumentó la necesidad de coordinación.",
+    "effect": "Surgieron formas complejas de administración urbana.",
+    "question": "¿Qué necesita organizar una ciudad además de construir casas?",
+    "answer": "Agua, alimentos, trabajo, intercambios y decisiones colectivas.",
+    "activity": "Dibuja una red con tres necesidades urbanas y quiénes participan en ellas.",
+    "source": [
+      "The Met · Uruk",
+      "https://www.metmuseum.org/es/essays/uruk-the-first-city"
+    ],
+    "image": "/assets/antigua.webp",
+    "timeline": true,
+    "distractors": [
+      "Solo monumentos: el abastecimiento era automático.",
+      "Únicamente defensas, porque no existían intercambios."
+    ]
+  },
+  {
+    "id": "antigua-2",
+    "route": "antigua",
+    "year": -3200,
+    "date": "Finales del IV milenio a. C.",
+    "title": "Registrar para administrar",
+    "region": "Mesopotamia",
+    "theme": "Fuentes",
+    "text": "En Uruk, los primeros registros escritos se relacionaron con la contabilidad de bienes. Las tablillas de arcilla documentan actividades administrativas. Escribir no significaba que toda la población supiera leer o tuviera la misma participación en el poder.",
+    "cause": "Las instituciones necesitaban registrar recursos y operaciones.",
+    "effect": "La escritura preservó información que hoy permite investigar.",
+    "question": "¿Una lista de bienes cuenta toda la vida de una comunidad?",
+    "answer": "No: muestra lo que se registró, pero deja fuera experiencias y relaciones.",
+    "activity": "Inventa un registro de cinco objetos y marca claramente que es una simulación escolar.",
+    "source": [
+      "The Met · Orígenes de la escritura",
+      "https://www.metmuseum.org/ru/essays/the-origins-of-writing"
+    ],
+    "image": "/assets/antigua.webp",
+    "timeline": true,
+    "distractors": [
+      "Sí: todos los aspectos de la vida quedan en la contabilidad.",
+      "Sí: registrar bienes implica conocer todas las voces."
+    ]
+  },
+  {
+    "id": "antigua-3",
+    "route": "antigua",
+    "year": -3000,
+    "date": "Tercer milenio a. C.",
+    "title": "Las ciudades se conectan",
+    "region": "Asia occidental",
+    "theme": "Intercambio",
+    "text": "Las ciudades de Asia occidental participaron en redes de circulación de materiales y objetos. Un bien que viaja es una pista sobre conexiones, pero no demuestra por sí solo que dos ciudades tuvieran el mismo gobierno.",
+    "cause": "La búsqueda de materiales y los intercambios conectaron regiones.",
+    "effect": "Circularon objetos, técnicas e ideas.",
+    "question": "¿Un objeto extranjero demuestra una conquista?",
+    "answer": "No. También pudo llegar mediante intercambio, regalo u otra forma de circulación.",
+    "activity": "Propón dos explicaciones para un hallazgo y una evidencia para distinguirlas.",
+    "source": [
+      "The Met · Ciudades e intercambios",
+      "https://www.metmuseum.org/exhibitions/listings/2003/art-of-the-first-cities"
+    ],
+    "image": "/assets/antigua.webp",
+    "timeline": true,
+    "distractors": [
+      "Sí: únicamente la guerra hace viajar objetos.",
+      "Sí: un objeto basta para demostrar una misma forma de gobierno."
+    ]
+  },
+  {
+    "id": "antigua-4",
+    "route": "antigua",
+    "year": -2500,
+    "date": "Egipto antiguo · varios periodos",
+    "title": "Un río y muchos trabajos",
+    "region": "Valle del Nilo",
+    "theme": "Territorio",
+    "text": "El papiro crecía en el ambiente del Nilo y sirvió para fabricar soportes de escritura y otros objetos. Estudiar un material permite relacionar entorno, técnica y trabajo sin reducir una sociedad a sus monumentos funerarios.",
+    "cause": "Las comunidades aprovecharon recursos de su entorno.",
+    "effect": "Se desarrollaron técnicas con usos cotidianos y simbólicos.",
+    "question": "¿El entorno determina por completo la forma de vivir?",
+    "answer": "No. Ofrece condiciones, pero las personas toman decisiones y desarrollan técnicas.",
+    "activity": "Relaciona recurso, técnica y uso en una cadena y compárala con un material actual.",
+    "source": [
+      "The Met · El papiro en Egipto",
+      "https://www.metmuseum.org/es/essays/papyrus-in-ancient-egypt"
+    ],
+    "image": "/assets/antigua.webp",
+    "timeline": false,
+    "distractors": [
+      "Sí: un río produce siempre la misma sociedad.",
+      "No: por eso los recursos naturales no influyen en las actividades."
+    ]
+  },
+  {
+    "id": "antigua-5",
+    "route": "antigua",
+    "year": -2000,
+    "date": "Egipto antiguo · varios periodos",
+    "title": "Un objeto tiene más de una historia",
+    "region": "Valle del Nilo",
+    "theme": "Fuentes",
+    "text": "El papiro tuvo dimensiones prácticas y simbólicas. Una pieza puede estudiarse por su material, por su uso y por su presencia en representaciones. Cada pregunta requiere observar evidencias diferentes.",
+    "cause": "Los materiales formaron parte de prácticas y creencias.",
+    "effect": "Los objetos conservaron información sobre distintas dimensiones de la vida.",
+    "question": "¿Qué diferencia hay entre observar e interpretar?",
+    "answer": "Observar describe rasgos; interpretar propone su significado en contexto y necesita argumentos.",
+    "activity": "Elige una pieza del museo y escribe dos observaciones y una interpretación.",
+    "source": [
+      "The Met · El papiro en Egipto",
+      "https://www.metmuseum.org/es/essays/papyrus-in-ancient-egypt"
+    ],
+    "image": "/assets/antigua.webp",
+    "timeline": false,
+    "distractors": [
+      "Son iguales: observar un rasgo demuestra cualquier significado.",
+      "Interpretar es decidir sin contrastar evidencias."
+    ]
+  },
+  {
+    "id": "antigua-6",
+    "route": "antigua",
+    "year": -500,
+    "date": "Siglo V a. C.",
+    "title": "Atenas cuenta sus relatos",
+    "region": "Mundo griego",
+    "theme": "Fuentes",
+    "text": "Los relatos de Teseo se relacionaron con la identidad de Atenas. Un mito puede estudiarse como expresión cultural y política sin asumir que sus episodios ocurrieron literalmente. Las representaciones también tienen historia.",
+    "cause": "Las comunidades usaron relatos para expresar vínculos e identidades.",
+    "effect": "Los mitos circularon en imágenes y narraciones.",
+    "question": "¿Un mito carece de valor para la historia?",
+    "answer": "No. Es evidencia de creencias y formas de representación, aunque no sea prueba literal de sus sucesos.",
+    "activity": "Compara una representación mítica con una inscripción: ¿qué pregunta harías a cada fuente?",
+    "source": [
+      "The Met · Teseo y Atenas",
+      "https://www.metmuseum.org/ja/essays/theseus-hero-of-athens"
+    ],
+    "image": "/assets/antigua.webp",
+    "timeline": true,
+    "distractors": [
+      "Sí: únicamente interesan los relatos que ocurrieron literalmente.",
+      "No: por eso todo lo narrado debe aceptarse como hecho."
+    ]
+  },
+  {
+    "id": "antigua-7",
+    "route": "antigua",
+    "year": -450,
+    "date": "Atenas clásica",
+    "title": "Participar no era un derecho universal",
+    "region": "Mundo griego",
+    "theme": "Gobierno",
+    "text": "La democracia ateniense tuvo límites de participación. No equivalía al sufragio universal contemporáneo. Comparar vocabularios políticos exige preguntar quién podía intervenir y quién quedaba excluido, sin suponer que una misma palabra conserva idéntico significado.",
+    "cause": "Las instituciones de la polis definían categorías de participación.",
+    "effect": "Una parte de la población podía intervenir en decisiones políticas.",
+    "question": "¿Basta la palabra democracia para saber quién participa?",
+    "answer": "No: hay que revisar las reglas de ciudadanía y participación en cada contexto.",
+    "activity": "Haz una lista de preguntas para comparar participación antigua y actual, evitando equipararlas.",
+    "source": [
+      "British Museum · Atenas en el siglo V a. C.",
+      "https://www.britishmuseum.org/blog/historical-city-travel-guide-athens-5th-century-bc"
+    ],
+    "image": "/assets/antigua.webp",
+    "timeline": true,
+    "distractors": [
+      "Sí: toda democracia tiene las mismas reglas de participación.",
+      "Sí: una palabra conserva siempre el mismo significado histórico."
+    ]
+  },
+  {
+    "id": "antigua-8",
+    "route": "antigua",
+    "year": 2026,
+    "date": "Actualidad",
+    "title": "Una pieza, preguntas abiertas",
+    "region": "Museos y archivos",
+    "theme": "Fuentes",
+    "text": "La arqueología y la lectura de documentos revisan explicaciones sobre el mundo antiguo. Investigar no consiste en rellenar silencios con certezas: hay que indicar lo observado, lo inferido y lo que todavía no sabemos.",
+    "cause": "Nuevos hallazgos y preguntas permiten revisar interpretaciones.",
+    "effect": "El conocimiento histórico puede ampliarse y corregirse.",
+    "question": "¿Reconocer una duda debilita una investigación?",
+    "answer": "No. Explicitar los límites de la evidencia hace más clara la explicación.",
+    "activity": "Cierra con una ficha: evidencia, interpretación, límite y fuente consultada.",
+    "source": [
+      "The Met · Orígenes de la escritura",
+      "https://www.metmuseum.org/ru/essays/the-origins-of-writing"
+    ],
+    "image": "/assets/antigua.webp",
+    "timeline": true,
+    "distractors": [
+      "Sí: investigar exige presentar todas las respuestas como definitivas.",
+      "Sí: las dudas deben ocultarse en la explicación final."
+    ]
+  },
+  {
+    "id": "nacion-1",
+    "route": "nacion",
+    "year": 1822,
+    "date": "1822–1823",
+    "title": "La primera opción fue un imperio",
+    "region": "Centro",
+    "theme": "Gobierno",
+    "text": "Agustín de Iturbide encabezó el Primer Imperio mexicano. Los conflictos con el Congreso y la oposición al gobierno mostraron que no había acuerdo definitivo sobre las instituciones. Su caída abrió paso a otro congreso constituyente.",
+    "cause": "La independencia había dejado abierta la forma de organización política.",
+    "effect": "Se discutió una solución republicana.",
+    "question": "¿La independencia creó inmediatamente una república?",
+    "answer": "No. Hubo primero una experiencia imperial.",
+    "activity": "Dibuja una secuencia: independencia, imperio, república.",
+    "source": [
+      "UNAM · Historia constitucional",
+      "https://museodelasconstituciones.unam.mx/tema-historia-constitucional/"
+    ],
+    "image": "/assets/nacion.webp",
+    "timeline": true,
+    "distractors": [
+      "Sí: el federalismo empezó el mismo día de la consumación.",
+      "No: el virreinato siguió siendo la forma de gobierno."
+    ]
+  },
+  {
+    "id": "nacion-2",
+    "route": "nacion",
+    "year": 1824,
+    "date": "4 de octubre de 1824",
+    "title": "Una república con estados",
+    "region": "Nacional",
+    "theme": "Gobierno",
+    "text": "La Constitución de 1824 estableció una república federal. La distribución de facultades entre estados y gobierno nacional se convirtió en una cuestión central. Federalismo no significa que cada estado sea un país independiente.",
+    "cause": "Las provincias demandaban participación en la organización del nuevo Estado.",
+    "effect": "Se estableció un marco federal para gobernar.",
+    "question": "¿Cómo se distingue federación de separación?",
+    "answer": "Una federación reúne entidades bajo un orden constitucional común, aunque distribuye facultades.",
+    "activity": "Clasifica asuntos nacionales y locales, aclarando que es una analogía para debatir y no una transcripción de la ley de 1824.",
+    "source": [
+      "UNAM · Constitución de 1824",
+      "https://constitucion-1824.juridicas.unam.mx/"
+    ],
+    "image": "/assets/nacion.webp",
+    "timeline": true,
+    "distractors": [
+      "Una federación elimina toda autoridad nacional.",
+      "Federarse significa que cada entidad tiene soberanía internacional propia."
+    ]
+  },
+  {
+    "id": "nacion-3",
+    "route": "nacion",
+    "year": 1836,
+    "date": "1836",
+    "title": "El poder cambia de distribución",
+    "region": "Nacional",
+    "theme": "Gobierno",
+    "text": "Las Siete Leyes reorganizaron el país con una orientación centralista. Los estados fueron sustituidos por departamentos. Estos cambios permiten comparar cómo una constitución distribuye el poder y quién interviene en las decisiones.",
+    "cause": "Las disputas sobre gobierno y estabilidad alimentaron proyectos centralistas.",
+    "effect": "Cambió la relación entre territorios y poder central.",
+    "question": "¿Cambiar el nombre de estados a departamentos era solo una palabra?",
+    "answer": "No: correspondía a una modificación de su organización y relación con el gobierno central.",
+    "activity": "Compara dos esquemas de gobierno y señala quién decide en cada nivel.",
+    "source": [
+      "UNAM · Historia constitucional",
+      "https://museodelasconstituciones.unam.mx/tema-historia-constitucional/"
+    ],
+    "image": "/assets/nacion.webp",
+    "timeline": true,
+    "distractors": [
+      "Sí: las facultades territoriales no cambiaron.",
+      "Solo cambió la ubicación geográfica de las capitales."
+    ]
+  },
+  {
+    "id": "nacion-4",
+    "route": "nacion",
+    "year": 1854,
+    "date": "1854–1855",
+    "title": "Ayutla abre una nueva etapa",
+    "region": "Sur",
+    "theme": "Conflicto",
+    "text": "El movimiento de Ayutla se opuso al gobierno de Santa Anna. Su triunfo abrió un periodo de reformas y de elaboración de una nueva constitución. Los cambios políticos surgieron de conflictos, alianzas y decisiones, no de una marcha inevitable.",
+    "cause": "La oposición cuestionó la concentración del poder.",
+    "effect": "Un nuevo gobierno impulsó reformas y un congreso.",
+    "question": "¿Una crisis tiene un único resultado posible?",
+    "answer": "No. Los participantes actuaron entre alternativas que debemos reconstruir con fuentes.",
+    "activity": "Escribe una decisión que enfrentaron los actores y qué información necesitarías para explicarla.",
+    "source": [
+      "UNAM · Historia constitucional",
+      "https://museodelasconstituciones.unam.mx/tema-historia-constitucional/"
+    ],
+    "image": "/assets/nacion.webp",
+    "timeline": true,
+    "distractors": [
+      "Sí: los hechos ocurrieron porque no había otras alternativas.",
+      "Sí: conocer el desenlace elimina la necesidad de explicar decisiones."
+    ]
+  },
+  {
+    "id": "nacion-5",
+    "route": "nacion",
+    "year": 1857,
+    "date": "5 de febrero de 1857",
+    "title": "Derechos que generan debates",
+    "region": "Nacional",
+    "theme": "Derechos",
+    "text": "La Constitución de 1857 incorporó garantías individuales y reafirmó la república federal. La oposición a este orden contribuyó a una profunda división política. Un texto constitucional también puede ser objeto de disputa.",
+    "cause": "El movimiento reformista promovió un nuevo orden jurídico.",
+    "effect": "Se intensificó el conflicto sobre las instituciones.",
+    "question": "¿Por qué una norma puede provocar desacuerdos?",
+    "answer": "Porque redefine facultades, derechos e intereses y no todos aceptan esos cambios.",
+    "activity": "Consulta un artículo: explica qué reconoce y qué otra fuente necesitarías para investigar su cumplimiento.",
+    "source": [
+      "UNAM · Constituciones históricas",
+      "https://museodelasconstituciones.unam.mx/constituciones-historicas/"
+    ],
+    "image": "/assets/nacion.webp",
+    "timeline": true,
+    "distractors": [
+      "Porque toda norma elimina inmediatamente la oposición.",
+      "Porque una ley nunca afecta intereses ni instituciones."
+    ]
+  },
+  {
+    "id": "nacion-6",
+    "route": "nacion",
+    "year": 1858,
+    "date": "1858–1861",
+    "title": "Dos proyectos se enfrentan",
+    "region": "Nacional",
+    "theme": "Conflicto",
+    "text": "La Guerra de Reforma enfrentó a liberales y conservadores. No fue simplemente un desacuerdo entre dos personas: estaban en disputa instituciones y formas de organizar la vida pública. La guerra afectó recursos, comunidades y gobiernos regionales.",
+    "cause": "La ruptura constitucional profundizó la confrontación política.",
+    "effect": "La victoria liberal no eliminó las dificultades del país.",
+    "question": "¿Qué queda fuera si solo memorizamos dos bandos?",
+    "answer": "Las experiencias locales, las diferencias internas y los efectos sociales de la guerra.",
+    "activity": "Construye una pregunta sobre la vida cotidiana durante el conflicto.",
+    "source": [
+      "UNAM · Construcción del Estado mexicano",
+      "https://e1.portalacademico.cch.unam.mx/alumno/historiademexico1/unidad4/estadoNacionMexicano/estadoMexicano"
+    ],
+    "image": "/assets/nacion.webp",
+    "timeline": true,
+    "distractors": [
+      "Nada: los nombres de los bandos explican todas las experiencias.",
+      "Solo los uniformes; los efectos sociales son ajenos a la historia."
+    ]
+  },
+  {
+    "id": "nacion-7",
+    "route": "nacion",
+    "year": 1864,
+    "date": "1864–1866",
+    "title": "La República se sostiene desde el norte",
+    "region": "Chihuahua",
+    "theme": "Gobierno",
+    "text": "Durante la intervención francesa y el Segundo Imperio, el gobierno de Juárez se desplazó. En Chihuahua, el edificio hoy conocido como Casa de Juárez alojó al Ejecutivo federal. La ubicación de un gobierno también cuenta una historia de resistencia política.",
+    "cause": "La intervención militar obligó al gobierno republicano a desplazarse.",
+    "effect": "Chihuahua fue sede de la autoridad republicana durante parte del conflicto.",
+    "question": "¿El lugar de una sede de gobierno puede cambiar?",
+    "answer": "Sí. En este caso el desplazamiento estuvo ligado a la guerra y a la defensa del gobierno republicano.",
+    "activity": "Conecta esta escena con la ficha Casa de Juárez y explica su valor como lugar de memoria.",
+    "source": [
+      "Chihuahua · Casa de Juárez",
+      "https://www.chihuahua.gob.mx/prensa/reabre-sus-puertas-el-museo-de-la-lealtad-republicana-casa-de-juarez"
+    ],
+    "image": "/assets/nacion.webp",
+    "timeline": true,
+    "distractors": [
+      "No: un gobierno deja de existir si se desplaza.",
+      "Sí: el traslado demuestra que se creó otro país."
+    ]
+  },
+  {
+    "id": "nacion-8",
+    "route": "nacion",
+    "year": 1867,
+    "date": "1867",
+    "title": "Restaurar la República, continuar los debates",
+    "region": "Nacional",
+    "theme": "Gobierno",
+    "text": "La caída del Segundo Imperio permitió la restauración republicana. Reconstruir instituciones, educación y finanzas siguió siendo un desafío. El triunfo militar no clausuró las discusiones sobre ciudadanía, participación y autoridad.",
+    "cause": "El avance republicano y el fin del apoyo militar francés debilitaron al Imperio.",
+    "effect": "Se abrió una etapa de reorganización institucional.",
+    "question": "¿Por qué restaurar un gobierno no equivale a resolver todos sus problemas?",
+    "answer": "Porque los daños de la guerra y las diferencias sociales requieren acciones posteriores.",
+    "activity": "Cierra la ruta con un cambio y una continuidad entre 1824 y 1867.",
+    "source": [
+      "UNAM · Construcción del Estado mexicano",
+      "https://e1.portalacademico.cch.unam.mx/alumno/historiademexico1/unidad4/estadoNacionMexicano/estadoMexicano"
+    ],
+    "image": "/assets/nacion.webp",
+    "timeline": true,
+    "distractors": [
+      "Porque ningún cambio político tiene consecuencias.",
+      "Porque las leyes nunca influyen en la sociedad."
+    ]
+  },
+  {
+    "id": "segunda-guerra-mundial-1",
+    "route": "segunda-guerra-mundial",
+    "year": 1933,
+    "date": "1919–1939",
+    "title": "Una guerra que no era inevitable",
+    "region": "Europa",
+    "theme": "Causas",
+    "text": "Tras la Primera Guerra Mundial hubo tensiones territoriales, crisis económicas y conflictos políticos. El nazismo alemán y el fascismo italiano destruyeron libertades y promovieron la expansión. Hitler llegó al poder en 1933 y el régimen persiguió a sus opositores y a la población judía. La crisis ayuda a explicar el contexto, pero no justifica la agresión ni vuelve inevitable la guerra.",
+    "cause": "La posguerra y la crisis de 1929 debilitaron sociedades e instituciones.",
+    "effect": "Las decisiones expansionistas y la respuesta internacional abrieron el camino a nuevas invasiones.",
+    "question": "¿Por qué una crisis no explica por sí sola una guerra?",
+    "answer": "Porque también importan las decisiones de gobiernos, sus ideologías y las respuestas de otros países.",
+    "activity": "Dibuja tres ramas: condiciones económicas, decisiones políticas y consecuencias. Evita una cadena con una sola causa.",
+    "source": [
+      "USHMM · El camino hacia el genocidio nazi",
+      "https://www.ushmm.org/es/learn/holocaust/the-path-to-nazi-genocide"
+    ],
+    "image": "/assets/segunda-guerra.webp",
+    "timeline": true,
+    "distractors": [
+      "Porque todas las crisis producen inevitablemente una guerra.",
+      "Porque las decisiones políticas no influyen en la historia."
+    ]
+  },
+  {
+    "id": "segunda-guerra-mundial-2",
+    "route": "segunda-guerra-mundial",
+    "year": 1937.5,
+    "date": "1937",
+    "title": "Asia también forma parte del comienzo",
+    "region": "Asia",
+    "theme": "Expansión",
+    "text": "La guerra a gran escala entre Japón y China comenzó en 1937, después de años de expansión japonesa. Por eso, 1939 señala el inicio de la guerra en Europa, pero no el comienzo de toda la violencia bélica en Asia. Mirar ambos continentes permite entender un conflicto mundial y reconocer la experiencia de la población china.",
+    "cause": "El imperialismo japonés buscaba ampliar su dominio continental.",
+    "effect": "La resistencia china y la ocupación prolongaron una guerra que después se conectó con el Pacífico.",
+    "question": "¿Por qué debemos mirar 1937 además de 1939?",
+    "answer": "Porque la guerra entre Japón y China ya se desarrollaba antes de la invasión de Polonia.",
+    "activity": "Traza dos líneas paralelas, Asia y Europa, y señala qué estaba ocurriendo en cada una.",
+    "source": [
+      "National WWII Museum · La guerra en China",
+      "https://www.nationalww2museum.org/war/articles/road-to-pearl-harbor-the-long-fuse"
+    ],
+    "image": "/assets/segunda-guerra.webp",
+    "timeline": true,
+    "distractors": [
+      "Porque la guerra terminó en Asia en 1937.",
+      "Porque Polonia se encuentra en Asia."
+    ]
+  },
+  {
+    "id": "segunda-guerra-mundial-3",
+    "route": "segunda-guerra-mundial",
+    "year": 1939.67,
+    "date": "Septiembre de 1939",
+    "title": "Polonia y el comienzo europeo",
+    "region": "Europa",
+    "theme": "Expansión",
+    "text": "Alemania invadió Polonia el 1 de septiembre de 1939. Reino Unido y Francia declararon la guerra a Alemania el día 3. La Unión Soviética invadió el este de Polonia el 17, en el contexto del pacto germano-soviético. La población polaca quedó sometida a ocupaciones. Los países no entraron todos al conflicto el mismo día.",
+    "cause": "La expansión nazi y el pacto germano-soviético facilitaron el ataque y el reparto de territorios.",
+    "effect": "Comenzó la guerra europea y Polonia perdió su independencia bajo ocupación.",
+    "question": "¿Por qué no basta memorizar una sola fecha de septiembre?",
+    "answer": "Porque la invasión alemana, las declaraciones de guerra y la invasión soviética fueron acciones diferentes.",
+    "activity": "Construye tres tarjetas fechadas y explica qué actor tomó cada decisión.",
+    "source": [
+      "USHMM · La guerra en Europa",
+      "https://encyclopedia.ushmm.org/content/es/article/world-war-ii-in-europe"
+    ],
+    "image": "/assets/segunda-guerra.webp",
+    "timeline": true,
+    "distractors": [
+      "Porque todos los países participaron desde el primer día.",
+      "Porque las tres acciones fueron realizadas por un solo gobierno."
+    ]
+  },
+  {
+    "id": "segunda-guerra-mundial-4",
+    "route": "segunda-guerra-mundial",
+    "year": 1940.5,
+    "date": "1940",
+    "title": "La guerra llega a ciudades y hogares",
+    "region": "Europa",
+    "theme": "Vida cotidiana",
+    "text": "Tras la derrota de Francia, Reino Unido continuó combatiendo. La batalla aérea de Inglaterra y los bombardeos sobre ciudades afectaron a la población civil. Evacuaciones, refugios, racionamiento y tareas de auxilio cambiaron la vida diaria. Una historia de la guerra también debe estudiar a quienes cuidaban, trabajaban y buscaban mantener unida a su familia.",
+    "cause": "El avance alemán por Europa occidental extendió el conflicto hasta el canal de la Mancha.",
+    "effect": "La defensa aérea y la organización civil se volvieron esenciales para sostener la vida cotidiana.",
+    "question": "¿Qué puede mostrar una carta familiar que no muestra un mapa militar?",
+    "answer": "Experiencias cotidianas, preocupaciones y vínculos de una persona concreta.",
+    "activity": "Escribe preguntas para estudiar una carta real: autor, fecha, destinatario y qué información no ofrece.",
+    "source": [
+      "Imperial War Museums · Guía de la Segunda Guerra Mundial (inglés)",
+      "https://www.iwm.org.uk/sites/default/files/files/2023-10/second_world_war_galleries_large_print.pdf"
+    ],
+    "image": "/assets/segunda-guerra.webp",
+    "timeline": true,
+    "distractors": [
+      "El movimiento exacto de todos los ejércitos.",
+      "Una experiencia idéntica para toda la población."
+    ]
+  },
+  {
+    "id": "segunda-guerra-mundial-5",
+    "route": "segunda-guerra-mundial",
+    "year": 1941.47,
+    "date": "22 de junio de 1941",
+    "title": "La invasión de la Unión Soviética",
+    "region": "Europa oriental",
+    "theme": "Expansión",
+    "text": "La Alemania nazi y sus aliados atacaron la Unión Soviética, rompiendo el pacto de no agresión. El frente oriental tuvo una enorme escala territorial y humana. La ocupación nazi estuvo ligada a objetivos racistas y a la violencia contra civiles. La Unión Soviética pasó a formar parte de la coalición que combatía a Alemania.",
+    "cause": "El régimen nazi buscaba conquistar territorios orientales y destruir al Estado soviético.",
+    "effect": "La guerra se amplió y las alianzas cambiaron; la campaña no consiguió una victoria alemana rápida.",
+    "question": "¿Qué demuestra el cambio de relación entre Alemania y la Unión Soviética?",
+    "answer": "Que las alianzas y los acuerdos cambian y deben ubicarse en el tiempo.",
+    "activity": "Compara un mapa de relaciones de 1939 con otro de finales de 1941.",
+    "source": [
+      "USHMM · Invasión de la Unión Soviética",
+      "https://encyclopedia.ushmm.org/content/es/article/invasion-of-the-soviet-union-june-1941"
+    ],
+    "image": "/assets/segunda-guerra.webp",
+    "timeline": true,
+    "distractors": [
+      "Que siempre fueron aliados durante toda la guerra.",
+      "Que la Unión Soviética dejó de participar en 1941."
+    ]
+  },
+  {
+    "id": "segunda-guerra-mundial-6",
+    "route": "segunda-guerra-mundial",
+    "year": 1941.6,
+    "date": "1941–1945",
+    "title": "El Holocausto: personas, pruebas y memoria",
+    "region": "Europa",
+    "theme": "Derechos",
+    "text": "El Holocausto fue la persecución y el asesinato sistemático de aproximadamente seis millones de judíos europeos por la Alemania nazi y sus colaboradores. La persecución comenzó en 1933 y se radicalizó durante la guerra. El régimen también persiguió y asesinó a otros grupos. Documentos, testimonios y objetos permiten estudiar vidas concretas, responsabilidades y el proceso del genocidio.",
+    "cause": "El antisemitismo nazi se convirtió en políticas de exclusión, persecución y asesinato.",
+    "effect": "Comunidades enteras fueron destruidas; sobrevivientes afrontaron pérdidas y desplazamientos tras la guerra.",
+    "question": "¿Cómo se investiga un genocidio sin reducir a las personas a cifras?",
+    "answer": "Relacionando documentos y testimonios con las vidas, nombres y contextos de las personas.",
+    "activity": "Con acompañamiento docente, analiza una biografía institucional sin imágenes gráficas: vida antes de la persecución, fuente y preguntas.",
+    "source": [
+      "USHMM · Introducción al Holocausto",
+      "https://encyclopedia.ushmm.org/content/es/article/introduction-to-the-holocaust"
+    ],
+    "image": "/assets/segunda-guerra.webp",
+    "timeline": true,
+    "distractors": [
+      "Usando solamente una película como prueba de todo el proceso.",
+      "Suponiendo que una sola historia representa todas las experiencias."
+    ]
+  },
+  {
+    "id": "segunda-guerra-mundial-7",
+    "route": "segunda-guerra-mundial",
+    "year": 1941.94,
+    "date": "Diciembre de 1941",
+    "title": "Pearl Harbor y un conflicto conectado",
+    "region": "Pacífico",
+    "theme": "Expansión",
+    "text": "Japón atacó la base estadounidense de Pearl Harbor el 7 de diciembre de 1941 y desarrolló ofensivas en otros territorios de Asia y el Pacífico. Estados Unidos entró en guerra contra Japón; poco después Alemania e Italia le declararon la guerra. Frentes separados quedaron todavía más conectados por alianzas, producción y transporte.",
+    "cause": "La expansión japonesa y las tensiones con Estados Unidos habían aumentado.",
+    "effect": "Estados Unidos movilizó recursos para combatir en el Pacífico y en Europa.",
+    "question": "¿Por qué Pearl Harbor ayuda a explicar la conexión entre frentes?",
+    "answer": "Porque la entrada de Estados Unidos y nuevas declaraciones de guerra vincularon las coaliciones.",
+    "activity": "Une países con líneas fechadas; distingue una alianza de una invasión.",
+    "source": [
+      "USHMM · Guerra en el Pacífico (inglés)",
+      "https://encyclopedia.ushmm.org/content/en/article/world-war-ii-in-the-pacific"
+    ],
+    "image": "/assets/segunda-guerra.webp",
+    "timeline": true,
+    "distractors": [
+      "Porque con ese ataque terminó toda la guerra.",
+      "Porque eliminó la guerra que ya existía en China."
+    ]
+  },
+  {
+    "id": "segunda-guerra-mundial-8",
+    "route": "segunda-guerra-mundial",
+    "year": 1942.4,
+    "date": "Mayo de 1942",
+    "title": "México se incorpora a la guerra",
+    "region": "México",
+    "theme": "México y el mundo",
+    "text": "México abandonó la neutralidad después de ataques de submarinos alemanes contra barcos petroleros mexicanos, entre ellos el Potrero del Llano y el Faja de Oro. En mayo de 1942 se estableció el estado de guerra con las potencias del Eje. La participación mexicana conectó la defensa marítima, la producción y, más tarde, una fuerza aérea expedicionaria.",
+    "cause": "Los ataques afectaron barcos, tripulaciones y soberanía de México.",
+    "effect": "El país se integró al esfuerzo aliado; en 1945 el Escuadrón 201 participó en el Pacífico.",
+    "question": "¿Por qué México aparece en una historia de alcance mundial?",
+    "answer": "Porque los ataques marítimos y su participación aliada lo conectaron directamente con el conflicto.",
+    "activity": "Localiza México, el golfo de México y Filipinas; explica la diferencia entre la entrada de 1942 y la misión de 1945.",
+    "source": [
+      "Secretaría de Educación de Veracruz / SEDENA · México en la guerra",
+      "https://www.sev.gob.mx/difusion/ejercito_mexicano/escuadron201.pdf"
+    ],
+    "image": "/assets/segunda-guerra.webp",
+    "timeline": true,
+    "distractors": [
+      "Porque la guerra ocurrió solamente en territorio mexicano.",
+      "Porque México entró en guerra por primera vez en 1945."
+    ]
+  },
+  {
+    "id": "segunda-guerra-mundial-9",
+    "route": "segunda-guerra-mundial",
+    "year": 1942.43,
+    "date": "4–7 de junio de 1942",
+    "title": "Midway y las distancias del Pacífico",
+    "region": "Pacífico",
+    "theme": "Cambios militares",
+    "text": "La victoria naval estadounidense en Midway frenó una ofensiva japonesa y alteró el equilibrio de fuerzas en el Pacífico. Las islas, los puertos, los aviones y las rutas de abastecimiento daban forma a la guerra. Midway fue un cambio importante, pero el conflicto continuó durante tres años más.",
+    "cause": "La expansión japonesa buscaba asegurar posiciones y debilitar a la flota estadounidense.",
+    "effect": "Japón perdió importantes portaaviones y encontró mayores dificultades para mantener la iniciativa.",
+    "question": "¿Por qué ganar una batalla no equivale a terminar una guerra?",
+    "answer": "Porque continúan otros frentes, fuerzas y decisiones políticas.",
+    "activity": "Marca Midway y Japón en un mapa y pregunta cómo la distancia influye en los suministros.",
+    "source": [
+      "USHMM · Guerra en el Pacífico (inglés)",
+      "https://encyclopedia.ushmm.org/content/en/article/world-war-ii-in-the-pacific"
+    ],
+    "image": "/assets/segunda-guerra.webp",
+    "timeline": true,
+    "distractors": [
+      "Porque las batallas no tienen consecuencias.",
+      "Porque Midway ocurrió después de la rendición japonesa."
+    ]
+  },
+  {
+    "id": "segunda-guerra-mundial-10",
+    "route": "segunda-guerra-mundial",
+    "year": 1943.09,
+    "date": "2 de febrero de 1943",
+    "title": "Stalingrado cambia el frente oriental",
+    "region": "Europa oriental",
+    "theme": "Cambios militares",
+    "text": "La batalla de Stalingrado terminó con la rendición del sexto ejército alemán ante las fuerzas soviéticas. Fue un giro importante en el frente oriental, conseguido con enormes pérdidas humanas. No fue el final de la guerra: siguieron nuevas campañas hasta 1945. La ciudad se llama hoy Volgogrado.",
+    "cause": "La ofensiva alemana de 1942 buscaba posiciones estratégicas en el sur soviético.",
+    "effect": "La derrota limitó la capacidad alemana y favoreció posteriores avances soviéticos.",
+    "question": "¿Qué diferencia hay entre un punto de inflexión y el final del conflicto?",
+    "answer": "Un punto de inflexión cambia la tendencia; el conflicto puede continuar.",
+    "activity": "Compara Midway y Stalingrado: fecha, región y qué cambió en cada frente.",
+    "source": [
+      "USHMM · La guerra en Europa",
+      "https://encyclopedia.ushmm.org/content/es/article/world-war-ii-in-europe"
+    ],
+    "image": "/assets/segunda-guerra.webp",
+    "timeline": true,
+    "distractors": [
+      "Son dos nombres para la misma fecha de rendición.",
+      "Un punto de inflexión significa que nadie vuelve a combatir."
+    ]
+  },
+  {
+    "id": "segunda-guerra-mundial-11",
+    "route": "segunda-guerra-mundial",
+    "year": 1944.43,
+    "date": "6 de junio de 1944",
+    "title": "Normandía y el avance aliado",
+    "region": "Europa",
+    "theme": "Cambios militares",
+    "text": "Fuerzas aliadas desembarcaron en Normandía, Francia, en el llamado Día D. La operación abrió una gran campaña en Europa occidental. Al mismo tiempo, el Ejército Rojo avanzaba desde el este. La derrota nazi dependió de esfuerzos en varios frentes, de la producción, los suministros y las resistencias, no de una sola jornada.",
+    "cause": "Los aliados prepararon una operación conjunta para recuperar territorios ocupados desde el oeste.",
+    "effect": "La campaña de Normandía contribuyó a la liberación de Francia y al avance hacia Alemania.",
+    "question": "¿Por qué sería incompleto explicar la victoria solamente con el Día D?",
+    "answer": "Porque también hubo campañas en otros frentes y esfuerzos militares y civiles prolongados.",
+    "activity": "Dibuja flechas desde el este y el oeste y anota qué simplifica ese esquema.",
+    "source": [
+      "National WWII Museum · Normandía",
+      "https://www.nationalww2museum.org/war/topics/d-day-and-normandy-campaign"
+    ],
+    "image": "/assets/segunda-guerra.webp",
+    "timeline": true,
+    "distractors": [
+      "Porque Normandía está en el océano Pacífico.",
+      "Porque la guerra terminó exactamente el 6 de junio."
+    ]
+  },
+  {
+    "id": "segunda-guerra-mundial-12",
+    "route": "segunda-guerra-mundial",
+    "year": 1945.35,
+    "date": "Mayo de 1945",
+    "title": "Termina la guerra en Europa",
+    "region": "Europa",
+    "theme": "Consecuencias",
+    "text": "La rendición alemana puso fin a la guerra en Europa en mayo de 1945. El avance aliado había permitido liberar campos y encontrar pruebas de los crímenes nazis. Para las personas sobrevivientes, la liberación no significó recuperar de inmediato hogares o familiares. Mientras Europa celebraba el fin de los combates, la guerra continuaba en Asia y el Pacífico.",
+    "cause": "Los avances aliados desde varios frentes provocaron el colapso militar del régimen nazi.",
+    "effect": "Comenzaron ocupación, reconstrucción y búsqueda de justicia, junto con grandes desplazamientos.",
+    "question": "¿Por qué el final europeo no es el final mundial?",
+    "answer": "Porque los combates contra Japón continuaron después de mayo de 1945.",
+    "activity": "Haz dos columnas: fin de los combates y problemas que permanecen.",
+    "source": [
+      "USHMM · La guerra en Europa",
+      "https://encyclopedia.ushmm.org/content/es/article/world-war-ii-in-europe"
+    ],
+    "image": "/assets/segunda-guerra.webp",
+    "timeline": true,
+    "distractors": [
+      "Porque Alemania volvió a iniciar la guerra en junio.",
+      "Porque todos los países firmaron una única rendición en mayo."
+    ]
+  },
+  {
+    "id": "segunda-guerra-mundial-13",
+    "route": "segunda-guerra-mundial",
+    "year": 1945.4,
+    "date": "1945",
+    "title": "El Escuadrón 201 en Filipinas",
+    "region": "México y Pacífico",
+    "theme": "México y el mundo",
+    "text": "La Fuerza Aérea Expedicionaria Mexicana incluyó al Escuadrón 201, que participó en operaciones en Filipinas en 1945. Su trabajo dependía de pilotos y de personal de mantenimiento, comunicaciones, salud y apoyo. Estudiar estas funciones evita reducir la participación mexicana a un solo héroe y permite conectarla con la historia filipina.",
+    "cause": "La incorporación mexicana al esfuerzo aliado llevó a preparar y enviar una unidad expedicionaria.",
+    "effect": "La experiencia dejó una memoria militar y vínculos históricos entre México y Filipinas.",
+    "question": "¿Por qué conviene estudiar al personal de apoyo además de los pilotos?",
+    "answer": "Porque una operación dependía de trabajos coordinados y no solamente de quien pilotaba.",
+    "activity": "Elabora un diagrama de funciones, sin simular combates, y explica dos dependencias entre ellas.",
+    "source": [
+      "Secretaría de Educación de Veracruz / SEDENA · México en la guerra",
+      "https://www.sev.gob.mx/difusion/ejercito_mexicano/escuadron201.pdf"
+    ],
+    "image": "/assets/segunda-guerra.webp",
+    "timeline": true,
+    "distractors": [
+      "Porque el personal de apoyo actuaba en una guerra diferente.",
+      "Porque las aeronaves no necesitaban mantenimiento."
+    ]
+  },
+  {
+    "id": "segunda-guerra-mundial-14",
+    "route": "segunda-guerra-mundial",
+    "year": 1945.67,
+    "date": "Agosto–septiembre de 1945",
+    "title": "El final en Asia y el costo humano",
+    "region": "Asia y Pacífico",
+    "theme": "Consecuencias",
+    "text": "Estados Unidos lanzó bombas atómicas sobre Hiroshima el 6 de agosto y Nagasaki el 9. La Unión Soviética entró en guerra contra Japón en agosto. Japón anunció que aceptaba la rendición y la firmó formalmente el 2 de septiembre. El impacto sobre civiles y las consecuencias de las armas nucleares forman parte indispensable de esta historia.",
+    "cause": "La guerra prolongada, el bloqueo, los bombardeos y nuevas ofensivas presionaban al gobierno japonés.",
+    "effect": "Terminó la guerra mundial, pero continuaron pérdidas, desplazamientos y efectos de la radiación.",
+    "question": "¿Cómo distinguir la fecha documentada de rendición de la interpretación de sus causas?",
+    "answer": "La firma se verifica en el documento; el peso de cada causa requiere comparar evidencias y explicaciones.",
+    "activity": "Observa el documento de rendición: fecha, firmantes y propósito. No plantees decidir qué población merecía sufrir.",
+    "source": [
+      "Archivos Nacionales de Estados Unidos · Rendición de Japón",
+      "https://www.archives.gov/milestone-documents/surrender-of-japan"
+    ],
+    "image": "/assets/segunda-guerra.webp",
+    "timeline": true,
+    "distractors": [
+      "La fecha depende únicamente de la opinión de cada lector.",
+      "Un documento de rendición explica por sí solo todas las causas."
+    ]
+  },
+  {
+    "id": "segunda-guerra-mundial-15",
+    "route": "segunda-guerra-mundial",
+    "year": 1945.81,
+    "date": "24 de octubre de 1945",
+    "title": "Reconstruir y buscar una paz duradera",
+    "region": "Mundo",
+    "theme": "Derechos",
+    "text": "La Organización de las Naciones Unidas comenzó oficialmente su existencia el 24 de octubre de 1945, al entrar en vigor su Carta. Buscaba cooperación y prevención de nuevos conflictos. La posguerra también implicó reconstrucción, justicia y atención a personas desplazadas. Crear una institución no resolvió por sí solo todas las tensiones internacionales.",
+    "cause": "La destrucción de la guerra impulsó acuerdos para organizar la cooperación internacional.",
+    "effect": "La ONU ofreció un espacio de negociación, con posibilidades y límites que siguen siendo objeto de estudio.",
+    "question": "¿Por qué fundar una organización no garantiza automáticamente la paz?",
+    "answer": "Porque sus resultados dependen de acuerdos, decisiones y cumplimiento por parte de los Estados.",
+    "activity": "Redacta tres principios de cooperación para el aula y explica qué mecanismos permitirían cumplirlos.",
+    "source": [
+      "ONU · Historia y propósitos",
+      "https://www.un.org/es/about-us"
+    ],
+    "image": "/assets/segunda-guerra.webp",
+    "timeline": true,
+    "distractors": [
+      "Porque la ONU se fundó antes de la Primera Guerra Mundial.",
+      "Porque una declaración elimina todos los desacuerdos de forma inmediata."
+    ]
+  }
+]

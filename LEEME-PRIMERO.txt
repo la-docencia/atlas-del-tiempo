@@ -1,0 +1,69 @@
+ATLAS DEL TIEMPO — ENTREGA COMPLETA
+Exportación: 30 de septiembre de 2026
+Versión publicada: 12
+Código de referencia: 5b1df3debd542c80a12fce45c2874053a0bc59c9
+Sitio actual: https://atlas-del-tiempo.oskarrz0.chatgpt.site
+
+1. QUÉ RECIBES
+Código editable HTML, CSS y JavaScript; datos JSON; imágenes; PDFs y PowerPoint.
+Incluye seis rutas, 57 episodios, 55 entradas de cronología y 47 fichas patrimoniales.
+La Segunda Guerra Mundial contiene 15 episodios y una guía PDF de 18 páginas.
+No se incluye código de La Docencia. Su enlace de regreso se conserva.
+Esta copia funciona sin esta conversación ni una API de inteligencia artificial.
+
+2. ABRIR EN TU COMPUTADORA
+Descomprime primero TODO el ZIP. Necesitas Python 3 para usar el iniciador.
+Windows: ejecuta INICIAR-WINDOWS.bat.
+Mac: ejecuta INICIAR-MAC.command. Si no se abre, abre Terminal, escribe
+python3 seguido de un espacio, arrastra INICIAR.py a Terminal y pulsa Enter.
+Se abrirá tu navegador. Mantén la ventana del iniciador abierta mientras revisas.
+Si aparece que Python no está instalado, instala Python 3 o pide a tu técnico
+que sirva la carpeta dist con cualquier servidor web estático.
+No abras dist/index.html con doble clic: la carga de datos necesita HTTP.
+El servidor incluido solo admite conexiones desde tu propia computadora.
+
+3. PUBLICAR BAJO TU CUENTA
+Entrega esta carpeta a tu desarrollador o súbela a un repositorio privado tuyo.
+Es una web estática: no necesita compilación, base de datos ni claves API.
+En un alojamiento de sitios estáticos, el directorio de publicación es dist.
+El contenido de dist debe quedar en la raíz del dominio, no en un subdirectorio,
+porque la aplicación utiliza rutas como /data y /assets.
+Para un dominio propio, conecta el dominio siguiendo las indicaciones del alojamiento.
+La privacidad del sitio actual pertenece al alojamiento: NO viaja dentro del ZIP.
+Si deseas una nueva publicación privada, configura el control de acceso en el
+nuevo alojamiento antes de subirla. Los archivos no incluyen un sistema de login.
+No se ha creado un repositorio en tu cuenta ni cambiado el alojamiento actual.
+
+4. DÓNDE EDITAR
+ dist/index.html: estructura y navegación.
+ dist/*.css: diseño, colores, adaptación y proyector.
+ dist/app.js: rutas, filtros y funciones principales.
+ dist/learning.js: viñetas, cronología ampliada y juegos.
+ dist/explorations.js: patrimonio y mapa.
+ dist/data/topics.json: rutas y preguntas.
+ dist/data/chapters.json: episodios y cronología.
+ dist/data/heritage.json: fichas patrimoniales.
+ dist/assets: imágenes.
+ dist/downloads: PDFs y presentación.
+ scripts: herramientas originales de generación y verificación para desarrolladores.
+
+5. RECURSOS Y LIMITACIONES
+Los contenidos, ilustraciones y descargas principales están incluidos.
+Las fuentes tipográficas de Google y los enlaces a fuentes, mapas externos y
+La Docencia requieren internet. El navegador puede usar fuentes alternativas.
+Las ilustraciones generadas con IA son recreaciones, no documentos históricos.
+Consulta dist/data/illustration-notes.json y los créditos de cada recurso.
+Los enlaces institucionales no implican propiedad sobre los sitios enlazados.
+No se incluyen credenciales, historial Git ni tokens del alojamiento.
+Las pruebas de interacción fueron satisfactorias; la revisión visual en dispositivos
+reales sigue pendiente. Revisa celular, tableta y proyector antes de difundirla.
+
+6. PARA TU DESARROLLADOR
+Los scripts originales pueden depender de Python, ReportLab, Pillow, fuentes
+DejaVu, herramientas de PDF o paquetes Node. No son necesarios para usar dist.
+Algunos scripts conservan rutas del entorno original: hay que adaptarlas antes
+de regenerar contenido. add_wwii.py utiliza un PNG fuente del entorno original;
+el WEBP final listo para usar sí está incluido en dist/assets.
+La prueba scripts/verify-interactions.cjs requiere linkedom y se ejecuta con Node.
+Los iniciadores añadidos son solo para revisión local, no servidores de producción.
+MANIFIESTO-SHA256.txt permite comprobar la integridad de los archivos entregados.
