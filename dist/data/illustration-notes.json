@@ -2,10 +2,10 @@
   "kind": "Recreaciones artísticas generadas con IA",
   "date": "2026-09-29",
   "assets": {
-    "/assets/independencia.webp": "Ambiente simbólico de Nueva España en la era de Independencia; personas no identificadas.",
-    "/assets/nacion.webp": "Asamblea simbólica del México del siglo XIX; no representa un congreso o personas exactos.",
-    "/assets/antigua.webp": "Ambiente simbólico mesopotámico con escriba; marcas decorativas, no transcripción de un documento antiguo.",
-    "/assets/segunda-guerra.webp": "Escena simbólica de civiles de la década de 1940 con mapas y cartas; no representa personas ni un acontecimiento documentado. Imagen compartida entre los quince episodios."
+    "assets/independencia.webp": "Ambiente simbólico de Nueva España en la era de Independencia; personas no identificadas.",
+    "assets/nacion.webp": "Asamblea simbólica del México del siglo XIX; no representa un congreso o personas exactos.",
+    "assets/antigua.webp": "Ambiente simbólico mesopotámico con escriba; marcas decorativas, no transcripción de un documento antiguo.",
+    "assets/segunda-guerra.webp": "Escena simbólica de civiles de la década de 1940 con mapas y cartas; no representa personas ni un acontecimiento documentado. Imagen compartida entre los quince episodios."
   },
   "usage": "Imágenes de ambiente compartidas entre episodios. No son fuentes históricas ni reconstrucciones arqueológicas."
 }

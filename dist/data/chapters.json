@@ -17,7 +17,7 @@
       "INAH · Museo Nacional de Antropología",
       "https://lugares.inah.gob.mx/es/node/4237"
     ],
-    "image": "/assets/mesoamerica-classroom.webp",
+    "image": "assets/mesoamerica-classroom.webp",
     "timeline": true,
     "distractors": [
       "Sí: los periodos comienzan en un día exacto para todas las regiones.",
@@ -42,7 +42,7 @@
       "INAH · Monte Albán",
       "https://www.inah.gob.mx/zonas/94-zona-arqueologica-de-monte-alban"
     ],
-    "image": "/assets/mesoamerica-classroom.webp",
+    "image": "assets/mesoamerica-classroom.webp",
     "timeline": true,
     "distractors": [
       "Sí: todas sus construcciones pertenecen al momento de fundación.",
@@ -67,7 +67,7 @@
       "INAH · Historia breve de Teotihuacan",
       "https://www.inah.gob.mx/boletines/historia-breve-de-teotihuacan"
     ],
-    "image": "/assets/mesoamerica-classroom.webp",
+    "image": "assets/mesoamerica-classroom.webp",
     "timeline": true,
     "distractors": [
       "Sí: compartir ciudad implica compartir origen y lengua.",
@@ -92,7 +92,7 @@
       "INAH · Palenque",
       "https://lugares.inah.gob.mx/es/node/4529"
     ],
-    "image": "/assets/mesoamerica-classroom.webp",
+    "image": "assets/mesoamerica-classroom.webp",
     "timeline": true,
     "distractors": [
       "Nadie: el texto representa por igual a todos los habitantes.",
@@ -117,7 +117,7 @@
       "INAH · Museo Nacional de Antropología",
       "https://lugares.inah.gob.mx/es/node/4237"
     ],
-    "image": "/assets/mesoamerica-classroom.webp",
+    "image": "assets/mesoamerica-classroom.webp",
     "timeline": true,
     "distractors": [
       "Sí: los edificios abandonados prueban la desaparición de todo un pueblo.",
@@ -142,7 +142,7 @@
       "INAH · Historia breve de Teotihuacan",
       "https://www.inah.gob.mx/boletines/historia-breve-de-teotihuacan"
     ],
-    "image": "/assets/mesoamerica-classroom.webp",
+    "image": "assets/mesoamerica-classroom.webp",
     "timeline": true,
     "distractors": [
       "Sí: quienes dieron el nombre actual siempre construyeron el lugar.",
@@ -167,7 +167,7 @@
       "INAH · Palenque",
       "https://lugares.inah.gob.mx/es/node/4529"
     ],
-    "image": "/assets/mesoamerica-classroom.webp",
+    "image": "assets/mesoamerica-classroom.webp",
     "timeline": true,
     "distractors": [
       "Nada, porque solo importa el valor estético del objeto.",
@@ -192,7 +192,7 @@
       "INAH · Grandeza y diversidad",
       "https://mexicograndezaydiversidad.inah.gob.mx/publicacion/capitulo-19.html"
     ],
-    "image": "/assets/mesoamerica-classroom.webp",
+    "image": "assets/mesoamerica-classroom.webp",
     "timeline": true,
     "distractors": [
       "Porque las comunidades permanecen sin cambios desde la antigüedad.",
@@ -217,7 +217,7 @@
       "UNAM · Independencia y autonomismo",
       "https://historicas.unam.mx/publicaciones/publicadigital/libros/385/independencia_autonomista.html"
     ],
-    "image": "/assets/independencia.webp",
+    "image": "assets/independencia.webp",
     "timeline": true,
     "distractors": [
       "Sí: ambas propuestas exigían una separación total.",
@@ -242,7 +242,7 @@
       "INEHRM · Independencia",
       "https://www.inehrm.gob.mx/es/inehrm/Independencia"
     ],
-    "image": "/assets/independencia.webp",
+    "image": "assets/independencia.webp",
     "timeline": true,
     "distractors": [
       "Todos seguían un programa idéntico desde 1810.",
@@ -267,7 +267,7 @@
       "INEHRM · Documentos de la Independencia",
       "https://www.inehrm.gob.mx/es/Constitucion1917/Independencia"
     ],
-    "image": "/assets/independencia.webp",
+    "image": "assets/independencia.webp",
     "timeline": true,
     "distractors": [
       "El bando basta para probar su cumplimiento en todo el territorio.",
@@ -292,7 +292,7 @@
       "INEHRM · Independencia",
       "https://www.inehrm.gob.mx/es/inehrm/Independencia"
     ],
-    "image": "/assets/independencia.webp",
+    "image": "assets/independencia.webp",
     "timeline": true,
     "distractors": [
       "Siempre termina cuando muere su primer dirigente.",
@@ -317,7 +317,7 @@
       "INEHRM · Sentimientos de la Nación",
       "https://inehrm.gob.mx/es/Constitucion1917/Sentimientos_de_la_Nacion"
     ],
-    "image": "/assets/independencia.webp",
+    "image": "assets/independencia.webp",
     "timeline": true,
     "distractors": [
       "Porque todas sus propuestas coinciden con los derechos actuales.",
@@ -342,7 +342,7 @@
       "INEHRM · Documentos de la Independencia",
       "https://www.inehrm.gob.mx/es/Constitucion1917/Independencia"
     ],
-    "image": "/assets/independencia.webp",
+    "image": "assets/independencia.webp",
     "timeline": true,
     "distractors": [
       "No: solo cuentan las leyes que se aplicaron sin obstáculos.",
@@ -367,7 +367,7 @@
       "UNAM · La trigarancia",
       "https://historicas.unam.mx/publicaciones/publicadigital/libros/trigarancia/fuerzas_armadas.html"
     ],
-    "image": "/assets/independencia.webp",
+    "image": "assets/independencia.webp",
     "timeline": true,
     "distractors": [
       "Sí: un acuerdo demuestra que sus proyectos son idénticos.",
@@ -392,7 +392,7 @@
       "UNAM · La trigarancia",
       "https://historicas.unam.mx/publicaciones/publicadigital/libros/trigarancia/fuerzas_armadas.html"
     ],
-    "image": "/assets/independencia.webp",
+    "image": "assets/independencia.webp",
     "timeline": true,
     "distractors": [
       "Sí: independencia y fin de la desigualdad suceden juntos.",
@@ -417,7 +417,7 @@
       "INEHRM · Revolución social",
       "https://inehrm.gob.mx/es/Constitucion1917/Revolucion_Social"
     ],
-    "image": "/assets/revolucion-1910.webp",
+    "image": "assets/revolucion-1910.webp",
     "timeline": true,
     "distractors": [
       "Sí: ambas demandas pedían exactamente la misma reforma.",
@@ -442,7 +442,7 @@
       "INEHRM · Lecturas de historia, tomo II",
       "https://inehrm.gob.mx/recursos/Libros/Antologia_de_lecturas_200_t2.pdf"
     ],
-    "image": "/assets/revolucion-1910.webp",
+    "image": "assets/revolucion-1910.webp",
     "timeline": true,
     "distractors": [
       "Solo por su tamaño; sus conexiones no importan.",
@@ -467,7 +467,7 @@
       "INEHRM · Revolución social",
       "https://inehrm.gob.mx/es/Constitucion1917/Revolucion_Social"
     ],
-    "image": "/assets/revolucion-1911.webp",
+    "image": "assets/revolucion-1911.webp",
     "timeline": true,
     "distractors": [
       "Sí: cualquier cambio presidencial modifica toda la propiedad.",
@@ -492,7 +492,7 @@
       "INEHRM · Corrientes revolucionarias",
       "https://inehrm.gob.mx/es/inehrm/ExpDigCorrietRev13-17"
     ],
-    "image": "/assets/revolucion-1910.webp",
+    "image": "assets/revolucion-1910.webp",
     "timeline": true,
     "distractors": [
       "Porque haber compartido enemigo exige pensar igual para siempre.",
@@ -517,7 +517,7 @@
       "INEHRM · Corrientes revolucionarias",
       "https://inehrm.gob.mx/es/inehrm/ExpDigCorrietRev13-17"
     ],
-    "image": "/assets/revolucion-1911.webp",
+    "image": "assets/revolucion-1911.webp",
     "timeline": true,
     "distractors": [
       "Sí: los territorios controlados nunca cambiaron.",
@@ -542,7 +542,7 @@
       "INEHRM · Corrientes revolucionarias",
       "https://inehrm.gob.mx/es/inehrm/ExpDigCorrietRev13-17"
     ],
-    "image": "/assets/revolucion-1910.webp",
+    "image": "assets/revolucion-1910.webp",
     "timeline": true,
     "distractors": [
       "Solo elegir una fecha; los proyectos distintos no importan.",
@@ -567,7 +567,7 @@
       "INEHRM · Lecturas de historia, tomo II",
       "https://inehrm.gob.mx/recursos/Libros/Antologia_de_lecturas_200_t2.pdf"
     ],
-    "image": "/assets/revolucion-1911.webp",
+    "image": "assets/revolucion-1911.webp",
     "timeline": true,
     "distractors": [
       "Solo una pintura actual, sin conocer su autoría.",
@@ -592,7 +592,7 @@
       "UNAM · Constituciones históricas",
       "https://museodelasconstituciones.unam.mx/constituciones-historicas/"
     ],
-    "image": "/assets/revolucion-1917.webp",
+    "image": "assets/revolucion-1917.webp",
     "timeline": true,
     "distractors": [
       "Sí: el Congreso solo copia la voluntad de una persona.",
@@ -617,7 +617,7 @@
       "UNAM · Constituciones históricas",
       "https://museodelasconstituciones.unam.mx/constituciones-historicas/"
     ],
-    "image": "/assets/revolucion-1917.webp",
+    "image": "assets/revolucion-1917.webp",
     "timeline": true,
     "distractors": [
       "No hay diferencia: toda ley se cumple desde su publicación.",
@@ -642,7 +642,7 @@
       "INEHRM · Lecturas de historia, tomo II",
       "https://inehrm.gob.mx/recursos/Libros/Antologia_de_lecturas_200_t2.pdf"
     ],
-    "image": "/assets/revolucion-1917.webp",
+    "image": "assets/revolucion-1917.webp",
     "timeline": true,
     "distractors": [
       "Sí: existe una sola fecha válida para cualquier pregunta.",
@@ -667,7 +667,7 @@
       "The Met · Uruk",
       "https://www.metmuseum.org/es/essays/uruk-the-first-city"
     ],
-    "image": "/assets/antigua.webp",
+    "image": "assets/antigua.webp",
     "timeline": true,
     "distractors": [
       "Solo monumentos: el abastecimiento era automático.",
@@ -692,7 +692,7 @@
       "The Met · Orígenes de la escritura",
       "https://www.metmuseum.org/ru/essays/the-origins-of-writing"
     ],
-    "image": "/assets/antigua.webp",
+    "image": "assets/antigua.webp",
     "timeline": true,
     "distractors": [
       "Sí: todos los aspectos de la vida quedan en la contabilidad.",
@@ -717,7 +717,7 @@
       "The Met · Ciudades e intercambios",
       "https://www.metmuseum.org/exhibitions/listings/2003/art-of-the-first-cities"
     ],
-    "image": "/assets/antigua.webp",
+    "image": "assets/antigua.webp",
     "timeline": true,
     "distractors": [
       "Sí: únicamente la guerra hace viajar objetos.",
@@ -742,7 +742,7 @@
       "The Met · El papiro en Egipto",
       "https://www.metmuseum.org/es/essays/papyrus-in-ancient-egypt"
     ],
-    "image": "/assets/antigua.webp",
+    "image": "assets/antigua.webp",
     "timeline": false,
     "distractors": [
       "Sí: un río produce siempre la misma sociedad.",
@@ -767,7 +767,7 @@
       "The Met · El papiro en Egipto",
       "https://www.metmuseum.org/es/essays/papyrus-in-ancient-egypt"
     ],
-    "image": "/assets/antigua.webp",
+    "image": "assets/antigua.webp",
     "timeline": false,
     "distractors": [
       "Son iguales: observar un rasgo demuestra cualquier significado.",
@@ -792,7 +792,7 @@
       "The Met · Teseo y Atenas",
       "https://www.metmuseum.org/ja/essays/theseus-hero-of-athens"
     ],
-    "image": "/assets/antigua.webp",
+    "image": "assets/antigua.webp",
     "timeline": true,
     "distractors": [
       "Sí: únicamente interesan los relatos que ocurrieron literalmente.",
@@ -817,7 +817,7 @@
       "British Museum · Atenas en el siglo V a. C.",
       "https://www.britishmuseum.org/blog/historical-city-travel-guide-athens-5th-century-bc"
     ],
-    "image": "/assets/antigua.webp",
+    "image": "assets/antigua.webp",
     "timeline": true,
     "distractors": [
       "Sí: toda democracia tiene las mismas reglas de participación.",
@@ -842,7 +842,7 @@
       "The Met · Orígenes de la escritura",
       "https://www.metmuseum.org/ru/essays/the-origins-of-writing"
     ],
-    "image": "/assets/antigua.webp",
+    "image": "assets/antigua.webp",
     "timeline": true,
     "distractors": [
       "Sí: investigar exige presentar todas las respuestas como definitivas.",
@@ -867,7 +867,7 @@
       "UNAM · Historia constitucional",
       "https://museodelasconstituciones.unam.mx/tema-historia-constitucional/"
     ],
-    "image": "/assets/nacion.webp",
+    "image": "assets/nacion.webp",
     "timeline": true,
     "distractors": [
       "Sí: el federalismo empezó el mismo día de la consumación.",
@@ -892,7 +892,7 @@
       "UNAM · Constitución de 1824",
       "https://constitucion-1824.juridicas.unam.mx/"
     ],
-    "image": "/assets/nacion.webp",
+    "image": "assets/nacion.webp",
     "timeline": true,
     "distractors": [
       "Una federación elimina toda autoridad nacional.",
@@ -917,7 +917,7 @@
       "UNAM · Historia constitucional",
       "https://museodelasconstituciones.unam.mx/tema-historia-constitucional/"
     ],
-    "image": "/assets/nacion.webp",
+    "image": "assets/nacion.webp",
     "timeline": true,
     "distractors": [
       "Sí: las facultades territoriales no cambiaron.",
@@ -942,7 +942,7 @@
       "UNAM · Historia constitucional",
       "https://museodelasconstituciones.unam.mx/tema-historia-constitucional/"
     ],
-    "image": "/assets/nacion.webp",
+    "image": "assets/nacion.webp",
     "timeline": true,
     "distractors": [
       "Sí: los hechos ocurrieron porque no había otras alternativas.",
@@ -967,7 +967,7 @@
       "UNAM · Constituciones históricas",
       "https://museodelasconstituciones.unam.mx/constituciones-historicas/"
     ],
-    "image": "/assets/nacion.webp",
+    "image": "assets/nacion.webp",
     "timeline": true,
     "distractors": [
       "Porque toda norma elimina inmediatamente la oposición.",
@@ -992,7 +992,7 @@
       "UNAM · Construcción del Estado mexicano",
       "https://e1.portalacademico.cch.unam.mx/alumno/historiademexico1/unidad4/estadoNacionMexicano/estadoMexicano"
     ],
-    "image": "/assets/nacion.webp",
+    "image": "assets/nacion.webp",
     "timeline": true,
     "distractors": [
       "Nada: los nombres de los bandos explican todas las experiencias.",
@@ -1017,7 +1017,7 @@
       "Chihuahua · Casa de Juárez",
       "https://www.chihuahua.gob.mx/prensa/reabre-sus-puertas-el-museo-de-la-lealtad-republicana-casa-de-juarez"
     ],
-    "image": "/assets/nacion.webp",
+    "image": "assets/nacion.webp",
     "timeline": true,
     "distractors": [
       "No: un gobierno deja de existir si se desplaza.",
@@ -1042,7 +1042,7 @@
       "UNAM · Construcción del Estado mexicano",
       "https://e1.portalacademico.cch.unam.mx/alumno/historiademexico1/unidad4/estadoNacionMexicano/estadoMexicano"
     ],
-    "image": "/assets/nacion.webp",
+    "image": "assets/nacion.webp",
     "timeline": true,
     "distractors": [
       "Porque ningún cambio político tiene consecuencias.",
@@ -1067,7 +1067,7 @@
       "USHMM · El camino hacia el genocidio nazi",
       "https://www.ushmm.org/es/learn/holocaust/the-path-to-nazi-genocide"
     ],
-    "image": "/assets/segunda-guerra.webp",
+    "image": "assets/segunda-guerra.webp",
     "timeline": true,
     "distractors": [
       "Porque todas las crisis producen inevitablemente una guerra.",
@@ -1092,7 +1092,7 @@
       "National WWII Museum · La guerra en China",
       "https://www.nationalww2museum.org/war/articles/road-to-pearl-harbor-the-long-fuse"
     ],
-    "image": "/assets/segunda-guerra.webp",
+    "image": "assets/segunda-guerra.webp",
     "timeline": true,
     "distractors": [
       "Porque la guerra terminó en Asia en 1937.",
@@ -1117,7 +1117,7 @@
       "USHMM · La guerra en Europa",
       "https://encyclopedia.ushmm.org/content/es/article/world-war-ii-in-europe"
     ],
-    "image": "/assets/segunda-guerra.webp",
+    "image": "assets/segunda-guerra.webp",
     "timeline": true,
     "distractors": [
       "Porque todos los países participaron desde el primer día.",
@@ -1142,7 +1142,7 @@
       "Imperial War Museums · Guía de la Segunda Guerra Mundial (inglés)",
       "https://www.iwm.org.uk/sites/default/files/files/2023-10/second_world_war_galleries_large_print.pdf"
     ],
-    "image": "/assets/segunda-guerra.webp",
+    "image": "assets/segunda-guerra.webp",
     "timeline": true,
     "distractors": [
       "El movimiento exacto de todos los ejércitos.",
@@ -1167,7 +1167,7 @@
       "USHMM · Invasión de la Unión Soviética",
       "https://encyclopedia.ushmm.org/content/es/article/invasion-of-the-soviet-union-june-1941"
     ],
-    "image": "/assets/segunda-guerra.webp",
+    "image": "assets/segunda-guerra.webp",
     "timeline": true,
     "distractors": [
       "Que siempre fueron aliados durante toda la guerra.",
@@ -1192,7 +1192,7 @@
       "USHMM · Introducción al Holocausto",
       "https://encyclopedia.ushmm.org/content/es/article/introduction-to-the-holocaust"
     ],
-    "image": "/assets/segunda-guerra.webp",
+    "image": "assets/segunda-guerra.webp",
     "timeline": true,
     "distractors": [
       "Usando solamente una película como prueba de todo el proceso.",
@@ -1217,7 +1217,7 @@
       "USHMM · Guerra en el Pacífico (inglés)",
       "https://encyclopedia.ushmm.org/content/en/article/world-war-ii-in-the-pacific"
     ],
-    "image": "/assets/segunda-guerra.webp",
+    "image": "assets/segunda-guerra.webp",
     "timeline": true,
     "distractors": [
       "Porque con ese ataque terminó toda la guerra.",
@@ -1242,7 +1242,7 @@
       "Secretaría de Educación de Veracruz / SEDENA · México en la guerra",
       "https://www.sev.gob.mx/difusion/ejercito_mexicano/escuadron201.pdf"
     ],
-    "image": "/assets/segunda-guerra.webp",
+    "image": "assets/segunda-guerra.webp",
     "timeline": true,
     "distractors": [
       "Porque la guerra ocurrió solamente en territorio mexicano.",
@@ -1267,7 +1267,7 @@
       "USHMM · Guerra en el Pacífico (inglés)",
       "https://encyclopedia.ushmm.org/content/en/article/world-war-ii-in-the-pacific"
     ],
-    "image": "/assets/segunda-guerra.webp",
+    "image": "assets/segunda-guerra.webp",
     "timeline": true,
     "distractors": [
       "Porque las batallas no tienen consecuencias.",
@@ -1292,7 +1292,7 @@
       "USHMM · La guerra en Europa",
       "https://encyclopedia.ushmm.org/content/es/article/world-war-ii-in-europe"
     ],
-    "image": "/assets/segunda-guerra.webp",
+    "image": "assets/segunda-guerra.webp",
     "timeline": true,
     "distractors": [
       "Son dos nombres para la misma fecha de rendición.",
@@ -1317,7 +1317,7 @@
       "National WWII Museum · Normandía",
       "https://www.nationalww2museum.org/war/topics/d-day-and-normandy-campaign"
     ],
-    "image": "/assets/segunda-guerra.webp",
+    "image": "assets/segunda-guerra.webp",
     "timeline": true,
     "distractors": [
       "Porque Normandía está en el océano Pacífico.",
@@ -1342,7 +1342,7 @@
       "USHMM · La guerra en Europa",
       "https://encyclopedia.ushmm.org/content/es/article/world-war-ii-in-europe"
     ],
-    "image": "/assets/segunda-guerra.webp",
+    "image": "assets/segunda-guerra.webp",
     "timeline": true,
     "distractors": [
       "Porque Alemania volvió a iniciar la guerra en junio.",
@@ -1367,7 +1367,7 @@
       "Secretaría de Educación de Veracruz / SEDENA · México en la guerra",
       "https://www.sev.gob.mx/difusion/ejercito_mexicano/escuadron201.pdf"
     ],
-    "image": "/assets/segunda-guerra.webp",
+    "image": "assets/segunda-guerra.webp",
     "timeline": true,
     "distractors": [
       "Porque el personal de apoyo actuaba en una guerra diferente.",
@@ -1392,7 +1392,7 @@
       "Archivos Nacionales de Estados Unidos · Rendición de Japón",
       "https://www.archives.gov/milestone-documents/surrender-of-japan"
     ],
-    "image": "/assets/segunda-guerra.webp",
+    "image": "assets/segunda-guerra.webp",
     "timeline": true,
     "distractors": [
       "La fecha depende únicamente de la opinión de cada lector.",
@@ -1417,7 +1417,7 @@
       "ONU · Historia y propósitos",
       "https://www.un.org/es/about-us"
     ],
-    "image": "/assets/segunda-guerra.webp",
+    "image": "assets/segunda-guerra.webp",
     "timeline": true,
     "distractors": [
       "Porque la ONU se fundó antes de la Primera Guerra Mundial.",

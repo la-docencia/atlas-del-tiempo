@@ -3,77 +3,75 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Atlas del Tiempo: historia de México y del mundo para aprender, enseñar y proyectar en clase.">
-  <title>Atlas del Tiempo · Historia para el aula</title>
-  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <meta name="description" content="Atlas: explora el espacio, la Tierra y la historia con lecturas, laboratorios y retos para estudiantes y docentes.">
+  <title>Atlas · Espacio, Tierra e Historia</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Libre+Baskerville:wght@400;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="/styles.css">
-  <link rel="stylesheet" href="/sidebar.css">
-  <link rel="stylesheet" href="/polish-fixes.css">
-  <link rel="stylesheet" href="/classroom.css">
-  <link rel="stylesheet" href="/refinement.css">
-  <link rel="stylesheet" href="/explorations.css">
-  <link rel="stylesheet" href="/projection.css">
-  <link rel="stylesheet" href="/learning.css">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="sidebar.css">
+  <link rel="stylesheet" href="polish-fixes.css">
+  <link rel="stylesheet" href="classroom.css">
+  <link rel="stylesheet" href="refinement.css">
+  <link rel="stylesheet" href="explorations.css">
+  <link rel="stylesheet" href="projection.css">
+  <link rel="stylesheet" href="learning.css">
+  <link rel="stylesheet" href="atlas.css">
 </head>
 <body>
   <a class="skip-link" href="#mainContent">Saltar al contenido</a>
   <header class="topbar">
-    <a class="brand" href="#inicio" aria-label="Atlas del Tiempo, inicio">
+    <a class="brand" href="#inicio" aria-label="Atlas, inicio">
       <span class="brand-mark">A</span>
-      <span><strong>Atlas del Tiempo</strong><small>Historia para el aula</small></span>
+      <span><strong>Atlas</strong><small>Espacio · Tierra · Historia</small></span>
     </a>
-    <nav class="main-nav" aria-label="Secciones principales"><span>Aplicación para docentes</span></nav>
+    <nav class="main-nav" aria-label="Secciones principales"><span>Para aprender y descubrir</span></nav>
     <button id="sidebarToggle" aria-controls="sidebar" aria-expanded="false" class="sidebar-toggle" type="button" aria-label="Abrir menú">☰</button>
     <button id="projectorBtn" class="projector-toggle" type="button" title="Activar modo proyector">▣ <span>Proyector</span></button>
   </header>
 
-  <aside class="sidebar" id="sidebar" aria-label="Navegación de Atlas del Tiempo">
-    <div class="sidebar-heading"><span>ATLAS DEL TIEMPO</span><button id="sidebarClose" type="button" aria-label="Cerrar menú">×</button></div>
+  <aside class="sidebar" id="sidebar" aria-label="Navegación de Atlas">
+    <div class="sidebar-heading"><span>ATLAS</span><button id="sidebarClose" type="button" aria-label="Cerrar menú">×</button></div>
     <nav class="side-nav">
       <a class="side-link active" href="#explorar"><span class="side-icon">⌂</span><span>Inicio</span></a>
+      <span class="nav-group">EXPLORA</span>
+      <a class="side-link" href="#espacio"><span class="side-icon">✦</span><span>Espacio</span></a>
+      <a class="side-link" href="#tierra"><span class="side-icon">◎</span><span>Tierra</span></a>
+      <a class="side-link" href="#laboratorio/planetas"><span class="side-icon">⊕</span><span>Laboratorio</span></a>
+      <a class="side-link" href="#retos/espacio"><span class="side-icon">?</span><span>Retos de ciencia</span></a>
+      <span class="nav-group">HISTORIA Y PATRIMONIO</span>
       <a class="side-link" href="#temas"><span class="side-icon">✦</span><span>Rutas históricas</span></a>
       <a class="side-link" href="#historietas"><span class="side-icon">▧</span><span>Historia en viñetas</span></a>
       <a class="side-link" href="#patrimonio"><span class="side-icon">⌖</span><span>Guía del patrimonio</span></a>
       <a class="side-link" href="#linea"><span class="side-icon">◷</span><span>Línea del tiempo</span></a>
       <a class="side-link" href="#mapa"><span class="side-icon">⌖</span><span>Mapa histórico</span></a>
-      <a class="side-link" href="#juegos"><span class="side-icon">?</span><span>Juegos para clase</span></a>
-      <a class="side-link" href="#recursos"><span class="side-icon">▤</span><span>Recursos docentes</span></a>
+      <a class="side-link" href="#juegos"><span class="side-icon">?</span><span>Retos de historia</span></a>
+      <a class="side-link" href="#recursos"><span class="side-icon">▤</span><span>Materiales para clase</span></a>
     </nav>
     <div class="sidebar-note"><span>✧</span><strong>Modo proyector</strong><p>Presenta una sección con letras grandes y sin distracciones.</p><button id="sidebarProjector" type="button">Activar ahora →</button></div>
-    <div class="sidebar-footer">Atlas del Tiempo<br><small>Historia para el aula</small></div>
+    <div class="sidebar-footer">Atlas<br><small>Espacio · Tierra · Historia</small></div>
   </aside>
   <div class="sidebar-scrim" id="sidebarScrim"></div>
 
   <main id="mainContent" tabindex="-1">
-    <section class="hero" id="explorar">
-      <div class="hero-copy">
-        <p class="eyebrow">EDICIÓN DOCENTE · MÉXICO Y EL MUNDO</p>
-        <h1>La historia se entiende mejor cuando <em>se puede explorar.</em></h1>
-        <p class="hero-lede">Un espacio visual para preparar clases, proyectar acontecimientos y descubrir las huellas que siguen presentes en nuestro territorio.</p>
-        <div class="search-wrap">
-          <span aria-hidden="true">⌕</span>
-          <input id="searchInput" type="search" placeholder="Busca un tema, personaje o lugar" aria-label="Buscar historia">
-          <button id="searchBtn" type="button">Buscar</button>
-        </div>
-        <div class="hero-actions">
-          <a class="btn btn-primary" href="#temas">Comenzar exploración <span>→</span></a>
-          <a class="text-link" href="#linea">Ver la línea del tiempo</a>
-        </div>
-        <div class="hero-context" aria-label="Información de la aplicación">
-          <div><span>DIRIGIDO A</span><strong>Primaria y secundaria</strong></div>
-          <div><span>FORMATO</span><strong>Celular · aula · proyector</strong></div>
-          <div><span>ENFOQUE</span><strong>Historia con fuentes</strong></div>
-        </div>
-      </div>
-      <div class="hero-art" aria-label="Ilustración estilo códice de una pirámide y mapa de México">
-        <img src="/assets/atlas-hero.png" alt="Ilustración histórica de una pirámide mesoamericana y un mapa de México">
-        <div class="art-caption"><span class="caption-dot"></span> Mesoamérica · una primera huella</div>
-      </div>
-      <div class="journey-home"><p class="eyebrow">PARA TU PRÓXIMA CLASE</p><h2>Una pregunta conecta la imagen, el lugar y la fuente.</h2><p>Explora la diversidad de Mesoamérica, sigue los cambios de la Independencia, compara proyectos revolucionarios y explora la Segunda Guerra Mundial desde Europa, Asia y México.</p><div class="actions"><a class="btn btn-primary" href="#historietas">Leer los 57 episodios</a><a class="ghost-btn" href="#juegos">Preparar un reto por equipos</a><a class="text-link" href="#ruta/segunda-guerra-mundial">Nueva ruta: Segunda Guerra Mundial</a><a class="text-link" href="#patrimonio">Investigar un lugar</a></div></div>
+    <section class="atlas-home" id="explorar">
+      <div class="atlas-welcome"><p class="eyebrow">UN ATLAS PARA MENTES CURIOSAS</p><h1>Tu mundo.<br>Y todo lo que hay más allá.</h1><p>Explora el espacio, comprende la Tierra y descubre nuestra historia.</p>
+      <div class="atlas-search"><label class="sr-only" for="searchInput">Buscar en Atlas</label><input id="searchInput" type="search" placeholder="Planetas, océanos, Revolución…"><button id="searchBtn" class="atlas-button" type="button">Buscar</button></div></div>
+      <div class="atlas-portals"><a class="portal portal-space" href="#espacio"><img src="assets/saturn.webp" alt="Saturno y sus anillos, observado por Cassini"><div><span class="science-label">01 / ESPACIO</span><h2>La curiosidad<br>no tiene límites.</h2><p>11 temas · Del sistema solar al universo</p><span class="portal-cta">Explorar el espacio</span></div></a><a class="portal portal-earth" href="#tierra"><img src="assets/earth.webp" alt="La Tierra vista por Apollo 17"><div><span class="science-label">02 / TIERRA</span><h2>Conoce el planeta<br>que llamas hogar.</h2><p>8 temas · Océanos, montañas y clima</p><span class="portal-cta">Explorar la Tierra</span></div></a><a class="portal portal-history" href="#temas"><img src="assets/atlas-hero.png" alt="Recreación artística de Mesoamérica"><div><span class="science-label">03 / HISTORIA</span><h2>Las huellas<br>que nos conectan.</h2><p>6 rutas · 57 episodios ilustrados</p><span class="portal-cta">Explorar la historia</span></div></a></div>
+      <div class="home-discover"><div><p class="eyebrow">APRENDE HACIENDO</p><h2>¿Qué tan lejos queda Neptuno?</h2><p>Construye un sistema solar a escala y compara los ocho planetas.</p><a class="atlas-button" href="#laboratorio/planetas">Entrar al laboratorio</a></div><div class="home-links"><a href="#ciencia/agujeros-negros"><span>UNA GRAN PREGUNTA</span><strong>¿Qué es un agujero negro?</strong></a><a href="#laboratorio/oceano"><span>BAJO LA SUPERFICIE</span><strong>Desciende a las profundidades</strong></a><a href="#retos/espacio"><span>PONTE A PRUEBA</span><strong>Ocho preguntas sobre el espacio</strong></a></div></div>
+      <div class="cosmic-note"><img src="assets/nebula.webp" alt="Mosaico de la nebulosa de Orión con colores asignados"><div><p class="eyebrow">OBSERVAR TAMBIÉN ES PREGUNTAR</p><h2>Una imagen puede abrir un universo.</h2><p>Descubre qué distingue a una estrella, una nebulosa y una galaxia.</p><a href="#ciencia/galaxias" class="atlas-outline">Leer la exploración</a><p class="image-credit">Mosaico de Orión: NASA, ESA y equipo Hubble Orion Treasury. Colores asignados. <a href="#creditos">Ver créditos</a></p></div></div>
     </section>
+    <section class="section science-area" id="espacio" hidden><h1>Espacio</h1><p>Cargando exploraciones…</p></section>
+    <section class="section science-area" id="tierra" hidden><h1>Tierra</h1><p>Cargando exploraciones…</p></section>
+    <section class="section science-area" id="ciencia" hidden></section>
+    <section class="section science-area" id="laboratorio" hidden></section>
+    <section class="section science-area" id="retos" hidden></section>
+    <section class="section science-area" id="buscar" hidden></section>
+    <section class="section science-area" id="creditos" hidden><p class="eyebrow">IMÁGENES Y FUENTES</p><h1>Mirar con contexto</h1><p>Las imágenes científicas tienen una procedencia y una forma de construcción. Los créditos no implican respaldo institucional a Atlas.</p><div class="science-grid">
+    <article class="science-card"><h2>La Tierra</h2><p>Fotografía de Apollo 17, 7 de diciembre de 1972. Crédito: NASA.</p><a href="https://www.nasa.gov/image-article/apollo-17-astronauts-capture-iconic-blue-marble-50-years-ago/" target="_blank" rel="noopener">Fuente original</a></article>
+    <article class="science-card"><h2>Saturno</h2><p>Composición en color natural de Cassini, 27 de marzo de 2004. NASA/JPL/Space Science Institute.</p><a href="https://science.nasa.gov/photojournal/saturn-in-color/" target="_blank" rel="noopener">Fuente original</a></article>
+    <article class="science-card"><h2>Nebulosa de Orión</h2><p>Mosaico de Hubble y observaciones terrestres con colores asignados. NASA, ESA, Hubble Space Telescope Orion Treasury Project Team, Massimo Robberto (STScI, ESA).</p><a href="https://science.nasa.gov/asset/hubble/hubbles-sharpest-view-of-the-orion-nebula/" target="_blank" rel="noopener">Fuente original</a></article></div><p>Las ilustraciones de Historia son recreaciones con IA, identificadas en sus recorridos. Cada tema incluye su fuente de consulta.</p></section>
 
     <section class="section" id="temas" hidden>
       <div class="section-heading"><div><p class="eyebrow">RUTAS DE EXPLORACIÓN</p><h2>Empieza por una historia</h2></div><button class="ghost-btn" id="clearFilter" type="button">Ver todos <span>↗</span></button></div>
@@ -98,12 +96,13 @@
     <section class="section" id="ruta" hidden></section>
   </main>
 
-  <footer><span>Atlas del Tiempo</span><span>Una aplicación hermana de <a href="https://ladocencia.lat" target="_blank" rel="noopener">La Docencia</a></span><span>Edición docente · 2026</span></footer>
-  <noscript>Activa JavaScript para explorar las rutas. <a href="/downloads/mesoamerica.pdf">Descargar guía de Mesoamérica</a>.</noscript>
-  <script src="/explorations.js" defer></script>
-  <script src="/mesoamerica.js" defer></script>
-  <script src="/projection.js" defer></script>
-  <script src="/learning.js" defer></script>
-  <script src="/app.js" defer></script>
+  <footer><span>Atlas</span><span>Una aplicación hermana de <a href="https://ladocencia.lat" target="_blank" rel="noopener">La Docencia</a></span><span>Espacio · Tierra · Historia · 2026</span></footer>
+  <noscript>Activa JavaScript para explorar las rutas. <a href="downloads/mesoamerica.pdf">Descargar guía de Mesoamérica</a>.</noscript>
+  <script src="explorations.js" defer></script>
+  <script src="mesoamerica.js" defer></script>
+  <script src="projection.js" defer></script>
+  <script src="learning.js" defer></script>
+  <script src="science.js" defer></script>
+  <script src="app.js" defer></script>
 </body>
 </html>

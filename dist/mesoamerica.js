@@ -2,7 +2,7 @@
 (() => {
   const safe = value => String(value).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
   let geographicData;
-  const loadMap = () => geographicData ??= fetch('/data/states.geojson').then(r => {if (!r.ok) throw Error('map'); return r.json();}).catch(e => {geographicData=null;throw e;});
+  const loadMap = () => geographicData ??= fetch('data/states.geojson').then(r => {if (!r.ok) throw Error('map'); return r.json();}).catch(e => {geographicData=null;throw e;});
   const point = ([lon,lat]) => [(lon+118.5)*23,(33.5-lat)*25];
   function outline(geometry) {
     const polygons=geometry.type==='Polygon'?[geometry.coordinates]:geometry.coordinates;
@@ -18,7 +18,7 @@
       host.querySelectorAll('[data-place]').forEach(b=>b.onclick=()=>select(+b.dataset.place));select(0);
     } catch {host.innerHTML='<p>No se pudo cargar el mapa.</p><button type="button" class="ghost-btn">Volver a intentar</button>';host.querySelector('button').onclick=()=>fillMap(host,topic);}
   }
-  function illustration() {return '<figure class="meso-illustration"><img src="/assets/mesoamerica-classroom.webp" width="1536" height="1024" alt="Interpretación artística de ciudades mesoamericanas en tres escenas a lápiz" loading="lazy"><figcaption>Ilustración generada con IA, inspirada en Teotihuacan, Monte Albán y Palenque. No es una reconstrucción arqueológica ni una fuente histórica.</figcaption></figure>';}
+  function illustration() {return '<figure class="meso-illustration"><img src="assets/mesoamerica-classroom.webp" width="1536" height="1024" alt="Interpretación artística de ciudades mesoamericanas en tres escenas a lápiz" loading="lazy"><figcaption>Ilustración generada con IA, inspirada en Teotihuacan, Monte Albán y Palenque. No es una reconstrucción arqueológica ni una fuente histórica.</figcaption></figure>';}
   const promptNotes=[
     'Antes de leer, pide que separen lo que observan de lo que imaginan. La ilustración permite iniciar preguntas; no sirve para comprobar cómo era una ciudad.',
     'Pide localizar el centro y el sureste. Recuerda que los límites estatales del mapa no existían en estas épocas.',
@@ -38,7 +38,7 @@
       {title:'Una región cultural diversa',body:`<p class="lesson-big">Compartir prácticas no significa ser una sola sociedad.</p><div class="lesson-comparison">${topic.people.map(([n,d])=>`<article><h3>${safe(n)}</h3><p>${safe(d)}</p></article>`).join('')}</div><p>¿Qué evidencia nos ayudaría a comparar dos ciudades?</p>`},
       {title:'No todo ocurrió al mismo tiempo',body:`<ol class="lesson-dates">${topic.dates.map(([date,description])=>`<li><strong>${safe(date)}</strong><span>${safe(description)}</span></li>`).join('')}</ol><p class="muted">Secuencia de referencia, sin escala proporcional. “c.” significa aproximadamente.</p>`},
       {title:'El nombre también tiene historia',body:`<p class="lesson-big">¿Los mexicas construyeron Teotihuacan?</p><button type="button" class="btn btn-primary" data-reveal>Mostrar explicación</button><div class="lesson-answer" hidden><p>No. Su nombre conocido es de origen náhuatl y fue usado por los mexicas después del apogeo de la ciudad.</p><p>El nombre actual de un lugar no identifica necesariamente a sus constructores.</p><a href="${safe(topic.sources[0][1])}" target="_blank" rel="noopener">Consultar la explicación del INAH</a></div>`},
-      {title:'Compara, explica y pregunta',body:'<ol class="lesson-task"><li>Elige dos ciudades y ubícalas.</li><li>Describe una semejanza o diferencia apoyada en una fuente.</li><li>Escribe una pregunta que todavía no puedas responder.</li></ol><p class="lesson-big">Para cerrar: ¿por qué Mesoamérica no fue una sola civilización?</p><a class="text-link" href="/downloads/mesoamerica.pdf" download>Descargar la guía y la hoja de trabajo</a>'}
+      {title:'Compara, explica y pregunta',body:'<ol class="lesson-task"><li>Elige dos ciudades y ubícalas.</li><li>Describe una semejanza o diferencia apoyada en una fuente.</li><li>Escribe una pregunta que todavía no puedas responder.</li></ol><p class="lesson-big">Para cerrar: ¿por qué Mesoamérica no fue una sola civilización?</p><a class="text-link" href="downloads/mesoamerica.pdf" download>Descargar la guía y la hoja de trabajo</a>'}
     ];
     function draw() {const s=slides[index];stage.innerHTML=`<p class="eyebrow">RECORRIDO PARA CLASE</p><h2 id="lessonTitle">${s.title}</h2>${s.body}<details class="teacher-note"><summary>Notas para el docente</summary><p>${promptNotes[index]}</p></details>`;dialog.querySelector('[data-count]').textContent=`${index+1} de ${slides.length}`;dialog.querySelector('[data-prev]').disabled=index===0;dialog.querySelector('[data-next]').textContent=index===slides.length-1?'Terminar':'Siguiente';stage.querySelector('[data-reveal]')?.addEventListener('click',e=>{stage.querySelector('.lesson-answer').hidden=false;e.currentTarget.hidden=true});fillMap(stage.querySelector('[data-lesson-map]'),topic);stage.scrollTop=0;stage.focus();}
     function close(){dialog.close();}dialog.querySelector('[data-close]').onclick=close;dialog.querySelector('[data-prev]').onclick=()=>{if(index>0){index--;draw();}};dialog.querySelector('[data-next]').onclick=()=>{if(index<slides.length-1){index++;draw();}else close();};

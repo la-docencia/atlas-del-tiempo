@@ -11,8 +11,8 @@ window.HTMLElement.prototype.showModal=function(){this.setAttribute('open','')};
 window.HTMLElement.prototype.close=function(){this.removeAttribute('open');this.dispatchEvent(new window.Event('close'))};
 Object.defineProperty(window.HTMLSelectElement.prototype,'value',{configurable:true,get(){return this._value??this.querySelector('option[selected]')?.getAttribute('value')??this.querySelector('option')?.getAttribute('value')??''},set(v){this._value=v}});
 const location={hash:''};
-const ctx=vm.createContext({document,window,Event:window.Event,location,console,fetch:async url=>({ok:true,json:async()=>JSON.parse(fs.readFileSync(root+url,'utf8'))}),setTimeout,clearTimeout});
-for(const f of ['explorations.js','mesoamerica.js','projection.js','learning.js','app.js'])vm.runInContext(fs.readFileSync(root+'/'+f,'utf8'),ctx);
+const ctx=vm.createContext({document,window,Event:window.Event,location,console,fetch:async url=>({ok:true,json:async()=>JSON.parse(fs.readFileSync(path.join(root,url),'utf8'))}),setTimeout,clearTimeout});
+for(const f of ['explorations.js','mesoamerica.js','projection.js','learning.js','science.js','app.js'])vm.runInContext(fs.readFileSync(root+'/'+f,'utf8'),ctx);
 const wait=()=>new Promise(r=>setTimeout(r,5));
 (async()=>{await wait();
 assert.equal(document.querySelectorAll('#topicGrid article').length,6);
@@ -58,7 +58,7 @@ location.hash='#%invalid';vm.runInContext('navigate()',ctx);assert(!document.que
 
 const chapters=JSON.parse(fs.readFileSync(root+'/data/chapters.json','utf8'));
 assert.equal(chapters.length,57);assert.equal(new Set(chapters.map(c=>c.id)).size,57);
-for(const c of chapters){assert(fs.existsSync(root+c.image));assert(c.source[1].startsWith('https://'));assert(c.activity.length>20);assert.equal(c.distractors.length,2);}
+for(const c of chapters){assert(fs.existsSync(path.join(root,c.image)));assert(c.source[1].startsWith('https://'));assert(c.activity.length>20);assert.equal(c.distractors.length,2);}
 go('#patrimonio');assert.equal(document.querySelectorAll('#heritageState option').length,33);
 for(const id of ['mesoamerica','independencia','revolucion','antigua','nacion','segunda-guerra-mundial']){
  go('#historietas/'+id);const expected=chapters.filter(c=>c.route===id).length;
@@ -89,6 +89,34 @@ for(const kind of ['knowledge','places','people','sources','sequence']){
 function selectValue(id,value){const el=document.querySelector(id);Object.defineProperty(el,'value',{configurable:true,get(){return this._value??''},set(v){this._value=v}});el.value=value;}
 // Initial visit directly to an illustrated episode and a safe fallback for invalid ids.
 go('#historietas/not-found');assert(document.querySelector('#comicFrame'));go('#mapa');assert(!document.querySelector('#mapa').hidden);
+// Science journeys: catalog, deep links, answer locking, search, labs, and history retention.
+await wait();
+assert.equal(document.querySelectorAll('#espacio .science-card').length,11);
+assert.equal(document.querySelectorAll('#tierra .science-card').length,8);
+const science=JSON.parse(fs.readFileSync(root+'/data/science.json','utf8'));
+for(const topic of science.topics){
+ go('#ciencia/'+topic.id);assert.equal(document.querySelector('#ciencia h1').textContent,topic.title);
+ assert.equal(document.querySelectorAll('#scienceQuiz [data-science-answer]').length,3);
+ document.querySelector('[data-level="profundizar"]').onclick();assert(!document.querySelector('#scienceDeep').hidden);
+ const first=document.querySelectorAll('[data-science-answer]')[topic.quiz[0][2]];first.onclick();first.onclick();
+ document.querySelector('#scienceQuiz [data-next]').onclick();
+ document.querySelectorAll('[data-science-answer]')[topic.quiz[1][2]].onclick();document.querySelector('#scienceQuiz [data-next]').onclick();
+ assert.equal(document.querySelector('.quiz-score').textContent,'2 / 2');
+ document.querySelector('[data-restart]').onclick();assert.equal(document.querySelectorAll('[data-science-answer]').length,3);
+}
+go('#laboratorio/planetas');assert(!document.querySelector('#laboratorio').hidden);
+assert.equal(document.querySelectorAll('.ruler-row').length,8);
+select('#planetA','tierra');select('#planetB','jupiter');assert(document.querySelector('.comparison-result').textContent.includes('11.21'));
+select('#planetB','tierra');assert(document.querySelector('.comparison-result').textContent.includes('mismo planeta'));
+document.querySelector('#solarScale').value='2';document.querySelector('#solarScale').oninput();assert(document.querySelector('#scaleValue').textContent==='2');
+go('#laboratorio/oceano');for(const [value,text] of [[0,'iluminada'],[500,'penumbra'],[2000,'Sin luz']]){document.querySelector('#oceanDepth').value=String(value);document.querySelector('#oceanDepth').oninput();assert(document.querySelector('#depthZone').textContent.includes(text));}
+go('#retos/tierra');assert.equal(document.querySelectorAll('#scienceChallengeArea option').length,2);assert(document.querySelector('#scienceArena h3'));
+window.AtlasScience.search('océanos');go('#buscar');assert(document.querySelector('#buscar').textContent.includes('Un océano'));
+window.AtlasScience.search('revolución');go('#buscar');assert(document.querySelector('#buscar').textContent.includes('Revolución Mexicana'));
+window.AtlasScience.search('noexistexyz');go('#buscar');assert(document.querySelector('#buscar').textContent.includes('0 resultados'));
+go('#ciencia/no-existe');assert(document.querySelector('#ciencia').textContent.includes('no encontrado'));
+go('#ruta/revolucion');assert(document.querySelector('#ruta').textContent.includes('Revolución Mexicana'));
+console.log('PASS: 19 science topics, 38 explained answers, locked scoring, mixed search, planetary comparator, scale ruler, ocean zones and existing history.');
 console.log('PASS: 57 episodes, deep links and dossiers; 55 chronology items with filters/comparison; all five arena modes, hints, locked scoring, teams, results and replay.');
 console.log('PASS: integrated map, six presentation steps, reveal and replay navigation, close/focus, all six routes and quiz completion, PDF files, municipality search, projector, sidebar, malformed link.');
 })().catch(e=>{console.error(e);process.exitCode=1});
