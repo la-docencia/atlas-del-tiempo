@@ -10,6 +10,7 @@ Aplicación educativa en español para estudiantes, familias y docentes. Web est
 - Laboratorios: comparación de los ocho planetas, distancias a escala y zonas de luz oceánica.
 - Misiones Atlas: puzzle para ordenar los planetas, detective de hechos/interpretaciones/tradiciones y visor de imágenes con zoom, preguntas y observaciones guardadas localmente.
 - Biblioteca visual: cuatro diagramas vectoriales interactivos (Sistema Solar, capas de la Tierra, ciclo del agua y lectura de procesos históricos), además de una selección de referencias externas para proyectar.
+- Animaciones guiadas: seis modelos paso a paso —eclipses, estaciones, gravedad, volcanes, placas tectónicas y una ruta histórica esquemática— con pausa, reproducción, control de pasos y enlaces a las fichas.
 - Historia: seis rutas, 57 episodios ilustrados, 55 acontecimientos, 47 fichas patrimoniales, mapa de México, juegos por equipos, seis PDF y un PowerPoint.
 - Búsqueda entre las tres áreas, selector de ruta que se conserva en el navegador, navegación lateral, adaptación móvil, impresión de fichas y modo proyector.
 
@@ -31,6 +32,7 @@ En Settings → Pages, selecciona **GitHub Actions** como origen. El flujo `page
 
 - `dist/science.js`, `dist/interactive.js` y `dist/atlas.css`: experiencias de Tierra, Espacio y aprendizaje activo.
 - `dist/visuals.js`: diagramas educativos vectoriales con partes clicables y explicaciones contextuales.
+- `dist/animations.js`: modelos SVG guiados para explicar procesos científicos e históricos sin depender de imágenes externas.
 - `scripts/expand_science.py`: contenido editorial; genera `dist/data/science.json`.
 - `dist/app.js`, `learning.js`, `explorations.js`: Historia y patrimonio.
 - `dist/data`: datos y cartografía.
