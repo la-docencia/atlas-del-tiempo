@@ -5,13 +5,14 @@ const fs=require('node:fs'),vm=require('node:vm'),assert=require('node:assert/st
 const root=path.resolve(__dirname,'../dist');
 const {window,document}=parseHTML(fs.readFileSync(root+'/index.html','utf8'));
 window.scrollTo=()=>{};window.print=()=>{};
+const storage={};const localStorage={getItem:k=>storage[k]??null,setItem:(k,v)=>{storage[k]=String(v)}};
 window.HTMLElement.prototype.scrollIntoView=()=>{};
 window.HTMLElement.prototype.focus=function(){this.focusCalled=true};
 window.HTMLElement.prototype.showModal=function(){this.setAttribute('open','')};
 window.HTMLElement.prototype.close=function(){this.removeAttribute('open');this.dispatchEvent(new window.Event('close'))};
 Object.defineProperty(window.HTMLSelectElement.prototype,'value',{configurable:true,get(){return this._value??this.querySelector('option[selected]')?.getAttribute('value')??this.querySelector('option')?.getAttribute('value')??''},set(v){this._value=v}});
 const location={hash:''};
-const ctx=vm.createContext({document,window,Event:window.Event,location,console,fetch:async url=>({ok:true,json:async()=>JSON.parse(fs.readFileSync(path.join(root,url),'utf8'))}),setTimeout,clearTimeout});
+const ctx=vm.createContext({document,window,Event:window.Event,location,localStorage,console,fetch:async url=>({ok:true,json:async()=>JSON.parse(fs.readFileSync(path.join(root,url),'utf8'))}),setTimeout,clearTimeout});
 for(const f of ['explorations.js','mesoamerica.js','projection.js','learning.js','science.js','app.js'])vm.runInContext(fs.readFileSync(root+'/'+f,'utf8'),ctx);
 const wait=()=>new Promise(r=>setTimeout(r,5));
 (async()=>{await wait();
@@ -93,6 +94,12 @@ go('#historietas/not-found');assert(document.querySelector('#comicFrame'));go('#
 await wait();
 assert.equal(document.querySelectorAll('#espacio .science-card').length,11);
 assert.equal(document.querySelectorAll('#tierra .science-card').length,8);
+assert.equal(new Set([...document.querySelectorAll('[data-audience]')].map(b=>b.dataset.audience)).size,3);
+document.querySelector('[data-audience="profundizar"]').onclick();
+assert.equal(localStorage.getItem('atlas-audience'),'profundizar');
+assert(document.querySelector('#audienceDescription').textContent.includes('fuentes'));
+go('#ciencia/sistema-solar');assert(document.querySelector('.audience-context').textContent.includes('Adultos y universidad'));assert(!document.querySelector('#scienceDeep').hidden);
+document.querySelector('[data-audience="explorar"]').onclick();go('#ciencia/sistema-solar');assert(document.querySelector('.audience-context').textContent.includes('Niñez'));assert(document.querySelector('#scienceDeep').hidden);assert.equal(document.querySelectorAll('.science-reading>p').length,1);
 const science=JSON.parse(fs.readFileSync(root+'/data/science.json','utf8'));
 for(const topic of science.topics){
  go('#ciencia/'+topic.id);assert.equal(document.querySelector('#ciencia h1').textContent,topic.title);

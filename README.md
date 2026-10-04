@@ -6,10 +6,10 @@ Aplicación educativa en español para estudiantes, familias y docentes. Web est
 
 - Espacio: 11 temas, desde el sistema solar hasta estrellas, galaxias, exoplanetas y agujeros negros.
 - Tierra: 8 temas, incluyendo relieve, océanos, interior terrestre, agua y clima.
-- Ciencia: 38 preguntas con explicación, lecturas en dos niveles, actividades y fuentes NASA, NOAA y USGS.
+- Ciencia: 38 preguntas con explicación, tres rutas de aprendizaje (niñez, jóvenes y adultos/universidad), actividades y fuentes NASA, NOAA y USGS.
 - Laboratorios: comparación de los ocho planetas, distancias a escala y zonas de luz oceánica.
 - Historia: seis rutas, 57 episodios ilustrados, 55 acontecimientos, 47 fichas patrimoniales, mapa de México, juegos por equipos, seis PDF y un PowerPoint.
-- Búsqueda entre las tres áreas, navegación lateral, adaptación móvil, impresión de fichas y modo proyector.
+- Búsqueda entre las tres áreas, selector de ruta que se conserva en el navegador, navegación lateral, adaptación móvil, impresión de fichas y modo proyector.
 
 ## Abrir en tu computadora
 
