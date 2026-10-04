@@ -8,6 +8,7 @@ Aplicación educativa en español para estudiantes, familias y docentes. Web est
 - Tierra: 8 temas, incluyendo relieve, océanos, interior terrestre, agua y clima.
 - Ciencia: 38 preguntas con explicación, tres rutas de aprendizaje (niñez, jóvenes y adultos/universidad), actividades y fuentes NASA, NOAA y USGS.
 - Laboratorios: comparación de los ocho planetas, distancias a escala y zonas de luz oceánica.
+- Misiones Atlas: puzzle para ordenar los planetas, detective de hechos/interpretaciones/tradiciones y visor de imágenes con zoom, preguntas y observaciones guardadas localmente.
 - Historia: seis rutas, 57 episodios ilustrados, 55 acontecimientos, 47 fichas patrimoniales, mapa de México, juegos por equipos, seis PDF y un PowerPoint.
 - Búsqueda entre las tres áreas, selector de ruta que se conserva en el navegador, navegación lateral, adaptación móvil, impresión de fichas y modo proyector.
 
@@ -27,7 +28,7 @@ En Settings → Pages, selecciona **GitHub Actions** como origen. El flujo `page
 
 ## Editar
 
-- `dist/science.js` y `dist/atlas.css`: experiencias de Tierra y Espacio.
+- `dist/science.js`, `dist/interactive.js` y `dist/atlas.css`: experiencias de Tierra, Espacio y aprendizaje activo.
 - `scripts/expand_science.py`: contenido editorial; genera `dist/data/science.json`.
 - `dist/app.js`, `learning.js`, `explorations.js`: Historia y patrimonio.
 - `dist/data`: datos y cartografía.

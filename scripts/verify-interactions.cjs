@@ -13,7 +13,7 @@ window.HTMLElement.prototype.close=function(){this.removeAttribute('open');this.
 Object.defineProperty(window.HTMLSelectElement.prototype,'value',{configurable:true,get(){return this._value??this.querySelector('option[selected]')?.getAttribute('value')??this.querySelector('option')?.getAttribute('value')??''},set(v){this._value=v}});
 const location={hash:''};
 const ctx=vm.createContext({document,window,Event:window.Event,location,localStorage,console,fetch:async url=>({ok:true,json:async()=>JSON.parse(fs.readFileSync(path.join(root,url),'utf8'))}),setTimeout,clearTimeout});
-for(const f of ['explorations.js','mesoamerica.js','projection.js','learning.js','science.js','app.js'])vm.runInContext(fs.readFileSync(root+'/'+f,'utf8'),ctx);
+for(const f of ['explorations.js','mesoamerica.js','projection.js','learning.js','science.js','interactive.js','app.js'])vm.runInContext(fs.readFileSync(root+'/'+f,'utf8'),ctx);
 const wait=()=>new Promise(r=>setTimeout(r,5));
 (async()=>{await wait();
 assert.equal(document.querySelectorAll('#topicGrid article').length,6);
@@ -123,6 +123,11 @@ window.AtlasScience.search('revolución');go('#buscar');assert(document.querySel
 window.AtlasScience.search('noexistexyz');go('#buscar');assert(document.querySelector('#buscar').textContent.includes('0 resultados'));
 go('#ciencia/no-existe');assert(document.querySelector('#ciencia').textContent.includes('no encontrado'));
 go('#ruta/revolucion');assert(document.querySelector('#ruta').textContent.includes('Revolución Mexicana'));
+go('#misiones');assert(!document.querySelector('#misiones').hidden);assert.equal(document.querySelectorAll('.mission-card').length,2);
+document.querySelector('[data-mission-mode="planet"]').onclick();assert.equal(document.querySelectorAll('[data-planet-index]').length,8);document.querySelector('[data-planet-hint]').onclick();assert(document.querySelector('.mission-feedback').textContent.includes('Mercurio'));
+document.querySelector('[data-mission-home]').onclick();document.querySelector('[data-mission-mode="lens"]').onclick();document.querySelector('[data-lens-open]').onclick();assert(!document.querySelector('#atlasLens').hidden);document.querySelector('#lensNote').value='Observo tres detalles.';document.querySelector('[data-save-lens-note]').onclick();assert(document.querySelector('#lensStatus').textContent.includes('guardada'));document.querySelector('[data-lens-close]').onclick();assert(document.querySelector('#atlasLens').hidden);
+document.querySelector('[data-mission-area="historia"]').onclick();document.querySelector('[data-mission-mode="evidence"]').onclick();for(const expected of ['Hecho documentado','Interpretación','Tradición o mito','Interpretación']){const button=[...document.querySelectorAll('[data-evidence-choice]')].find(b=>b.textContent===expected);button.onclick();assert(document.querySelector('#evidenceFeedback').textContent.length>20);document.querySelector('[data-evidence-next]').onclick();}assert(document.querySelector('.mission-card-terracotta .mission-status').textContent.includes('Completada'));
+console.log('PASS: interactive missions, planet puzzle entry, evidence detective, image lens, zoom note and saved progress.');
 console.log('PASS: 19 science topics, 38 explained answers, locked scoring, mixed search, planetary comparator, scale ruler, ocean zones and existing history.');
 console.log('PASS: 57 episodes, deep links and dossiers; 55 chronology items with filters/comparison; all five arena modes, hints, locked scoring, teams, results and replay.');
 console.log('PASS: integrated map, six presentation steps, reveal and replay navigation, close/focus, all six routes and quiz completion, PDF files, municipality search, projector, sidebar, malformed link.');
