@@ -13,7 +13,7 @@ window.HTMLElement.prototype.close=function(){this.removeAttribute('open');this.
 Object.defineProperty(window.HTMLSelectElement.prototype,'value',{configurable:true,get(){return this._value??this.querySelector('option[selected]')?.getAttribute('value')??this.querySelector('option')?.getAttribute('value')??''},set(v){this._value=v}});
 const location={hash:''};
 const ctx=vm.createContext({document,window,Event:window.Event,location,localStorage,console,fetch:async url=>({ok:true,json:async()=>JSON.parse(fs.readFileSync(path.join(root,url),'utf8'))}),setTimeout,clearTimeout,setInterval,clearInterval});
-for(const f of ['explorations.js','mesoamerica.js','projection.js','learning.js','science.js','interactive.js','visuals.js','animations.js','history-workshop.js','daily-life.js','adventure.js','app.js'])vm.runInContext(fs.readFileSync(root+'/'+f,'utf8'),ctx);
+for(const f of ['explorations.js','mesoamerica.js','projection.js','learning.js','science.js','interactive.js','visuals.js','animations.js','history-workshop.js','daily-life.js','adventure.js','revolution-adventure.js','app.js'])vm.runInContext(fs.readFileSync(root+'/'+f,'utf8'),ctx);
 const wait=()=>new Promise(r=>setTimeout(r,5));
 (async()=>{await wait();
 assert.equal(document.querySelectorAll('#topicGrid article').length,6);
@@ -181,6 +181,39 @@ writeNote('question','¿Quién recibía el alimento?');assert(document.querySele
 document.querySelector('#gaReset').onclick();assert.equal(document.querySelector('#ga-detail').value,'');
 localStorage.setItem('atlas-grain-adventure-v1','{bad json');window.AtlasGrainAdventure.reload();assert.equal(document.querySelector('#ga-detail').value,'');
 console.log('PASS: full grain adventure, chronology correction, allocation bounds, drought comparisons, feedback, completion, reload, reset and storage failure.');
+// Revolution investigation: full flow, source zoom, chronological correction,
+// evidence feedback, map keyboard targets, saved notes and completion.
+go('#detectives-revolucion');assert(!document.querySelector('#detectives-revolucion').hidden);
+const raStep=n=>document.querySelector('[data-ra-step="'+n+'"]').onclick();
+const raWrite=(k,v)=>{const el=document.querySelector('#ra-'+k);el.value=v;el.oninput();};
+raWrite('observe','Veo un vagón y personas con fusiles.');document.querySelector('#raObserve').onclick();
+const raZoom=document.querySelector('#raZoom');raZoom.value='2';raZoom.oninput({target:raZoom});assert.equal(document.querySelector('#raImage img').style.width,'200%');
+raStep(1);for(const id of ['constitution','sanluis','ayala','guadalupe'])document.querySelector('[data-ra-event="'+id+'"]').onclick();
+document.querySelector('#raTimeCheck').onclick();assert(document.querySelector('#raTimeFeedback').textContent.includes('Revisa'));
+for(let i=0;i<4;i++)document.querySelector('#raUndo').onclick();
+for(const id of ['sanluis','ayala','guadalupe','constitution'])document.querySelector('[data-ra-event="'+id+'"]').onclick();
+document.querySelector('#raTimeCheck').onclick();assert(document.querySelector('#raTimeFeedback').textContent.includes('correcto'));
+raStep(2);document.querySelector('[data-ra-answer="0"][data-option="0"]').onclick();assert(document.querySelector('[data-ra-answer="0"]').disabled);
+select('#raDepth','profundizar');assert(document.querySelector('#revolutionAdventure').textContent.includes('Revisa la opción'));
+document.querySelector('[data-ra-answer="1"][data-option="0"]').onclick();document.querySelector('[data-ra-answer="2"][data-option="2"]').onclick();
+raWrite('similar','Buscan cambiar el orden político.');raWrite('different','El Plan de Ayala enfatiza tierras.');
+raStep(3);assert.equal(document.querySelectorAll('[data-ra-map]').length,3);assert.equal(document.querySelectorAll('#revolutionAdventure .ra-map path').length,32);
+for(let i=0;i<3;i++){
+ document.querySelector('[data-ra-place="'+i+'"]').onclick();
+ document.querySelector('[data-ra-match="'+((i+1)%3)+'"]').onclick();assert(document.querySelector('#raMapFeedback').textContent.includes('Revisa'));
+ document.querySelector('[data-ra-match="'+i+'"]').onclick();assert(document.querySelector('#raMapFeedback').textContent.includes('apoyada'));
+}
+const raTarget=document.querySelector('[data-ra-map="0"]');raTarget.onkeydown({key:'Enter',preventDefault(){}});assert(document.querySelector('.ra-place h3').textContent==='Ciudad Juárez');
+raStep(4);document.querySelector('#raFinish').onclick();assert(document.querySelector('#raFinishFeedback').textContent.includes('Completa'));
+for(const k of ['claim','evidence','limit'])raWrite(k,'Mi investigación: '+k);
+document.querySelector('#raFinish').onclick();assert(document.querySelector('#raFinishFeedback').textContent.includes('completada'));
+window.AtlasRevolutionAdventure.reload();assert(document.querySelector('#raFinishFeedback').textContent.includes('completada'));assert.equal(document.querySelector('#ra-evidence').value,'Mi investigación: evidence');
+raStep(0);assert.equal(document.querySelector('#ra-observe').value,'Veo un vagón y personas con fusiles.');
+const raSetter=localStorage.setItem;localStorage.setItem=()=>{throw Error('storage failure')};raWrite('ask','¿Quién tomó la foto?');assert(document.querySelector('#raSave').textContent.includes('No se pudo'));localStorage.setItem=raSetter;
+document.querySelector('#raReset').onclick();assert.equal(document.querySelector('#ra-observe').value,'');
+localStorage.setItem('atlas-revolution-detectives-v1','null');window.AtlasRevolutionAdventure.reload();assert.equal(document.querySelector('#ra-observe').value,'');
+console.log('PASS: Revolution source zoom, four-event chronology, three proposal rounds, geographic map/keyboard matching, depth, saved investigation, reset and storage failure.');
+
 
 
 go('#visuales');assert(!document.querySelector('#visuales').hidden);assert(document.querySelector('.atlas-diagram'));assert.equal(document.querySelectorAll('[data-visual-tab]').length,4);document.querySelector('[data-visual-tab="earth"]').onclick();assert(document.querySelector('.visual-intro h2').textContent.includes('Capas'));document.querySelector('[data-visual-key="mantle"]').onclick();assert(document.querySelector('.visual-explain h2').textContent==='Manto');document.querySelector('[data-visual-tab="water"]').onclick();document.querySelector('[data-visual-key="condensation"]').onclick();assert(document.querySelector('.visual-explain h2').textContent==='Condensación');

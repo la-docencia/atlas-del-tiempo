@@ -53,3 +53,5 @@ Tierra: NASA, fotografía Apollo 17. Saturno: NASA/JPL/Space Science Institute, 
 Restauración completa de la versión histórica y primera ampliación de Tierra y Espacio. No incluye cuentas de alumnos ni almacenamiento de calificaciones. Las rondas se reinician al salir; no se envían respuestas a un servidor.
 
 - Aventura «Del grano a las ciudades»: cinco etapas con fuentes reales, cronología, reparto de trabajo en un modelo didáctico explícito, contraste de ideas y conclusión con evidencia y límites. Tres profundidades, impresión, proyector y progreso guardado en el dispositivo; no incluye calificación automática del texto.
+
+- «Detectives de la Revolución»: fotografía histórica Bain/LOC con ampliación y ficha, cuatro referencias cronológicas, comparación de tres programas mediante síntesis y fuentes, mapa con tres lugares y conclusión con evidencia y límites. Tres profundidades, proyector, impresión y progreso guardado en el dispositivo.
