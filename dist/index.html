@@ -20,6 +20,7 @@
   <link rel="stylesheet" href="atlas.css">
   <link rel="stylesheet" href="history-workshop.css">
   <link rel="stylesheet" href="daily-life.css">
+  <link rel="stylesheet" href="adventure.css">
 </head>
 <body>
   <a class="skip-link" href="#mainContent">Saltar al contenido</a>
@@ -47,6 +48,7 @@
       <a class="side-link" href="#animaciones"><span class="side-icon">▶</span><span>Animaciones guiadas</span></a>
       <span class="nav-group">HISTORIA Y PATRIMONIO</span>
       <a class="side-link" href="#taller-historia"><span class="side-icon">◈</span><span>Taller de historia</span></a>
+      <a class="side-link" href="#aventura-grano"><span class="side-icon">◇</span><span>Del grano a las ciudades</span></a>
       <a class="side-link" href="#vida-cotidiana"><span class="side-icon">◉</span><span>Vida cotidiana y fuentes</span></a>
       <a class="side-link" href="#temas"><span class="side-icon">✦</span><span>Rutas históricas</span></a>
       <a class="side-link" href="#historietas"><span class="side-icon">▧</span><span>Historia en viñetas</span></a>
@@ -67,7 +69,7 @@
       <div class="audience-picker" id="audiencePicker"><span class="science-label">¿CÓMO QUIERES APRENDER?</span><div class="audience-options" role="group" aria-label="Ruta de aprendizaje"><button type="button" data-audience="explorar" aria-pressed="true">Explorar · Niñez</button><button type="button" data-audience="comprender" aria-pressed="false">Comprender · Jóvenes</button><button type="button" data-audience="profundizar" aria-pressed="false">Profundizar · Adultos y universidad</button></div><p id="audienceDescription">Explicaciones claras, visuales y paso a paso.</p></div>
       <div class="atlas-search"><label class="sr-only" for="searchInput">Buscar en Atlas</label><input id="searchInput" type="search" placeholder="Planetas, océanos, Revolución…"><button id="searchBtn" class="atlas-button" type="button">Buscar</button></div></div>
       <div class="atlas-portals"><a class="portal portal-space" href="#espacio"><img src="assets/saturn.webp" alt="Saturno y sus anillos, observado por Cassini"><div><span class="science-label">01 / ESPACIO</span><h2>La curiosidad<br>no tiene límites.</h2><p>11 temas · Del sistema solar al universo</p><span class="portal-cta">Explorar el espacio</span></div></a><a class="portal portal-earth" href="#tierra"><img src="assets/earth.webp" alt="La Tierra vista por Apollo 17"><div><span class="science-label">02 / TIERRA</span><h2>Conoce el planeta<br>que llamas hogar.</h2><p>8 temas · Océanos, montañas y clima</p><span class="portal-cta">Explorar la Tierra</span></div></a><a class="portal portal-history" href="#temas"><img src="assets/atlas-hero.png" alt="Recreación artística de Mesoamérica"><div><span class="science-label">03 / HISTORIA</span><h2>Las huellas<br>que nos conectan.</h2><p>6 rutas · 57 episodios ilustrados</p><span class="portal-cta">Explorar la historia</span></div></a></div>
-      <div class="home-discover"><div><p class="eyebrow">APRENDE HACIENDO</p><h2>¿Qué tan lejos queda Neptuno?</h2><p>Construye un sistema solar a escala y compara los ocho planetas.</p><a class="atlas-button" href="#laboratorio/planetas">Entrar al laboratorio</a></div><div class="home-links"><a href="#vida-cotidiana"><span>DETECTIVE DE EVIDENCIAS</span><strong>Investiga la vida cotidiana con fotografías y documentos</strong></a><a href="#taller-historia"><span>HISTORIA EN ACCIÓN</span><strong>Explorar cuatro líneas del tiempo y resolver retos</strong></a><a href="#misiones"><span>APRENDIZAJE ACTIVO</span><strong>Entrar a Misiones Atlas</strong></a><a href="#ciencia/agujeros-negros"><span>UNA GRAN PREGUNTA</span><strong>¿Qué es un agujero negro?</strong></a><a href="#laboratorio/oceano"><span>BAJO LA SUPERFICIE</span><strong>Desciende a las profundidades</strong></a><a href="#retos/espacio"><span>PONTE A PRUEBA</span><strong>Ocho preguntas sobre el espacio</strong></a></div></div>
+      <div class="home-discover"><div><p class="eyebrow">APRENDE HACIENDO</p><h2>¿Qué tan lejos queda Neptuno?</h2><p>Construye un sistema solar a escala y compara los ocho planetas.</p><a class="atlas-button" href="#laboratorio/planetas">Entrar al laboratorio</a></div><div class="home-links"><a href="#aventura-grano"><span>AVENTURA DE APRENDIZAJE</span><strong>Del grano a las ciudades: investiga, decide y explica</strong></a><a href="#vida-cotidiana"><span>DETECTIVE DE EVIDENCIAS</span><strong>Investiga la vida cotidiana con fotografías y documentos</strong></a><a href="#taller-historia"><span>HISTORIA EN ACCIÓN</span><strong>Explorar cuatro líneas del tiempo y resolver retos</strong></a><a href="#misiones"><span>APRENDIZAJE ACTIVO</span><strong>Entrar a Misiones Atlas</strong></a><a href="#ciencia/agujeros-negros"><span>UNA GRAN PREGUNTA</span><strong>¿Qué es un agujero negro?</strong></a><a href="#laboratorio/oceano"><span>BAJO LA SUPERFICIE</span><strong>Desciende a las profundidades</strong></a><a href="#retos/espacio"><span>PONTE A PRUEBA</span><strong>Ocho preguntas sobre el espacio</strong></a></div></div>
       <div class="cosmic-note"><img src="assets/nebula.webp" alt="Mosaico de la nebulosa de Orión con colores asignados"><div><p class="eyebrow">OBSERVAR TAMBIÉN ES PREGUNTAR</p><h2>Una imagen puede abrir un universo.</h2><p>Descubre qué distingue a una estrella, una nebulosa y una galaxia.</p><a href="#ciencia/galaxias" class="atlas-outline">Leer la exploración</a><p class="image-credit">Mosaico de Orión: NASA, ESA y equipo Hubble Orion Treasury. Colores asignados. <a href="#creditos">Ver créditos</a></p></div></div>
     </section>
     <section class="section science-area" id="espacio" hidden><h1>Espacio</h1><p>Cargando exploraciones…</p></section>
@@ -85,6 +87,7 @@
     <article class="science-card"><h2>Nebulosa de Orión</h2><p>Mosaico de Hubble y observaciones terrestres con colores asignados. NASA, ESA, Hubble Space Telescope Orion Treasury Project Team, Massimo Robberto (STScI, ESA).</p><a href="https://science.nasa.gov/asset/hubble/hubbles-sharpest-view-of-the-orion-nebula/" target="_blank" rel="noopener">Fuente original</a></article></div><p>Las ilustraciones narrativas de Historia son recreaciones con IA, identificadas en sus recorridos. Vida cotidiana y fuentes incorpora fotografías reales de objetos del Met y una fotografía histórica de la Biblioteca del Congreso; cada caso indica procedencia, fecha y derechos. Cada tema incluye su fuente de consulta.</p></section>
 
     <section class="section atlas-history-workshop" id="taller-historia" hidden><p class="eyebrow">OBSERVAR · ORDENAR · ARGUMENTAR</p><h1>Taller de historia</h1><p class="hw-lead">Cuatro recorridos para conectar ciudades, gobierno y derechos. Explora los hitos, resuelve un reto y construye tu explicación con evidencia.</p><div id="historyWorkshopApp">Preparando el taller…</div></section>
+    <section class="section atlas-adventure" id="aventura-grano" hidden><div id="grainAdventure"></div></section>
     <section class="section atlas-daily-life" id="vida-cotidiana" hidden><p class="eyebrow">MIRAR · CONTRASTAR · INVESTIGAR</p><h1>Vida cotidiana y fuentes</h1><p class="dl-lead">Alimentos, intercambios y escuela: observa objetos y fotografías reales, consulta su procedencia y construye una explicación.</p><div id="dailyLifeApp">Preparando casos…</div></section>
     <section class="section" id="temas" hidden>
       <div class="section-heading"><div><p class="eyebrow">RUTAS DE EXPLORACIÓN</p><h2>Empieza por una historia</h2></div><button class="ghost-btn" id="clearFilter" type="button">Ver todos <span>↗</span></button></div>
@@ -121,6 +124,7 @@
   <script src="visuals.js" defer></script>
   <script src="history-workshop.js" defer></script>
   <script src="daily-life.js" defer></script>
+  <script src="adventure.js" defer></script>
   <script src="animations.js" defer></script>
   <script src="app.js" defer></script>
 </body>

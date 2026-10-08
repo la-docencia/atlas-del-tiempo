@@ -13,7 +13,7 @@ window.HTMLElement.prototype.close=function(){this.removeAttribute('open');this.
 Object.defineProperty(window.HTMLSelectElement.prototype,'value',{configurable:true,get(){return this._value??this.querySelector('option[selected]')?.getAttribute('value')??this.querySelector('option')?.getAttribute('value')??''},set(v){this._value=v}});
 const location={hash:''};
 const ctx=vm.createContext({document,window,Event:window.Event,location,localStorage,console,fetch:async url=>({ok:true,json:async()=>JSON.parse(fs.readFileSync(path.join(root,url),'utf8'))}),setTimeout,clearTimeout,setInterval,clearInterval});
-for(const f of ['explorations.js','mesoamerica.js','projection.js','learning.js','science.js','interactive.js','visuals.js','animations.js','history-workshop.js','daily-life.js','app.js'])vm.runInContext(fs.readFileSync(root+'/'+f,'utf8'),ctx);
+for(const f of ['explorations.js','mesoamerica.js','projection.js','learning.js','science.js','interactive.js','visuals.js','animations.js','history-workshop.js','daily-life.js','adventure.js','app.js'])vm.runInContext(fs.readFileSync(root+'/'+f,'utf8'),ctx);
 const wait=()=>new Promise(r=>setTimeout(r,5));
 (async()=>{await wait();
 assert.equal(document.querySelectorAll('#topicGrid article').length,6);
@@ -149,6 +149,39 @@ for(const c of daily.cases){
 }
 select('#dlCase','alimentos');assert.equal(document.querySelector('#dlNote-observe').value,'Detalle de alimentos');
 console.log('PASS: three daily-life cases, image zoom, notes across cases, feedback across depths, 12 classifications and replay.');
+// A complete adventure, invalid plans, restored state and unavailable storage.
+go('#aventura-grano');assert(!document.querySelector('#aventura-grano').hidden);
+const step=n=>document.querySelector('[data-ga-step="'+n+'"]').onclick();
+const writeNote=(k,v)=>{const el=document.querySelector('#ga-'+k);el.value=v;el.oninput();};
+writeNote('detail','Hay figuras y compartimentos.');document.querySelector('#gaObserve').onclick();
+step(1);for(const id of ['receipt','urban','granary'])document.querySelector('[data-ga-event="'+id+'"]').onclick();
+document.querySelector('#gaCheckTime').onclick();assert(document.querySelector('#gaTimeFeedback').textContent.includes('Revisa'));
+for(let n=0;n<3;n++)document.querySelector('#gaUndo').onclick();
+for(const id of ['urban','granary','receipt'])document.querySelector('[data-ga-event="'+id+'"]').onclick();
+document.querySelector('#gaCheckTime').onclick();assert(document.querySelector('#gaTimeFeedback').textContent.includes('correcto'));
+step(2);const adjust=(id,d)=>document.querySelector('[data-ga-adjust="'+id+'"][data-delta="'+d+'"]').onclick();
+adjust('grow',1);assert.equal(document.querySelector('#gaRemaining').textContent,'0');
+document.querySelector('#gaRun').onclick();assert(document.querySelector('#gaResult').textContent.includes('Reserva de 2'));
+select('#gaWeather','dry');document.querySelector('#gaRun').onclick();assert(document.querySelector('#gaResult').textContent.includes('Faltan 2'));
+adjust('craft',-1);assert(document.querySelector('#gaRun').disabled);
+window.AtlasGrainAdventure.reload();assert.equal(document.querySelector('#gaRemaining').textContent,'1');
+adjust('grow',1);document.querySelector('#gaRun').onclick();assert(document.querySelector('#gaResult').textContent.includes('Reserva de 0'));
+writeNote('reason','Aumenté cultivo sacrificando un oficio.');
+step(3);document.querySelector('[data-ga-answer="0"][data-option="2"]').onclick();
+assert(document.querySelector('#gaFeedback0').textContent.includes('Revisa'));
+assert(document.querySelector('[data-ga-answer="0"]').disabled);select('#gaDepth','profundizar');assert(document.querySelector('#gaFeedback0').textContent.includes('Revisa'));
+document.querySelector('[data-ga-answer="1"][data-option="1"]').onclick();
+step(4);document.querySelector('#gaFinish').onclick();assert(document.querySelector('#gaFinishFeedback').textContent.includes('Completa'));
+for(const k of ['claim','evidence','limit'])writeNote(k,'Texto con evidencia para '+k);
+document.querySelector('#gaFinish').onclick();assert(document.querySelector('#gaFinishFeedback').textContent.includes('completada'));
+window.AtlasGrainAdventure.reload();assert(document.querySelector('#gaFinishFeedback').textContent.includes('completada'));assert.equal(document.querySelector('#ga-claim').value,'Texto con evidencia para claim');
+step(0);assert.equal(document.querySelector('#ga-detail').value,'Hay figuras y compartimentos.');
+const setter=localStorage.setItem;localStorage.setItem=()=>{throw Error('storage unavailable')};
+writeNote('question','¿Quién recibía el alimento?');assert(document.querySelector('#gaSave').textContent.includes('no está disponible'));localStorage.setItem=setter;
+document.querySelector('#gaReset').onclick();assert.equal(document.querySelector('#ga-detail').value,'');
+localStorage.setItem('atlas-grain-adventure-v1','{bad json');window.AtlasGrainAdventure.reload();assert.equal(document.querySelector('#ga-detail').value,'');
+console.log('PASS: full grain adventure, chronology correction, allocation bounds, drought comparisons, feedback, completion, reload, reset and storage failure.');
+
 
 go('#visuales');assert(!document.querySelector('#visuales').hidden);assert(document.querySelector('.atlas-diagram'));assert.equal(document.querySelectorAll('[data-visual-tab]').length,4);document.querySelector('[data-visual-tab="earth"]').onclick();assert(document.querySelector('.visual-intro h2').textContent.includes('Capas'));document.querySelector('[data-visual-key="mantle"]').onclick();assert(document.querySelector('.visual-explain h2').textContent==='Manto');document.querySelector('[data-visual-tab="water"]').onclick();document.querySelector('[data-visual-key="condensation"]').onclick();assert(document.querySelector('.visual-explain h2').textContent==='Condensación');
 console.log('PASS: visual library with four explanatory diagrams, clickable parts, accessible keyboard targets and contextual questions.');
