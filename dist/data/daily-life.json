@@ -1,0 +1,167 @@
+{
+  "reviewed": "2026-10-08",
+  "cases": [
+    {
+      "id": "alimentos",
+      "title": "Alimentos y trabajo en el antiguo Egipto",
+      "question": "¿Qué trabajos hacían posible guardar los alimentos?",
+      "period": "c. 1981–1975 a. C. · Egipto",
+      "context": "El modelo procede de la tumba de Meketre. Representa un granero y tareas de registro; su contexto funerario importa al interpretarlo.",
+      "sources": [
+        {
+          "title": "Modelo de un granero con escribas",
+          "kind": "Objeto antiguo fotografiado",
+          "date": "c. 1981–1975 a. C.",
+          "origin": "Egipto · colección del Met, 20.3.11",
+          "text": "La pieza incluye figuras, compartimentos y tareas relacionadas con el grano. Observa gestos, objetos y distribución del espacio.",
+          "limits": "Una representación funeraria no es un registro de todas las personas ni de todos los graneros de Egipto.",
+          "url": "https://www.metmuseum.org/art/collection/search/545281",
+          "image": "assets/source-granary.webp",
+          "credit": "The Metropolitan Museum of Art · Open Access · Dominio público. Fotografía de un objeto antiguo; no fotografía de su época."
+        },
+        {
+          "title": "La ficha del museo",
+          "kind": "Catálogo actual",
+          "date": "Consulta: 8 de octubre de 2026",
+          "origin": "Met · registro del mismo objeto",
+          "text": "El catálogo describe transporte, medición y contabilidad del grano. Identifica figuras que escriben sobre papiro y tablas. Registra el hallazgo en 1920.",
+          "limits": "La ficha interpreta el mismo objeto: no es una segunda evidencia independiente. La fecha del hallazgo no es la fecha de fabricación.",
+          "url": "https://www.metmuseum.org/art/collection/search/545281",
+          "image": null,
+          "credit": null
+        }
+      ],
+      "claims": [
+        [
+          "El modelo incluye figuras y divisiones del espacio.",
+          0,
+          "Es un detalle visible que puedes señalar en la fotografía."
+        ],
+        [
+          "El hallazgo del modelo ocurrió en 1920.",
+          1,
+          "Ese dato procede de la ficha, no de mirar la imagen."
+        ],
+        [
+          "La organización del alimento pudo requerir distintos trabajos.",
+          2,
+          "Es una interpretación razonada que debe apoyarse en la pieza y su contexto."
+        ],
+        [
+          "Todos los habitantes de Egipto realizaban exactamente estas tareas.",
+          3,
+          "Un modelo de una tumba no permite generalizar a toda la población."
+        ]
+      ],
+      "route": "#ruta/antigua"
+    },
+    {
+      "id": "registros",
+      "title": "Registrar un intercambio en arcilla",
+      "question": "¿Qué puede contar un recibo y qué deja fuera?",
+      "period": "c. 517 a. C. · Mesopotamia",
+      "context": "El Met identifica esta tablilla como un recibo de dátiles del periodo aqueménida. La procedencia probable es Borsippa: conserva esa incertidumbre.",
+      "sources": [
+        {
+          "title": "Tablilla de arcilla",
+          "kind": "Documento antiguo fotografiado",
+          "date": "c. 517 a. C.",
+          "origin": "Mesopotamia, probablemente Borsippa · Met, 86.11.403",
+          "text": "Observa la superficie, las marcas y la forma. No necesitas descifrar los signos para registrar lo que ves.",
+          "limits": "Ver marcas no equivale a leer el texto. Una traducción requiere conocimientos y evidencia especializada.",
+          "url": "https://www.metmuseum.org/art/collection/search/322021",
+          "image": "assets/source-tablet.webp",
+          "credit": "The Metropolitan Museum of Art · Open Access · Dominio público. Fotografía de un objeto antiguo; no fotografía de su época."
+        },
+        {
+          "title": "Identificación del documento",
+          "kind": "Catálogo actual",
+          "date": "Consulta: 8 de octubre de 2026",
+          "origin": "Met · registro de la misma tablilla",
+          "text": "El museo la cataloga como un recibo de dátiles, hecho en arcilla, de aproximadamente 517 a. C. Su lugar de origen se presenta como probable.",
+          "limits": "Esta ficha no transcribe aquí el documento completo. El título de catálogo no revela la alimentación de toda la sociedad.",
+          "url": "https://www.metmuseum.org/art/collection/search/322021",
+          "image": null,
+          "credit": null
+        }
+      ],
+      "claims": [
+        [
+          "Se ven marcas sobre la superficie de la tablilla.",
+          0,
+          "Se puede comprobar directamente en la imagen."
+        ],
+        [
+          "El museo identifica el objeto como un recibo de dátiles.",
+          1,
+          "La identificación está en el catálogo; no la hemos descifrado por observación."
+        ],
+        [
+          "Un registro de intercambio puede ayudar a estudiar prácticas económicas.",
+          2,
+          "Es una interpretación de su utilidad, con límites."
+        ],
+        [
+          "Todas las familias comían lo mismo y tenían la misma riqueza.",
+          3,
+          "Un solo recibo no describe a todas las familias ni sus condiciones."
+        ]
+      ],
+      "route": "#ruta/antigua"
+    },
+    {
+      "id": "escuela",
+      "title": "Escuela: una imagen y una norma",
+      "question": "¿Una fotografía demuestra que una ley se cumplía?",
+      "period": "c. 1900–1930 · Alaska / 1917 · México",
+      "context": "Estas fuentes pertenecen a países y contextos distintos. Las comparamos para aprender a distinguir representación y norma; no para afirmar una relación causal.",
+      "sources": [
+        {
+          "title": "Grupo de escolares en Hydaburg",
+          "kind": "Fotografía histórica",
+          "date": "Entre c. 1900 y c. 1930",
+          "origin": "Hydaburg, Alaska, Estados Unidos · colección Frank y Frances Carpenter",
+          "text": "El catálogo identifica un retrato grupal escolar y un intervalo aproximado. Mira las posiciones, la ropa y el edificio sin inventar nombres o sentimientos.",
+          "limits": "No representa a todos los escolares de Alaska. La fotografía no permite conocer por sí sola asistencia diaria, métodos o emociones.",
+          "url": "https://www.loc.gov/resource/ppmsc.02461/",
+          "image": "assets/source-school.webp",
+          "credit": "Library of Congress · LC-DIG-ppmsc-02461. El catálogo indica que no se conocen restricciones de publicación. Autoría individual no identificada aquí."
+        },
+        {
+          "title": "Educación en la Constitución de 1917",
+          "kind": "Norma histórica · síntesis educativa",
+          "date": "1917",
+          "origin": "México · consulta en el Museo de las Constituciones, UNAM",
+          "text": "La Constitución de 1917 incorporó disposiciones sobre educación. Esta tarjeta resume el tema; consulta el texto histórico para estudiar sus términos en su época.",
+          "limits": "Una norma indica lo establecido; su cumplimiento se investiga con otras fuentes mexicanas. La fotografía de Alaska no puede demostrar la aplicación de una ley de México.",
+          "url": "https://museodelasconstituciones.unam.mx/constituciones-historicas/",
+          "image": null,
+          "credit": null
+        }
+      ],
+      "claims": [
+        [
+          "En la imagen se ve un grupo posando frente a un edificio.",
+          0,
+          "Es una descripción visible sin atribuir emociones."
+        ],
+        [
+          "El catálogo sitúa la fotografía en Hydaburg, Alaska.",
+          1,
+          "La localización procede del registro documental."
+        ],
+        [
+          "La fotografía y la norma permiten preguntar cosas diferentes.",
+          2,
+          "Podemos razonar sobre el tipo y los límites de cada fuente."
+        ],
+        [
+          "Esta fotografía prueba que la Constitución mexicana se cumplía.",
+          3,
+          "Las fuentes corresponden a contextos distintos; tampoco una foto basta para probar el cumplimiento general."
+        ]
+      ],
+      "route": "#ruta/nacion"
+    }
+  ]
+}

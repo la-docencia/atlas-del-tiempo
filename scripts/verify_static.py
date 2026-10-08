@@ -29,3 +29,13 @@ for track in workshop['tracks']:
   assert c['text'] and c['cause'] and c['effect'] and c['source'][1].startswith('https://')
   assert len(c['distractors'])==2
 print('PASS: local scripts, styles, images, historical downloads and scientific content structure.')
+
+daily=json.loads((root/'data/daily-life.json').read_text())
+assert len(daily['cases'])==3
+for case in daily['cases']:
+ assert len(case['sources'])==2 and len(case['claims'])==4
+ for source in case['sources']:
+  assert source['url'].startswith('https://') and source['date'] and source['limits']
+  if source.get('image'):assert (root/source['image']).is_file()
+ for claim in case['claims']:assert claim[1] in range(4) and claim[2]
+print('PASS: daily-life sources, packaged photographs and classification data.')

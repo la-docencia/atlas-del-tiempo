@@ -13,7 +13,7 @@ window.HTMLElement.prototype.close=function(){this.removeAttribute('open');this.
 Object.defineProperty(window.HTMLSelectElement.prototype,'value',{configurable:true,get(){return this._value??this.querySelector('option[selected]')?.getAttribute('value')??this.querySelector('option')?.getAttribute('value')??''},set(v){this._value=v}});
 const location={hash:''};
 const ctx=vm.createContext({document,window,Event:window.Event,location,localStorage,console,fetch:async url=>({ok:true,json:async()=>JSON.parse(fs.readFileSync(path.join(root,url),'utf8'))}),setTimeout,clearTimeout,setInterval,clearInterval});
-for(const f of ['explorations.js','mesoamerica.js','projection.js','learning.js','science.js','interactive.js','visuals.js','animations.js','history-workshop.js','app.js'])vm.runInContext(fs.readFileSync(root+'/'+f,'utf8'),ctx);
+for(const f of ['explorations.js','mesoamerica.js','projection.js','learning.js','science.js','interactive.js','visuals.js','animations.js','history-workshop.js','daily-life.js','app.js'])vm.runInContext(fs.readFileSync(root+'/'+f,'utf8'),ctx);
 const wait=()=>new Promise(r=>setTimeout(r,5));
 (async()=>{await wait();
 assert.equal(document.querySelectorAll('#topicGrid article').length,6);
@@ -128,6 +128,28 @@ document.querySelector('[data-mission-mode="planet"]').onclick();assert.equal(do
 document.querySelector('[data-mission-home]').onclick();document.querySelector('[data-mission-mode="lens"]').onclick();document.querySelector('[data-lens-open]').onclick();assert(!document.querySelector('#atlasLens').hidden);document.querySelector('#lensNote').value='Observo tres detalles.';document.querySelector('[data-save-lens-note]').onclick();assert(document.querySelector('#lensStatus').textContent.includes('guardada'));document.querySelector('[data-lens-close]').onclick();assert(document.querySelector('#atlasLens').hidden);
 document.querySelector('[data-mission-area="historia"]').onclick();document.querySelector('[data-mission-mode="evidence"]').onclick();for(const expected of ['Hecho documentado','Interpretación','Tradición o mito','Interpretación']){const button=[...document.querySelectorAll('[data-evidence-choice]')].find(b=>b.textContent===expected);button.onclick();assert(document.querySelector('#evidenceFeedback').textContent.length>20);document.querySelector('[data-evidence-next]').onclick();}assert(document.querySelector('.mission-card-terracotta .mission-status').textContent.includes('Completada'));
 console.log('PASS: interactive missions, planet puzzle entry, evidence detective, image lens, zoom note and saved progress.');
+// Daily life: real assets, notes, zoom, feedback retention and answer locking.
+go('#vida-cotidiana');assert(!document.querySelector('#vida-cotidiana').hidden);
+assert.equal(document.querySelectorAll('#dlCase option').length,3);
+const daily=JSON.parse(fs.readFileSync(root+'/data/daily-life.json','utf8'));
+for(const c of daily.cases){
+ select('#dlCase',c.id);assert.equal(document.querySelectorAll('.dl-source').length,2);
+ assert.equal(document.querySelectorAll('.dl-source img').length,1);
+ const zoom=document.querySelector('[data-dl-zoom]');zoom.value='2';zoom.oninput();
+ assert.equal(document.querySelector('.dl-image img').style.width,'200%');assert.equal(document.querySelector('#dlZoom0').textContent,'2×');
+ const n=document.querySelector('#dlNote-observe');n.value='Detalle de '+c.id;n.oninput();
+ for(let i=0;i<c.claims.length;i++){
+  const b=document.querySelectorAll('[data-dl-answer]')[c.claims[i][1]];b.onclick();b.onclick();
+  if(i===0){select('#dlDepth','profundizar');assert(document.querySelector('#dlFeedback').textContent.length>20);}
+  assert(document.querySelector('[data-dl-answer]').disabled);assert(!document.querySelector('#dlNext').disabled);
+  document.querySelector('#dlNext').onclick();
+ }
+ assert(document.querySelector('.dl-challenge').textContent.includes('4 de 4'));
+ document.querySelector('#dlReplay').onclick();assert(document.querySelector('#dlNext').disabled);
+}
+select('#dlCase','alimentos');assert.equal(document.querySelector('#dlNote-observe').value,'Detalle de alimentos');
+console.log('PASS: three daily-life cases, image zoom, notes across cases, feedback across depths, 12 classifications and replay.');
+
 go('#visuales');assert(!document.querySelector('#visuales').hidden);assert(document.querySelector('.atlas-diagram'));assert.equal(document.querySelectorAll('[data-visual-tab]').length,4);document.querySelector('[data-visual-tab="earth"]').onclick();assert(document.querySelector('.visual-intro h2').textContent.includes('Capas'));document.querySelector('[data-visual-key="mantle"]').onclick();assert(document.querySelector('.visual-explain h2').textContent==='Manto');document.querySelector('[data-visual-tab="water"]').onclick();document.querySelector('[data-visual-key="condensation"]').onclick();assert(document.querySelector('.visual-explain h2').textContent==='Condensación');
 console.log('PASS: visual library with four explanatory diagrams, clickable parts, accessible keyboard targets and contextual questions.');
 go('#animaciones');assert(!document.querySelector('#animaciones').hidden);assert.equal(document.querySelectorAll('[data-animation-model]').length,6);document.querySelector('[data-animation-model="seasons"]').onclick();assert(document.querySelector('.animation-panel h2').textContent.includes('La Tierra'));document.querySelector('[data-step-next]').onclick();assert(document.querySelector('.animation-panel h2').textContent.includes('Más luz'));document.querySelector('#animationRange').value='3';document.querySelector('#animationRange').oninput({target:document.querySelector('#animationRange')});assert(document.querySelector('.animation-panel h2').textContent.includes('No es la distancia'));document.querySelector('[data-animation-model="plates"]').onclick();document.querySelector('[data-anim-play]').onclick();assert(document.querySelector('.animation-stage').classList.contains('is-playing'));document.querySelector('[data-anim-play]').onclick();assert(!document.querySelector('.animation-stage').classList.contains('is-playing'));document.querySelector('[data-animation-model="history"]').onclick();document.querySelector('[data-step-next]').onclick();assert(document.querySelector('.animation-svg').getAttribute('aria-label').toLowerCase().includes('mapa'));console.log('PASS: six guided animations with steps, range control, playback, projector-ready SVG and linked topics.');

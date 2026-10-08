@@ -4,6 +4,7 @@ Aplicación educativa en español para estudiantes, familias y docentes. Web est
 
 ## Contenido
 
+- Vida cotidiana y fuentes: tres casos, seis tarjetas de fuentes y doce afirmaciones para distinguir observación, información documental, interpretación y conclusiones no justificadas. Fotografías reales del Met y la Biblioteca del Congreso con procedencia y derechos, ampliación, notas temporales, impresión y tres profundidades.
 - Taller de historia: cuatro líneas del tiempo temáticas, 24 tarjetas (18 conexiones con episodios existentes y seis hitos nuevos sobre participación política de las mujeres), tres ilustraciones conceptuales, puzzle cronológico, retos de causas/consecuencias y preguntas con evidencia. Tres profundidades, cuaderno temporal e impresión del trabajo.
 - Espacio: 11 temas, desde el sistema solar hasta estrellas, galaxias, exoplanetas y agujeros negros.
 - Tierra: 8 temas, incluyendo relieve, océanos, interior terrestre, agua y clima.
