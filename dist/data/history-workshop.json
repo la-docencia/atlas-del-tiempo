@@ -1,0 +1,633 @@
+{
+  "reviewed": "2026-10-08",
+  "tracks": [
+    {
+      "id": "huellas",
+      "title": "Ciudades, escritura y memoria",
+      "question": "¿Cómo dejan huellas las sociedades?",
+      "image": "assets/history-knowledge.webp",
+      "alt": "Recreación conceptual de trabajos y saberes mesoamericanos",
+      "lens": "Compara qué registra una tablilla con lo que muestra un edificio. No supongas que dos sociedades lejanas tuvieron la misma historia.",
+      "events": [
+        {
+          "id": "antigua-1",
+          "route": "antigua",
+          "year": -3500,
+          "date": "c. 3500–3000 a. C.",
+          "title": "Uruk: organizar una ciudad",
+          "region": "Mesopotamia",
+          "theme": "Sociedad",
+          "text": "Uruk creció en la llanura del sur de Mesopotamia. La concentración de población exigía coordinar producción, almacenamiento e intercambios. Una ciudad se estudia también a través del trabajo cotidiano, no únicamente de grandes monumentos.",
+          "cause": "La concentración de actividades aumentó la necesidad de coordinación.",
+          "effect": "Surgieron formas complejas de administración urbana.",
+          "question": "¿Qué necesita organizar una ciudad además de construir casas?",
+          "answer": "Agua, alimentos, trabajo, intercambios y decisiones colectivas.",
+          "activity": "Dibuja una red con tres necesidades urbanas y quiénes participan en ellas.",
+          "source": [
+            "The Met · Uruk",
+            "https://www.metmuseum.org/es/essays/uruk-the-first-city"
+          ],
+          "image": "assets/antigua.webp",
+          "timeline": true,
+          "distractors": [
+            "Solo monumentos: el abastecimiento era automático.",
+            "Únicamente defensas, porque no existían intercambios."
+          ]
+        },
+        {
+          "id": "antigua-2",
+          "route": "antigua",
+          "year": -3200,
+          "date": "Finales del IV milenio a. C.",
+          "title": "Registrar para administrar",
+          "region": "Mesopotamia",
+          "theme": "Fuentes",
+          "text": "En Uruk, los primeros registros escritos se relacionaron con la contabilidad de bienes. Las tablillas de arcilla documentan actividades administrativas. Escribir no significaba que toda la población supiera leer o tuviera la misma participación en el poder.",
+          "cause": "Las instituciones necesitaban registrar recursos y operaciones.",
+          "effect": "La escritura preservó información que hoy permite investigar.",
+          "question": "¿Una lista de bienes cuenta toda la vida de una comunidad?",
+          "answer": "No: muestra lo que se registró, pero deja fuera experiencias y relaciones.",
+          "activity": "Inventa un registro de cinco objetos y marca claramente que es una simulación escolar.",
+          "source": [
+            "The Met · Orígenes de la escritura",
+            "https://www.metmuseum.org/ru/essays/the-origins-of-writing"
+          ],
+          "image": "assets/antigua.webp",
+          "timeline": true,
+          "distractors": [
+            "Sí: todos los aspectos de la vida quedan en la contabilidad.",
+            "Sí: registrar bienes implica conocer todas las voces."
+          ]
+        },
+        {
+          "id": "antigua-3",
+          "route": "antigua",
+          "year": -3000,
+          "date": "Tercer milenio a. C.",
+          "title": "Las ciudades se conectan",
+          "region": "Asia occidental",
+          "theme": "Intercambio",
+          "text": "Las ciudades de Asia occidental participaron en redes de circulación de materiales y objetos. Un bien que viaja es una pista sobre conexiones, pero no demuestra por sí solo que dos ciudades tuvieran el mismo gobierno.",
+          "cause": "La búsqueda de materiales y los intercambios conectaron regiones.",
+          "effect": "Circularon objetos, técnicas e ideas.",
+          "question": "¿Un objeto extranjero demuestra una conquista?",
+          "answer": "No. También pudo llegar mediante intercambio, regalo u otra forma de circulación.",
+          "activity": "Propón dos explicaciones para un hallazgo y una evidencia para distinguirlas.",
+          "source": [
+            "The Met · Ciudades e intercambios",
+            "https://www.metmuseum.org/exhibitions/listings/2003/art-of-the-first-cities"
+          ],
+          "image": "assets/antigua.webp",
+          "timeline": true,
+          "distractors": [
+            "Sí: únicamente la guerra hace viajar objetos.",
+            "Sí: un objeto basta para demostrar una misma forma de gobierno."
+          ]
+        },
+        {
+          "id": "mesoamerica-2",
+          "route": "mesoamerica",
+          "year": -500,
+          "date": "c. 500 a. C.",
+          "title": "Una ciudad sobre los valles",
+          "region": "Oaxaca",
+          "theme": "Territorio",
+          "text": "Monte Albán se desarrolló en los Valles Centrales de Oaxaca. Sus plazas y edificios permiten investigar organización política y vida ritual. La ciudad tuvo una larga historia: no todas sus construcciones corresponden a un mismo momento.",
+          "cause": "La concentración de población y poder transformó el paisaje regional.",
+          "effect": "Monte Albán articuló relaciones con otros asentamientos.",
+          "question": "¿Un sitio arqueológico es una fotografía de un solo año?",
+          "answer": "No. Sus restos corresponden a construcciones, usos y modificaciones sucesivas.",
+          "activity": "Observa un plano de Monte Albán y formula una pregunta sobre el uso de una plaza.",
+          "source": [
+            "INAH · Monte Albán",
+            "https://www.inah.gob.mx/zonas/94-zona-arqueologica-de-monte-alban"
+          ],
+          "image": "assets/mesoamerica-classroom.webp",
+          "timeline": true,
+          "distractors": [
+            "Sí: todas sus construcciones pertenecen al momento de fundación.",
+            "Sí: los edificios siempre conservaron el mismo uso."
+          ]
+        },
+        {
+          "id": "mesoamerica-3",
+          "route": "mesoamerica",
+          "year": 200,
+          "date": "c. 200–650 d. C.",
+          "title": "Teotihuacan conecta regiones",
+          "region": "Altiplano",
+          "theme": "Intercambio",
+          "text": "Teotihuacan fue una gran ciudad con conexiones de larga distancia. En el barrio de Tlailotlacan, la arqueología permite estudiar vínculos con población de origen zapoteco. Las ciudades antiguas podían reunir comunidades de procedencias distintas.",
+          "cause": "Las redes de intercambio favorecieron contactos y movilidad.",
+          "effect": "Se produjeron encuentros entre tradiciones y grupos.",
+          "question": "¿Una ciudad implica una sola lengua o procedencia?",
+          "answer": "No. Hay evidencias de diversidad dentro de centros urbanos como Teotihuacan.",
+          "activity": "Compara un objeto de intercambio con una prueba de residencia: ¿dicen exactamente lo mismo?",
+          "source": [
+            "INAH · Historia breve de Teotihuacan",
+            "https://www.inah.gob.mx/boletines/historia-breve-de-teotihuacan"
+          ],
+          "image": "assets/mesoamerica-classroom.webp",
+          "timeline": true,
+          "distractors": [
+            "Sí: compartir ciudad implica compartir origen y lengua.",
+            "No: por eso no había relaciones entre sus barrios."
+          ]
+        },
+        {
+          "id": "mesoamerica-4",
+          "route": "mesoamerica",
+          "year": 600,
+          "date": "Siglos VI–VIII d. C.",
+          "title": "Escrituras que hablan del poder",
+          "region": "Área maya",
+          "theme": "Fuentes",
+          "text": "En Palenque, las inscripciones y los edificios aportan información sobre gobernantes y vida ritual. Los textos monumentales expresan perspectivas del poder. No cuentan de la misma manera la experiencia de todos los habitantes.",
+          "cause": "Las élites usaron monumentos e inscripciones para comunicar autoridad.",
+          "effect": "Se conservaron registros que los investigadores interpretan y contrastan.",
+          "question": "¿Quién podría quedar fuera de una inscripción real?",
+          "answer": "Personas y trabajos que el gobernante no eligió representar.",
+          "activity": "Escribe una pregunta que una inscripción pueda responder y otra que requiera herramientas o viviendas.",
+          "source": [
+            "INAH · Palenque",
+            "https://lugares.inah.gob.mx/es/node/4529"
+          ],
+          "image": "assets/mesoamerica-classroom.webp",
+          "timeline": true,
+          "distractors": [
+            "Nadie: el texto representa por igual a todos los habitantes.",
+            "Solo los gobernantes, porque nunca aparecían en monumentos."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nacion",
+      "title": "Construir un país",
+      "question": "¿Independizarse resuelve cómo gobernar?",
+      "image": "assets/history-print.webp",
+      "alt": "Recreación de un taller de impresión mexicano del siglo XIX",
+      "lens": "Busca cambios entre luchar por la independencia y organizar una república. Explica también las continuidades.",
+      "events": [
+        {
+          "id": "independencia-1",
+          "route": "independencia",
+          "year": 1808,
+          "date": "1808",
+          "title": "¿Quién gobierna cuando falta el rey?",
+          "region": "Nueva España",
+          "theme": "Gobierno",
+          "text": "La crisis de la monarquía española abrió una disputa sobre quién podía ejercer la autoridad. En Nueva España surgieron propuestas de representación y autonomía, sin que todas exigieran todavía separarse de España.",
+          "cause": "La crisis dinástica debilitó la autoridad reconocida.",
+          "effect": "Se abrió una discusión sobre soberanía y representación.",
+          "question": "¿Autonomía e independencia significan lo mismo?",
+          "answer": "No. Se podía pedir gobierno propio manteniendo un vínculo con la monarquía.",
+          "activity": "Dibuja dos escenarios: gobierno propio dentro de una monarquía y separación política.",
+          "source": [
+            "UNAM · Independencia y autonomismo",
+            "https://historicas.unam.mx/publicaciones/publicadigital/libros/385/independencia_autonomista.html"
+          ],
+          "image": "assets/independencia.webp",
+          "timeline": true,
+          "distractors": [
+            "Sí: ambas propuestas exigían una separación total.",
+            "Autonomía era únicamente cambiar impuestos, sin discutir gobierno."
+          ]
+        },
+        {
+          "id": "independencia-2",
+          "route": "independencia",
+          "year": 1810,
+          "date": "16 de septiembre de 1810",
+          "title": "La insurgencia se pone en marcha",
+          "region": "Bajío",
+          "theme": "Conflicto",
+          "text": "El levantamiento encabezado por Hidalgo comenzó en Dolores. Se sumaron personas con demandas diversas. La movilización se extendió, pero no tenía un programa compartido por todos ni aseguraba una victoria inmediata.",
+          "cause": "Conspiraciones políticas y tensiones sociales confluyeron en el levantamiento.",
+          "effect": "La disputa política se convirtió en una guerra.",
+          "question": "¿Por qué no podemos atribuir una sola intención a todos los insurgentes?",
+          "answer": "Las personas tenían posiciones y necesidades distintas; participar en un movimiento no borraba esas diferencias.",
+          "activity": "Escribe dos preguntas que harías a participantes de distintos oficios. No inventes sus respuestas como testimonios.",
+          "source": [
+            "INEHRM · Independencia",
+            "https://www.inehrm.gob.mx/es/inehrm/Independencia"
+          ],
+          "image": "assets/independencia.webp",
+          "timeline": true,
+          "distractors": [
+            "Todos seguían un programa idéntico desde 1810.",
+            "Solo importaban las decisiones del dirigente principal."
+          ]
+        },
+        {
+          "id": "independencia-5",
+          "route": "independencia",
+          "year": 1813,
+          "date": "14 de septiembre de 1813",
+          "title": "La lucha también necesita un proyecto",
+          "region": "Sur",
+          "theme": "Derechos",
+          "text": "En Chilpancingo, Morelos presentó los Sentimientos de la Nación ante el Congreso. El texto defendía independencia, soberanía popular y cambios sociales; también sostenía la religión católica como única. Hay que leer juntas sus propuestas, sin convertirlo en un programa del presente.",
+          "cause": "La insurgencia buscaba organizar una autoridad y un orden político propios.",
+          "effect": "El Congreso articuló un proyecto de nación.",
+          "question": "¿Por qué leer también las ideas que hoy nos resultan distintas?",
+          "answer": "Porque ayudan a comprender el documento en su época y evitan seleccionar solo lo que coincide con nuestras ideas.",
+          "activity": "Localiza una propuesta de gobierno y una social; cita el número de punto.",
+          "source": [
+            "INEHRM · Sentimientos de la Nación",
+            "https://inehrm.gob.mx/es/Constitucion1917/Sentimientos_de_la_Nacion"
+          ],
+          "image": "assets/independencia.webp",
+          "timeline": true,
+          "distractors": [
+            "Porque todas sus propuestas coinciden con los derechos actuales.",
+            "Porque los puntos que hoy resultan extraños deben eliminarse."
+          ]
+        },
+        {
+          "id": "independencia-8",
+          "route": "independencia",
+          "year": 1821.8,
+          "date": "27 de septiembre de 1821",
+          "title": "La independencia abre otra historia",
+          "region": "Centro",
+          "theme": "Gobierno",
+          "text": "La entrada del Ejército Trigarante en la capital marcó la consumación. Terminaba una etapa de guerra, pero quedaban problemas de hacienda, territorio y representación. El nuevo país tendría que decidir cómo organizarse.",
+          "cause": "La alianza trigarante consolidó el cambio político.",
+          "effect": "Comenzaron nuevos debates sobre la construcción del Estado.",
+          "question": "¿Consumación significa que se resolvieron todas las desigualdades?",
+          "answer": "No. La independencia política y las transformaciones sociales no avanzan automáticamente al mismo ritmo.",
+          "activity": "Une esta escena con la ruta México como nación y escribe una pregunta pendiente para 1821.",
+          "source": [
+            "UNAM · La trigarancia",
+            "https://historicas.unam.mx/publicaciones/publicadigital/libros/trigarancia/fuerzas_armadas.html"
+          ],
+          "image": "assets/independencia.webp",
+          "timeline": true,
+          "distractors": [
+            "Sí: independencia y fin de la desigualdad suceden juntos.",
+            "Sí: la entrada en la capital resolvió todos los conflictos."
+          ]
+        },
+        {
+          "id": "nacion-2",
+          "route": "nacion",
+          "year": 1824,
+          "date": "4 de octubre de 1824",
+          "title": "Una república con estados",
+          "region": "Nacional",
+          "theme": "Gobierno",
+          "text": "La Constitución de 1824 estableció una república federal. La distribución de facultades entre estados y gobierno nacional se convirtió en una cuestión central. Federalismo no significa que cada estado sea un país independiente.",
+          "cause": "Las provincias demandaban participación en la organización del nuevo Estado.",
+          "effect": "Se estableció un marco federal para gobernar.",
+          "question": "¿Cómo se distingue federación de separación?",
+          "answer": "Una federación reúne entidades bajo un orden constitucional común, aunque distribuye facultades.",
+          "activity": "Clasifica asuntos nacionales y locales, aclarando que es una analogía para debatir y no una transcripción de la ley de 1824.",
+          "source": [
+            "UNAM · Constitución de 1824",
+            "https://constitucion-1824.juridicas.unam.mx/"
+          ],
+          "image": "assets/nacion.webp",
+          "timeline": true,
+          "distractors": [
+            "Una federación elimina toda autoridad nacional.",
+            "Federarse significa que cada entidad tiene soberanía internacional propia."
+          ]
+        },
+        {
+          "id": "nacion-5",
+          "route": "nacion",
+          "year": 1857,
+          "date": "5 de febrero de 1857",
+          "title": "Derechos que generan debates",
+          "region": "Nacional",
+          "theme": "Derechos",
+          "text": "La Constitución de 1857 incorporó garantías individuales y reafirmó la república federal. La oposición a este orden contribuyó a una profunda división política. Un texto constitucional también puede ser objeto de disputa.",
+          "cause": "El movimiento reformista promovió un nuevo orden jurídico.",
+          "effect": "Se intensificó el conflicto sobre las instituciones.",
+          "question": "¿Por qué una norma puede provocar desacuerdos?",
+          "answer": "Porque redefine facultades, derechos e intereses y no todos aceptan esos cambios.",
+          "activity": "Consulta un artículo: explica qué reconoce y qué otra fuente necesitarías para investigar su cumplimiento.",
+          "source": [
+            "UNAM · Constituciones históricas",
+            "https://museodelasconstituciones.unam.mx/constituciones-historicas/"
+          ],
+          "image": "assets/nacion.webp",
+          "timeline": true,
+          "distractors": [
+            "Porque toda norma elimina inmediatamente la oposición.",
+            "Porque una ley nunca afecta intereses ni instituciones."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "derechos",
+      "title": "Derechos, tierra y trabajo",
+      "question": "¿Qué cambia cuando un derecho se escribe?",
+      "image": "assets/history-community.webp",
+      "alt": "Recreación conceptual de una comunidad conversando sobre derechos",
+      "lens": "Distingue la demanda social, su reconocimiento en una norma y las pruebas de su cumplimiento.",
+      "events": [
+        {
+          "id": "independencia-3",
+          "route": "independencia",
+          "year": 1810.9,
+          "date": "6 de diciembre de 1810",
+          "title": "Un decreto contra la esclavitud",
+          "region": "Occidente",
+          "theme": "Derechos",
+          "text": "En Guadalajara, Hidalgo emitió un bando de abolición de la esclavitud. Los documentos insurgentes permiten reconocer demandas sociales, además de la disputa por el gobierno. Un decreto expresa una decisión, pero su aplicación depende del control y las condiciones del territorio.",
+          "cause": "La insurgencia también cuestionó desigualdades del orden colonial.",
+          "effect": "La libertad se formuló como una demanda política y social.",
+          "question": "¿Cómo comprobarías si el decreto se aplicó?",
+          "answer": "Buscaría expedientes y testimonios locales, además del propio bando.",
+          "activity": "Distingue en dos columnas: lo que ordena la norma y las pruebas de su aplicación.",
+          "source": [
+            "INEHRM · Documentos de la Independencia",
+            "https://www.inehrm.gob.mx/es/Constitucion1917/Independencia"
+          ],
+          "image": "assets/independencia.webp",
+          "timeline": true,
+          "distractors": [
+            "El bando basta para probar su cumplimiento en todo el territorio.",
+            "Solo una conmemoración actual permitiría comprobarlo."
+          ]
+        },
+        {
+          "id": "nacion-5",
+          "route": "nacion",
+          "year": 1857,
+          "date": "5 de febrero de 1857",
+          "title": "Derechos que generan debates",
+          "region": "Nacional",
+          "theme": "Derechos",
+          "text": "La Constitución de 1857 incorporó garantías individuales y reafirmó la república federal. La oposición a este orden contribuyó a una profunda división política. Un texto constitucional también puede ser objeto de disputa.",
+          "cause": "El movimiento reformista promovió un nuevo orden jurídico.",
+          "effect": "Se intensificó el conflicto sobre las instituciones.",
+          "question": "¿Por qué una norma puede provocar desacuerdos?",
+          "answer": "Porque redefine facultades, derechos e intereses y no todos aceptan esos cambios.",
+          "activity": "Consulta un artículo: explica qué reconoce y qué otra fuente necesitarías para investigar su cumplimiento.",
+          "source": [
+            "UNAM · Constituciones históricas",
+            "https://museodelasconstituciones.unam.mx/constituciones-historicas/"
+          ],
+          "image": "assets/nacion.webp",
+          "timeline": true,
+          "distractors": [
+            "Porque toda norma elimina inmediatamente la oposición.",
+            "Porque una ley nunca afecta intereses ni instituciones."
+          ]
+        },
+        {
+          "id": "revolucion-1",
+          "route": "revolucion",
+          "year": 1910,
+          "date": "1910",
+          "title": "Un país quiere cambios",
+          "region": "Nacional",
+          "theme": "Gobierno",
+          "text": "El antirreeleccionismo de Madero cuestionó la permanencia de Díaz en el poder. A la oposición política se sumaron demandas sociales distintas. La movilización de 1910 abrió una revolución plural, no un programa uniforme.",
+          "cause": "La concentración del poder convivía con conflictos sociales y políticos.",
+          "effect": "El levantamiento abrió una lucha por el gobierno y por reformas.",
+          "question": "¿Votar y repartir tierra son la misma demanda?",
+          "answer": "No. Son problemas diferentes que podían coincidir en la oposición al régimen.",
+          "activity": "Clasifica demandas políticas, laborales y agrarias.",
+          "source": [
+            "INEHRM · Revolución social",
+            "https://inehrm.gob.mx/es/Constitucion1917/Revolucion_Social"
+          ],
+          "image": "assets/revolucion-1910.webp",
+          "timeline": true,
+          "distractors": [
+            "Sí: ambas demandas pedían exactamente la misma reforma.",
+            "No: por eso no podían coexistir dentro del movimiento."
+          ]
+        },
+        {
+          "id": "revolucion-3",
+          "route": "revolucion",
+          "year": 1911.9,
+          "date": "28 de noviembre de 1911",
+          "title": "La tierra, una demanda central",
+          "region": "Morelos",
+          "theme": "Derechos",
+          "text": "El Plan de Ayala expresó demandas de restitución y reparto de tierras. El zapatismo cuestionó la respuesta del gobierno de Madero al problema agrario. La salida de Díaz no había terminado los conflictos de los pueblos.",
+          "cause": "Las comunidades reclamaban respuestas a despojos y problemas de propiedad.",
+          "effect": "Se profundizó la ruptura entre zapatismo y maderismo.",
+          "question": "¿Cambiar de presidente resuelve por sí solo un conflicto agrario?",
+          "answer": "No: también hacen falta decisiones sobre propiedad y derechos de los pueblos.",
+          "activity": "Relaciona una demanda del Plan con el problema que intentaba atender.",
+          "source": [
+            "INEHRM · Revolución social",
+            "https://inehrm.gob.mx/es/Constitucion1917/Revolucion_Social"
+          ],
+          "image": "assets/revolucion-1911.webp",
+          "timeline": true,
+          "distractors": [
+            "Sí: cualquier cambio presidencial modifica toda la propiedad.",
+            "Sí: una demanda desaparece con la renuncia de un gobernante."
+          ]
+        },
+        {
+          "id": "revolucion-8",
+          "route": "revolucion",
+          "year": 1916,
+          "date": "1916–1917",
+          "title": "Debatir el país que se quiere",
+          "region": "Querétaro",
+          "theme": "Gobierno",
+          "text": "El Congreso Constituyente sesionó en Querétaro. Los debates dieron forma a disposiciones sobre educación, propiedad y trabajo. El texto resultante se comprende mejor al relacionarlo con las demandas y conflictos anteriores.",
+          "cause": "La lucha abrió una discusión sobre el nuevo orden institucional.",
+          "effect": "El Constituyente redactó una nueva Constitución.",
+          "question": "¿Una constitución es solo obra de una persona?",
+          "answer": "No. Su elaboración incluye propuestas, debates y decisiones de una asamblea.",
+          "activity": "Busca un derecho en el texto original y relaciónalo con una demanda de la ruta.",
+          "source": [
+            "UNAM · Constituciones históricas",
+            "https://museodelasconstituciones.unam.mx/constituciones-historicas/"
+          ],
+          "image": "assets/revolucion-1917.webp",
+          "timeline": true,
+          "distractors": [
+            "Sí: el Congreso solo copia la voluntad de una persona.",
+            "Sí: las demandas sociales no influyen en su redacción."
+          ]
+        },
+        {
+          "id": "revolucion-9",
+          "route": "revolucion",
+          "year": 1917,
+          "date": "5 de febrero de 1917",
+          "title": "Los derechos llegan a la Constitución",
+          "region": "Nacional",
+          "theme": "Derechos",
+          "text": "La Constitución promulgada en 1917 incluyó disposiciones sociales: educación, tierra y trabajo. Reconocer un derecho en una norma fue un cambio importante; su cumplimiento exigió procesos posteriores. La violencia tampoco concluyó de inmediato.",
+          "cause": "Los debates constitucionales respondieron a conflictos políticos y sociales.",
+          "effect": "Se estableció un nuevo marco jurídico.",
+          "question": "¿Cómo distinguir un derecho escrito de su cumplimiento?",
+          "answer": "La norma muestra lo reconocido; otras fuentes permiten estudiar la práctica.",
+          "activity": "Formula un indicador para investigar el cumplimiento de un derecho, sin confundirlo con su sola existencia.",
+          "source": [
+            "UNAM · Constituciones históricas",
+            "https://museodelasconstituciones.unam.mx/constituciones-historicas/"
+          ],
+          "image": "assets/revolucion-1917.webp",
+          "timeline": true,
+          "distractors": [
+            "No hay diferencia: toda ley se cumple desde su publicación.",
+            "Solo es necesario leer una conmemoración actual."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ciudadania",
+      "title": "Mujeres y participación política",
+      "question": "¿Cómo se amplía la participación?",
+      "image": "assets/history-community.webp",
+      "alt": "Recreación conceptual de personas dialogando en comunidad",
+      "lens": "Distingue voto municipal, voto federal, candidaturas y cargos obtenidos. Este recorrido selecciona hitos; no cuenta toda la lucha de las mujeres.",
+      "events": [
+        {
+          "id": "ciudadania-1947",
+          "year": 1947,
+          "date": "1947",
+          "title": "Participar en el municipio",
+          "text": "Una reforma reconoció el voto de las mujeres en elecciones municipales. Este cambio todavía no equivalía al sufragio federal.",
+          "question": "¿Elección municipal y federal significan lo mismo?",
+          "answer": "No: corresponden a ámbitos distintos.",
+          "distractors": [
+            "Sí: son nombres distintos de una sola elección.",
+            "Sí: toda elección municipal elige al Congreso federal."
+          ],
+          "source": [
+            "INE · Voto federal de las mujeres",
+            "https://centralelectoral.ine.mx/2019/07/03/sabias-3-julio-1955-las-mujeres-pudieron-votar-primera-vez-una-eleccion-federal-pais/"
+          ],
+          "cause": "Las demandas de participación impulsaron cambios políticos.",
+          "effect": "Se reconoció la participación electoral de las mujeres en el ámbito municipal.",
+          "activity": "Escribe una evidencia de este cambio y una pregunta sobre su aplicación.",
+          "region": "México",
+          "theme": "Ciudadanía",
+          "route": null
+        },
+        {
+          "id": "ciudadania-1953",
+          "year": 1953,
+          "date": "1953",
+          "title": "La ciudadanía se reconoce en la Constitución",
+          "text": "El 17 de octubre se publicó la reforma de los artículos 34 y 115. Reconoció los derechos ciudadanos de las mujeres mexicanas, tras múltiples demandas.",
+          "question": "¿La reforma y la primera votación federal ocurrieron el mismo año?",
+          "answer": "No: la reforma fue en 1953 y la votación federal en 1955.",
+          "distractors": [
+            "Sí: ambos hechos ocurrieron en 1953.",
+            "No: la primera votación ocurrió antes de 1947."
+          ],
+          "source": [
+            "INE · Reconocimiento de ciudadanía",
+            "https://www.ine.mx/64-aniversario-del-voto-las-mujeres-mexico/"
+          ],
+          "cause": "Las demandas por derechos ciudadanos requerían reconocimiento constitucional.",
+          "effect": "Se abrió el marco jurídico para la participación electoral federal de las mujeres.",
+          "activity": "Escribe una evidencia de este cambio y una pregunta sobre su aplicación.",
+          "region": "México",
+          "theme": "Ciudadanía",
+          "route": null
+        },
+        {
+          "id": "ciudadania-1955",
+          "year": 1955,
+          "date": "1955",
+          "title": "Del derecho escrito a las urnas",
+          "text": "El 3 de julio, las mujeres participaron por primera vez en una elección federal mexicana. Distingue el reconocimiento de un derecho de su ejercicio.",
+          "question": "¿Qué diferencia hay entre 1953 y 1955?",
+          "answer": "1953 corresponde al reconocimiento constitucional; 1955, al primer voto femenino en una elección federal.",
+          "distractors": [
+            "1953 fue la primera votación federal y 1955 la reforma.",
+            "Los dos años nombran exactamente el mismo acontecimiento."
+          ],
+          "source": [
+            "INE · Voto federal de las mujeres",
+            "https://centralelectoral.ine.mx/2019/07/03/sabias-3-julio-1955-las-mujeres-pudieron-votar-primera-vez-una-eleccion-federal-pais/"
+          ],
+          "cause": "El reconocimiento constitucional permitió ejercer el sufragio federal.",
+          "effect": "Las mujeres votaron en la elección federal para la Cámara de Diputados.",
+          "activity": "Escribe una evidencia de este cambio y una pregunta sobre su aplicación.",
+          "region": "México",
+          "theme": "Ciudadanía",
+          "route": null
+        },
+        {
+          "id": "ciudadania-1996",
+          "year": 1996,
+          "date": "1996",
+          "title": "Promover más candidaturas",
+          "text": "El código electoral incorporó disposiciones para promover candidaturas de mujeres. Un transitorio planteaba que un mismo género no superara el 70% de las candidaturas legislativas.",
+          "question": "¿Una cuota del 70% equivale a mitad y mitad?",
+          "answer": "No: ese límite es distinto de la paridad.",
+          "distractors": [
+            "Sí: 70% y 50% son el mismo reparto.",
+            "Sí: cualquier cuota garantiza automáticamente la mitad de los cargos."
+          ],
+          "source": [
+            "INE · Evolución de la paridad",
+            "https://igualdad.ine.mx/paridad/evolucion-normativa-de-la-paridad-de-genero/"
+          ],
+          "cause": "La participación política requería atender el acceso a candidaturas.",
+          "effect": "Se incorporaron disposiciones para promover candidaturas de mujeres.",
+          "activity": "Escribe una evidencia de este cambio y una pregunta sobre su aplicación.",
+          "region": "México",
+          "theme": "Ciudadanía",
+          "route": null
+        },
+        {
+          "id": "ciudadania-2008",
+          "year": 2008,
+          "date": "2008",
+          "title": "Una regla del 40%",
+          "text": "El código electoral estableció al menos 40% de candidaturas propietarias de un mismo sexo para el poder legislativo, con excepciones. Lee la regla junto con sus límites.",
+          "question": "¿Las candidaturas equivalen a cargos ganados?",
+          "answer": "No: postularse y resultar electo son momentos distintos.",
+          "distractors": [
+            "Sí: cada candidatura obtiene automáticamente un cargo.",
+            "Sí: la elección ocurre antes de presentar candidaturas."
+          ],
+          "source": [
+            "INE · Evolución de la paridad",
+            "https://igualdad.ine.mx/paridad/evolucion-normativa-de-la-paridad-de-genero/"
+          ],
+          "cause": "Las reglas previas se modificaron para ampliar la presencia de mujeres.",
+          "effect": "Se estableció un umbral de candidaturas con límites y excepciones.",
+          "activity": "Escribe una evidencia de este cambio y una pregunta sobre su aplicación.",
+          "region": "México",
+          "theme": "Ciudadanía",
+          "route": null
+        },
+        {
+          "id": "ciudadania-2014",
+          "year": 2014,
+          "date": "2014",
+          "title": "Paridad en candidaturas legislativas",
+          "text": "La reforma incorporó la paridad entre géneros en candidaturas legislativas federales y locales. Esta regulación se aplicó por primera vez en el proceso electoral 2014–2015.",
+          "question": "¿La paridad elimina por sí sola todas las barreras?",
+          "answer": "No: estudiar una regla y sus resultados requiere evidencias diferentes.",
+          "distractors": [
+            "Sí: publicar una norma elimina todo problema en la práctica.",
+            "Sí: no hace falta investigar su aplicación."
+          ],
+          "source": [
+            "INE · Evolución de la paridad",
+            "https://igualdad.ine.mx/paridad/evolucion-normativa-de-la-paridad-de-genero/"
+          ],
+          "cause": "Las reglas sobre candidaturas evolucionaron hacia la paridad.",
+          "effect": "La paridad se incorporó como principio para candidaturas legislativas.",
+          "activity": "Escribe una evidencia de este cambio y una pregunta sobre su aplicación.",
+          "region": "México",
+          "theme": "Ciudadanía",
+          "route": null
+        }
+      ]
+    }
+  ]
+}

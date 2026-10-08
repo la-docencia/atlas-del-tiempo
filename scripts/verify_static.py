@@ -19,4 +19,13 @@ for c in json.loads((root/'data/chapters.json').read_text()):
 for t in json.loads((root/'data/topics.json').read_text()):
  if not (root/'downloads'/f"{t['id']}.pdf").is_file():errors.append(t['id'])
 assert not errors, errors
+workshop=json.loads((root/'data/history-workshop.json').read_text())
+assert len(workshop['tracks'])==4
+for track in workshop['tracks']:
+ assert (root/track['image']).is_file()
+ assert len(track['events'])==6
+ assert [c['year'] for c in track['events']]==sorted(c['year'] for c in track['events'])
+ for c in track['events']:
+  assert c['text'] and c['cause'] and c['effect'] and c['source'][1].startswith('https://')
+  assert len(c['distractors'])==2
 print('PASS: local scripts, styles, images, historical downloads and scientific content structure.')

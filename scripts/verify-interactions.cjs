@@ -13,12 +13,12 @@ window.HTMLElement.prototype.close=function(){this.removeAttribute('open');this.
 Object.defineProperty(window.HTMLSelectElement.prototype,'value',{configurable:true,get(){return this._value??this.querySelector('option[selected]')?.getAttribute('value')??this.querySelector('option')?.getAttribute('value')??''},set(v){this._value=v}});
 const location={hash:''};
 const ctx=vm.createContext({document,window,Event:window.Event,location,localStorage,console,fetch:async url=>({ok:true,json:async()=>JSON.parse(fs.readFileSync(path.join(root,url),'utf8'))}),setTimeout,clearTimeout,setInterval,clearInterval});
-for(const f of ['explorations.js','mesoamerica.js','projection.js','learning.js','science.js','interactive.js','visuals.js','animations.js','app.js'])vm.runInContext(fs.readFileSync(root+'/'+f,'utf8'),ctx);
+for(const f of ['explorations.js','mesoamerica.js','projection.js','learning.js','science.js','interactive.js','visuals.js','animations.js','history-workshop.js','app.js'])vm.runInContext(fs.readFileSync(root+'/'+f,'utf8'),ctx);
 const wait=()=>new Promise(r=>setTimeout(r,5));
 (async()=>{await wait();
 assert.equal(document.querySelectorAll('#topicGrid article').length,6);
 const go=hash=>{location.hash=hash;window.dispatchEvent(new window.Event('hashchange'));};
-const select=(id,value)=>{const el=document.querySelector(id);Object.defineProperty(el,'value',{configurable:true,get(){return this._value??''},set(v){this._value=v}});el.value=value;el.onchange();};
+const select=(id,value)=>{const el=document.querySelector(id);Object.defineProperty(el,'value',{configurable:true,get(){return this._value??''},set(v){this._value=v}});el.value=value;el.onchange({target:el});};
 go('#historietas');assert(!document.querySelector('#historietas').hidden);
 assert.equal(document.querySelector('#comicCount').textContent,'Episodio 1 de 10');
 document.querySelector('#comicNext').onclick();assert.equal(document.querySelector('#comicCount').textContent,'Episodio 2 de 10');
@@ -131,6 +131,31 @@ console.log('PASS: interactive missions, planet puzzle entry, evidence detective
 go('#visuales');assert(!document.querySelector('#visuales').hidden);assert(document.querySelector('.atlas-diagram'));assert.equal(document.querySelectorAll('[data-visual-tab]').length,4);document.querySelector('[data-visual-tab="earth"]').onclick();assert(document.querySelector('.visual-intro h2').textContent.includes('Capas'));document.querySelector('[data-visual-key="mantle"]').onclick();assert(document.querySelector('.visual-explain h2').textContent==='Manto');document.querySelector('[data-visual-tab="water"]').onclick();document.querySelector('[data-visual-key="condensation"]').onclick();assert(document.querySelector('.visual-explain h2').textContent==='Condensación');
 console.log('PASS: visual library with four explanatory diagrams, clickable parts, accessible keyboard targets and contextual questions.');
 go('#animaciones');assert(!document.querySelector('#animaciones').hidden);assert.equal(document.querySelectorAll('[data-animation-model]').length,6);document.querySelector('[data-animation-model="seasons"]').onclick();assert(document.querySelector('.animation-panel h2').textContent.includes('La Tierra'));document.querySelector('[data-step-next]').onclick();assert(document.querySelector('.animation-panel h2').textContent.includes('Más luz'));document.querySelector('#animationRange').value='3';document.querySelector('#animationRange').oninput({target:document.querySelector('#animationRange')});assert(document.querySelector('.animation-panel h2').textContent.includes('No es la distancia'));document.querySelector('[data-animation-model="plates"]').onclick();document.querySelector('[data-anim-play]').onclick();assert(document.querySelector('.animation-stage').classList.contains('is-playing'));document.querySelector('[data-anim-play]').onclick();assert(!document.querySelector('.animation-stage').classList.contains('is-playing'));document.querySelector('[data-animation-model="history"]').onclick();document.querySelector('[data-step-next]').onclick();assert(document.querySelector('.animation-svg').getAttribute('aria-label').toLowerCase().includes('mapa'));console.log('PASS: six guided animations with steps, range control, playback, projector-ready SVG and linked topics.');
+
+go('#taller-historia');assert(!document.querySelector('#taller-historia').hidden);
+assert.equal(document.querySelectorAll('#hwTrack option').length,4);
+assert.equal(document.querySelectorAll('[data-hw-event]').length,6);
+document.querySelector('[data-hw-event="1"]').onclick();assert(document.querySelector('.hw-detail h3').textContent.includes('Registrar'));
+document.querySelector('#hwNote').value='Una evidencia y una pregunta.';document.querySelector('#hwNote').oninput({target:document.querySelector('#hwNote')});
+document.querySelector('[data-hw-mode="order"]').onclick();assert.equal(document.querySelector('#hwNote').value,'Una evidencia y una pregunta.');
+document.querySelector('#hwCheck').onclick();assert(document.querySelector('#hwFeedback').textContent.includes('inversión'));
+document.querySelector('#hwHint').onclick();assert(document.querySelector('#hwFeedback').textContent.includes('Uruk'));
+// Reverse six cards into ascending chronology using the same keyboard/touch buttons as students.
+for(let last=5;last>0;last--)for(let pos=0;pos<last;pos++)document.querySelector('[data-hw-down="'+pos+'"]').onclick();
+document.querySelector('#hwCheck').onclick();assert(document.querySelector('#hwFeedback').textContent.includes('resuelto'));assert(document.querySelector('#hwCheck').disabled);
+select('#hwTrack','ciudadania');assert.equal(document.querySelectorAll('.hw-sort li').length,6);
+document.querySelector('[data-hw-mode="explore"]').onclick();assert(document.querySelector('.hw-detail h3').textContent.includes('municipio'));
+select('#hwLevel','profundizar');assert(document.querySelector('.hw-detail').textContent.includes('propósito'));
+for(const mode of ['connect','evidence']){
+ document.querySelector('[data-hw-mode="'+mode+'"]').onclick();
+ for(let n=0;n<6;n++){
+  const answers=document.querySelectorAll('[data-hw-answer]');assert.equal(answers.length,3);
+  const correct=answers[(3-n%3)%3];correct.onclick();correct.onclick();assert(correct.disabled);assert(document.querySelector('#hwFeedback a').href.startsWith('https://'));document.querySelector('#hwNext').onclick();
+ }
+ assert(document.querySelector('.hw-result h2').textContent.includes('6 de 6'));document.querySelector('#hwReplay').onclick();assert.equal(document.querySelectorAll('[data-hw-answer]').length,3);
+}
+go('#ruta/revolucion');assert(!document.querySelector('#ruta').hidden);
+console.log('PASS: four history timelines, 24 cards, ordering puzzle, notes across modes, three depth levels, cause/evidence rounds and locked scoring.');
 console.log('PASS: 19 science topics, 38 explained answers, locked scoring, mixed search, planetary comparator, scale ruler, ocean zones and existing history.');
 console.log('PASS: 57 episodes, deep links and dossiers; 55 chronology items with filters/comparison; all five arena modes, hints, locked scoring, teams, results and replay.');
 console.log('PASS: integrated map, six presentation steps, reveal and replay navigation, close/focus, all six routes and quiz completion, PDF files, municipality search, projector, sidebar, malformed link.');

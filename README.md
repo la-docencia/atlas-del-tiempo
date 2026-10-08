@@ -4,6 +4,7 @@ Aplicación educativa en español para estudiantes, familias y docentes. Web est
 
 ## Contenido
 
+- Taller de historia: cuatro líneas del tiempo temáticas, 24 tarjetas (18 conexiones con episodios existentes y seis hitos nuevos sobre participación política de las mujeres), tres ilustraciones conceptuales, puzzle cronológico, retos de causas/consecuencias y preguntas con evidencia. Tres profundidades, cuaderno temporal e impresión del trabajo.
 - Espacio: 11 temas, desde el sistema solar hasta estrellas, galaxias, exoplanetas y agujeros negros.
 - Tierra: 8 temas, incluyendo relieve, océanos, interior terrestre, agua y clima.
 - Ciencia: 38 preguntas con explicación, tres rutas de aprendizaje (niñez, jóvenes y adultos/universidad), actividades y fuentes NASA, NOAA y USGS.
